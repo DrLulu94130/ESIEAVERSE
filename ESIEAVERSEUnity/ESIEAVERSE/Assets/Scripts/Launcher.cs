@@ -24,6 +24,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] GameObject playerListItemPrefab;
     [SerializeField] Transform playerListContent;
     [SerializeField] GameObject startGameButton;
+    [SerializeField] private AudioClip _clip;
+    [SerializeField] AudioClip[] clips;
 
     private void Awake()
     {
@@ -35,6 +37,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         UnityEngine.Debug.Log("Connecting to master");
         PhotonNetwork.ConnectUsingSettings();
+        SoundManager.Instance.PlaySound(_clip);
     }
 
     public override void OnConnectedToMaster()
@@ -47,6 +50,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         MenuManager.Instance.OpenMenu("title");
+        
         UnityEngine.Debug.Log("Joined Lobby");
         PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
     }
@@ -58,13 +62,13 @@ public class Launcher : MonoBehaviourPunCallbacks
         {
             return;
         }
-
         PhotonNetwork.CreateRoom(roomNameInputField.text);
         MenuManager.Instance.OpenMenu("loading");
     }
 
     public override void OnJoinedRoom()
     {
+        SoundManager.Instance.PlaySound(clips[0]);
         MenuManager.Instance.OpenMenu("room");
         roomNameText.text = PhotonNetwork.CurrentRoom.Name;
         Player[] players = PhotonNetwork.PlayerList;
@@ -95,6 +99,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LeaveRoom();
         MenuManager.Instance.OpenMenu("loading");
+        SoundManager.Instance.PlaySound(clips[3]);
     }
 
     public override void OnLeftRoom()

@@ -6,6 +6,7 @@ public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
     [SerializeField] Menu[] menus;
+    [SerializeField] AudioClip[] clips;
 
     void Awake()
     {
@@ -36,10 +37,22 @@ public class MenuManager : MonoBehaviour
             }
         }
         menu.Open();
+        if (menu.menuName != "title")
+        {
+            SoundManager.Instance.PlaySound(clips[1]);
+        }
+        SoundManager.Instance.PlaySound(clips[0]);
+
     }
     public void CloseMenu(Menu menu)
     {
         menu.Close();
+    }
+
+    public void PlaySound()
+    {
+        int i = Random.Range(0, 4);
+        SoundManager.Instance.PlaySound(clips[i]);
     }
 
 }
