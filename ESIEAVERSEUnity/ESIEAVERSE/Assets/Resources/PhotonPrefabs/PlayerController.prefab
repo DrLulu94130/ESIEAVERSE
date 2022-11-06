@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: 6851000807666294868}
   - component: {fileID: 5205867464561025510}
   - component: {fileID: -5475117117702533161}
-  - component: {fileID: 8047330322165331088}
   - component: {fileID: 5395241082252582858}
   - component: {fileID: 8785338103037140559}
   - component: {fileID: 473203453501083107}
@@ -120,9 +119,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1295543758969034397}
-  - {fileID: 3395907582033802441}
   - {fileID: 8869196606633875994}
+  - {fileID: 3395907582033802441}
+  - {fileID: 1295543758969034397}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -206,27 +205,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &8047330322165331088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3494255123471490523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 4
-    SynchronizeType: 0
-    Name: run
-  m_SynchronizeLayers:
-  - SynchronizeType: 0
-    LayerIndex: 0
 --- !u!114 &5395241082252582858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,8 +224,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 8047330322165331088}
   - {fileID: 8785338103037140559}
+  - {fileID: 802341248978876792}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -349,7 +327,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8519526763986837247}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &7050365293857401717
 BoxCollider:
@@ -393,7 +371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478850, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 478850, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -436,9 +414,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 4eed3a0bf29918f46a01b1cee16c3dcf, type: 2}
+      objectReference: {fileID: 9100000, guid: a8555c0cff30527479e32562cef9141f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
 --- !u!95 &8869196606626673460 stripped
@@ -472,3 +454,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1346158875420252369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8869196606634063518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.63978153, y: 1.793113, z: 1}
+  m_Center: {x: 0.009362847, y: 0.96401656, z: 0}
+--- !u!114 &802341248978876792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8869196606634063518}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters: []
+  m_SynchronizeLayers:
+  - SynchronizeType: 2
+    LayerIndex: 0
