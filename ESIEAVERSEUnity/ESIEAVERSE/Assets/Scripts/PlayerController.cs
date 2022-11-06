@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     PlayerManager playerManager;
     [SerializeField] GameObject cameraHolder;
     [SerializeField] float mouseSensitivity, sprintSpeed, walkSpeed, jumpForce, smoothTime;
-
     float verticalLookRotation;
     bool grounded;
     Vector3 smoothMoveVelocity;
@@ -28,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         if (!PV.IsMine)
@@ -57,6 +57,14 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
         moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+       /* if (moveAmount != new Vector3(0, 0, 0))
+        {
+            anim.SetBool("run", true);
+        }
+        else
+        {
+            anim.SetBool("run", false);
+        }*/
     }
 
     void Jump()
