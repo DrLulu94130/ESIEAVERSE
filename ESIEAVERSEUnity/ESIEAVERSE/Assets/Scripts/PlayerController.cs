@@ -42,10 +42,7 @@ public class PlayerController : MonoBehaviour
         if (!PV.IsMine)
             return;
         Look();
-        if ( grounded )
-        {
-            Move();
-        }
+        Move();
         Jump();
     }
     void Look()
