@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         if (!PV.IsMine)
@@ -43,7 +42,10 @@ public class PlayerController : MonoBehaviour
         if (!PV.IsMine)
             return;
         Look();
-        Move();
+        if ( grounded )
+        {
+            Move();
+        }
         Jump();
     }
     void Look()
