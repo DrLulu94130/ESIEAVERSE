@@ -8,14 +8,15 @@ public class ActivateModel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       /* if (PlayerCustom.nj != -1)
+        if (PlayerCustom.nj != -1)
         {
             Player[PlayerCustom.nj].SetActive(true);
+            UnityEngine.Debug.Log("marche");
         }
         else
-        { */
+        { 
             int s = Random.Range(0, 18);
             Player[s].SetActive(true);
-       // }
+       }
     }
 }

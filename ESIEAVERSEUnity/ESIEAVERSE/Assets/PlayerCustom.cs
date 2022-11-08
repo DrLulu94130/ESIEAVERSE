@@ -6,7 +6,7 @@ public class PlayerCustom : MonoBehaviour
 {
     [SerializeField] GameObject[] Player;
     int s;
-    public static int nj;
+    public static int nj = -1;
     [SerializeField] Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,7 @@ public class PlayerCustom : MonoBehaviour
         }
         else
         {
+            s = nj;
             Player[nj].SetActive(true);
         }
     }
