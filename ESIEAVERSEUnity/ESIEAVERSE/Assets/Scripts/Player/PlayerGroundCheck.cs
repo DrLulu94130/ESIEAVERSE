@@ -6,10 +6,17 @@ using UnityEngine;
 public class PlayerGroundCheck : MonoBehaviour
 {
     PlayerController playerController;
+    Transform tf;
 
     private void Awake()
     {
         playerController = GetComponentInParent<PlayerController>();
+        tf = GetComponent<Transform>();
+    }
+
+    void Update()
+    {
+        tf.localPosition = new Vector3 ( 0 , -1 , 0 );
     }
 
     void OnTriggerEnter(Collider other)
