@@ -28,8 +28,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
         if (!PV.IsMine)
         {
             Destroy(GetComponentInChildren<Camera>().gameObject);
@@ -41,9 +39,21 @@ public class PlayerController : MonoBehaviour
     {
         if (!PV.IsMine)
             return;
+        if(Pause.isOn)
+        {
+            if (Cursor.lockState != CursorLockMode.None)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            return;
+        }
         Look();
         Move();
         Jump();
+        if (Cursor.lockState != CursorLockMode.Locked)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
     void Look()
     {
@@ -55,15 +65,23 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-        moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
-        if (moveAmount != new Vector3(0, 0, 0))
+        if (Pause.isOn)
         {
-            anim.SetBool("run", true);
+            Vector3 moveDirP = new Vector3(0, 0, 0);
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDirP * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
         }
         else
         {
-            anim.SetBool("run", false);
+            Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+            if (moveAmount != new Vector3(0, 0, 0))
+            {
+                anim.SetBool("run", true);
+            }
+            else
+            {
+                anim.SetBool("run", false);
+            }
         }
     }
 

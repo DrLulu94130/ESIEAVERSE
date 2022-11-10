@@ -13,7 +13,7 @@ public class PlayerCustom : MonoBehaviour
     {
         if (nj == -1)
         {
-            s = Random.Range(0, 18);
+            s = 10;
             Player[s].SetActive(true);
         }
         else
@@ -27,7 +27,7 @@ public class PlayerCustom : MonoBehaviour
     {
         Player[s].SetActive(false);
         s += 1;
-        if(s == 18)
+        if(s == 19)
         {
             s = 0;
         }
@@ -39,7 +39,7 @@ public class PlayerCustom : MonoBehaviour
         s -= 1;
         if(s == -1)
         {
-            s = 17;
+            s = 18;
         }
         Player[s].SetActive(true);
     }
