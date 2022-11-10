@@ -147,4 +147,20 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LoadLevel(1);
     }
+
+    IEnumerator LoadAsynchronously(int sceneIndex)
+    {
+        PhotonNetwork.IsMessageQueueRunning = false;
+
+        PhotonNetwork.LoadLevel(sceneIndex);
+        var operation = PhotonNetwork.LevelLoadingProgress;
+
+        MenuManager.Instance.OpenMenu("loading");
+
+        while (operation < 1f)
+        {
+        
+            yield return null;
+        }
+    }
 }

@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Photon.Pun;
-using Photon.Pun.UtilityScripts;
-using Photon.Realtime;
 
 public class Pause : MonoBehaviourPunCallbacks
 {
@@ -26,6 +24,23 @@ public class Pause : MonoBehaviourPunCallbacks
 
         base.OnLeftRoom();
     }
+    public void ToMainMenu()
+    {
+        Destroy(RoomManager.Instance);
+        PhotonNetwork.LeaveRoom();
+        StartCoroutine(LoadAsynchronously(0));
+    }
 
+    IEnumerator LoadAsynchronously(int sceneIndex)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+
+        MenuManager.Instance.OpenMenu("loading");
+
+        while (!operation.isDone)
+        {
+            yield return null;
+        }
+    }
 }
 
