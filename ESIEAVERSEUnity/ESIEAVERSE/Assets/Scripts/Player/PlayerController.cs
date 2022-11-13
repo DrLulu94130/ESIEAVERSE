@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject cameraHolder;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, walkSpeed, jumpForce, smoothTime;
+    public PlayAudio audio;
     float verticalLookRotation;
     bool grounded;
     Vector3 smoothMoveVelocity;
@@ -65,22 +66,32 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            audio.IsSprinting = true;
+        }
+        else
+        {
+            audio.IsSprinting = false;
+        }
         if (Pause.isOn)
         {
             Vector3 moveDirP = new Vector3(0, 0, 0);
-            moveAmount = Vector3.SmoothDamp(moveAmount, moveDirP * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDirP * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
         }
         else
         {
             Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-            moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
             if (moveAmount != new Vector3(0, 0, 0))
             {
                 anim.SetBool("run", true);
+                audio.IsWalking = true;
             }
             else
             {
                 anim.SetBool("run", false);
+                audio.IsWalking = false;
             }
         }
     }
