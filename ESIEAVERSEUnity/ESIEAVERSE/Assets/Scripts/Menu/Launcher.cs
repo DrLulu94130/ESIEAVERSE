@@ -16,7 +16,7 @@ using baseRandom = System.Random;
 public class Launcher : MonoBehaviourPunCallbacks
 {
     public static Launcher Instance;
-
+    public static bool isco = false;
     [SerializeField] TMP_InputField roomNameInputField;
     [SerializeField] TMP_Text roomNameText;
     [SerializeField] Transform roomListContent;
@@ -35,9 +35,13 @@ public class Launcher : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        UnityEngine.Debug.Log("Connecting to master");
-        PhotonNetwork.ConnectUsingSettings();
-        SoundManager.Instance.PlaySound(_clip);
+        if (isco == false)
+        {
+            UnityEngine.Debug.Log("Connecting to master");
+            PhotonNetwork.ConnectUsingSettings();
+            SoundManager.Instance.PlaySound(_clip);
+            isco = true;
+        }
     }
 
     public override void OnConnectedToMaster()
@@ -142,5 +146,21 @@ public class Launcher : MonoBehaviourPunCallbacks
     public void StartGame()
     {
         PhotonNetwork.LoadLevel(1);
+    }
+
+    IEnumerator LoadAsynchronously(int sceneIndex)
+    {
+        PhotonNetwork.IsMessageQueueRunning = false;
+
+        PhotonNetwork.LoadLevel(sceneIndex);
+        var operation = PhotonNetwork.LevelLoadingProgress;
+
+        MenuManager.Instance.OpenMenu("loading");
+
+        while (operation < 1f)
+        {
+        
+            yield return null;
+        }
     }
 }
