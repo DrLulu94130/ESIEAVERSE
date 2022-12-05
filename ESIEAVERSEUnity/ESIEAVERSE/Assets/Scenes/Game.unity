@@ -232,7 +232,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -87.909, z: 0}
 --- !u!64 &8505342
 MeshCollider:
@@ -1391,6 +1391,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7798945713028668324, guid: 72c6bdaf0b3d4634ba9502c006134fe7, type: 3}
+--- !u!114 &250823775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021941378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0.27059805, y: -0.65328145, z: 0.27059805, w: 0.65328145}
+  Assise: {fileID: 2122112771}
+  Open: 0
 --- !u!64 &257581380
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6302,7 +6318,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 72c6bdaf0b3d4634ba9502c006134fe7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 72c6bdaf0b3d4634ba9502c006134fe7, type: 3}
       propertyPath: m_LocalScale.x
@@ -12085,7 +12101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478850, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 478850, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_LocalScale.x
@@ -14846,7 +14862,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -7.169, z: 0}
 --- !u!64 &1793104598
 MeshCollider:
@@ -17013,6 +17029,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4479952627360749558, guid: 72c6bdaf0b3d4634ba9502c006134fe7, type: 3}
+--- !u!4 &2122112771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268210654720141019, guid: 72c6bdaf0b3d4634ba9502c006134fe7, type: 3}
+  m_PrefabInstance: {fileID: 1021940841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2122473369
 GameObject:
   m_ObjectHideFlags: 0
