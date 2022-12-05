@@ -20,11 +20,11 @@ public class AssiseMovement : MonoBehaviour
     {
         if ( Open )
         {
-            tf.rotation = localRot1;
+            tf.rotation = localRot2;
         }
         else
         {
-            tf.rotation = localRot2;
+            tf.rotation = localRot1;
         }
     }
 }
