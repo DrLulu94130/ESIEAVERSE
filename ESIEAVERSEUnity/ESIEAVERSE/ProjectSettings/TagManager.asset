@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - GroundCheck
+  - Interaction
+  - Trigger
   layers:
   - Default
   - TransparentFX
