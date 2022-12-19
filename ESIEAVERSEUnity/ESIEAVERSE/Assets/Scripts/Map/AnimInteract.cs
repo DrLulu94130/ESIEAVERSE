@@ -28,8 +28,20 @@ public class AnimInteraction : MonoBehaviour
         }
     }
 
+    /*
     void OnTriggerStay( Collider other )
     {
-
+        if ( Input.GetKeyDown(KeyCode.F) )
+        {
+            if ( other.GameObject.AnimInteract.Open )
+            {
+                Open = false;
+            }
+            else
+            {
+                Open = true;
+            }
+        }
     }
+    */
 }
