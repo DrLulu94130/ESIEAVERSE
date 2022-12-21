@@ -1,6 +1,8 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerCustom : MonoBehaviour
 {
@@ -8,9 +10,21 @@ public class PlayerCustom : MonoBehaviour
     int s;
     public static int nj = -1;
     [SerializeField] Animator anim;
-    // Start is called before the first frame update
+    [SerializeField] TMP_InputField usernameInput;
+    // Start is called before the first frame update PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
     void Start()
     {
+        if(PlayerPrefs.HasKey("username"))
+        {
+            usernameInput.text = PlayerPrefs.GetString("username");
+            PhotonNetwork.NickName = PlayerPrefs.GetString("username");
+        }
+        else
+        {
+            PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
+            OnUsernameInputValueChanged();
+        }
+
         if (nj == -1)
         {
             s = 10;
@@ -21,6 +35,12 @@ public class PlayerCustom : MonoBehaviour
             s = nj;
             Player[nj].SetActive(true);
         }
+    }
+
+    public void OnUsernameInputValueChanged()
+    {
+        PhotonNetwork.NickName = usernameInput.text;
+        PlayerPrefs.SetString("username", usernameInput.text);
     }
 
     public void Droite()
