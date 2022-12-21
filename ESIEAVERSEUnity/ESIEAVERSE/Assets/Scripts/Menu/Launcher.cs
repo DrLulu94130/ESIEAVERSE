@@ -54,6 +54,14 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         MenuManager.Instance.OpenMenu("title");
+        if (PlayerPrefs.HasKey("username"))
+        {
+            PhotonNetwork.NickName = PlayerPrefs.GetString("username");
+        }
+        else
+        {
+            PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
+        }
         UnityEngine.Debug.Log("Joined Lobby");
     }
 
