@@ -6933,7 +6933,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 4e-45, w: 1.6088e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -25207,7 +25207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 41696662991991937, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 56.536
+      value: 67.204
       objectReference: {fileID: 0}
     - target: {fileID: 41696662991991937, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_SizeDelta.y
@@ -25215,15 +25215,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 41696662991991937, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.3039856
+      value: -11.6380005
       objectReference: {fileID: 0}
     - target: {fileID: 41696662991991937, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 58.35997
       objectReference: {fileID: 0}
     - target: {fileID: 41707749811717823, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 545.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 41707749811717823, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41707749811717823, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0011559
       objectReference: {fileID: 0}
     - target: {fileID: 41707749811717823, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -25280,6 +25288,10 @@ PrefabInstance:
     - target: {fileID: 148650397160133583, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 148706804532850741, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
+      propertyPath: m_sendKey
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 148743837372705481, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_Type

@@ -19,10 +19,11 @@ namespace Chat
 
 		private Queue<string> m_messageQueue = new Queue<string>();
 		private StringBuilder m_messageBuilder = new StringBuilder();
+        public bool chat = false;
 
-#region Message Limits
+        #region Message Limits
 
-		[Header("Send Limitations")]
+        [Header("Send Limitations")]
 
 		//messages will be send every n seconds
 		[SerializeField]
@@ -59,6 +60,7 @@ namespace Chat
 
 		private void Open()
 		{
+			chat = true;
 			m_messageInput.interactable = true;
 
 			//set focus
@@ -79,7 +81,8 @@ namespace Chat
 			//deselect the InputField
 			EventSystem.current.SetSelectedGameObject(null);
 			m_messageInput.interactable = false;
-		}
+            chat = true;
+        }
 
 		private void SendMessage()
 		{

@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     bool grounded;
     Vector3 smoothMoveVelocity;
     Vector3 moveAmount;
-
+    bool pause = false;
     Rigidbody rb;
 
     PhotonView PV;
@@ -46,6 +46,14 @@ public class PlayerController : MonoBehaviour
             {
                 Cursor.lockState = CursorLockMode.None;
             }
+            return;
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            pause = !pause;
+        }
+        if(pause == true)
+        {
             return;
         }
         Look();
