@@ -386,6 +386,7 @@ GameObject:
   - component: {fileID: 5395241082252582858}
   - component: {fileID: 8785338103037140559}
   - component: {fileID: 473203453501083107}
+  - component: {fileID: 6370845693903047781}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Untagged
@@ -553,6 +554,20 @@ MonoBehaviour:
   jumpForce: 300
   smoothTime: 0.15
   audio: {fileID: 1806796503662609482}
+--- !u!114 &6370845693903047781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494255123471490523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c93a879740d2c4dbf54daf8fcda888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: {fileID: 0}
+  Activated: 0
 --- !u!1 &4716941208325611954
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,22 +32,23 @@ public class PlayerInteraction : MonoBehaviour
         {
             Debug.Log("F key was pressed.");
             Activated = true;
-            if ( go.GetComponent<AnimInteract>().Open)
-            {
-                go.GetComponent<AnimInteract>().Open = false;
-            }
-            else
-            {
-                go.GetComponent<AnimInteract>().Open = true;
-            }
+            go.GetComponent<AnimInteract>().Open = !go.GetComponent<AnimInteract>().Open;
         }
-
+        
+        if ( Input.GetKeyUp(KeyCode.F) )
+        {
+            Debug.Log("F key was released.");
+            Activated = false;
+        }
+        
+        /*
         if (Input.GetKeyUp(KeyCode.F))
         {
             Debug.Log("F key was released.");
             Activated = false;
             go.GetComponent<AnimInteract>().Open = false;
         }
+        */
 
 
         /*
