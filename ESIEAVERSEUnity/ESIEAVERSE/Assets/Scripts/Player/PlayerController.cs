@@ -93,12 +93,45 @@ public class PlayerController : MonoBehaviour
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
             if (moveAmount != new Vector3(0, 0, 0))
             {
-                anim.SetBool("run", true);
-                audio.IsWalking = true;
+
+                if(Input.GetKeyDown(KeyCode.W))
+                {
+                    anim.SetBool("walk", true);
+                    audio.IsWalking = true;
+                }
+
+                if (Input.GetKeyDown(KeyCode.S))
+                {
+                    anim.SetBool("backward", true);
+                    audio.IsWalking = true;
+                }
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    anim.SetBool("walkL", true);
+                    audio.IsWalking = true;
+                }
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    anim.SetBool("walkR", true);
+                    audio.IsWalking = true;
+                }
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    anim.SetBool("jump", true);
+                    audio.IsWalking = true;
+                }
+
+
             }
             else
             {
                 anim.SetBool("run", false);
+                anim.SetBool("walk", false);
+                anim.SetBool("backward", false);
+                anim.SetBool("walkL", false);
+                anim.SetBool("walkR", false);
+                anim.SetBool("jump", false);
+                
                 audio.IsWalking = false;
             }
         }
