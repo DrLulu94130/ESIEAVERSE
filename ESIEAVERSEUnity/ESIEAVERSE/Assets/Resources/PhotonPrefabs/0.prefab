@@ -898,8 +898,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Username
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4aeea4c02b70f2144acd6ef8d5d5ccf9, type: 2}
-  m_sharedMaterial: {fileID: -6166005587138224397, guid: 4aeea4c02b70f2144acd6ef8d5d5ccf9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fce7d8da6a78afc47b4b08aed3a81362, type: 2}
+  m_sharedMaterial: {fileID: 6078796251144726238, guid: fce7d8da6a78afc47b4b08aed3a81362, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1691,6 +1691,24 @@ MonoBehaviour:
   - Type: 4
     SynchronizeType: 1
     Name: run
+  - Type: 4
+    SynchronizeType: 0
+    Name: walk
+  - Type: 4
+    SynchronizeType: 0
+    Name: backward
+  - Type: 4
+    SynchronizeType: 0
+    Name: walkL
+  - Type: 4
+    SynchronizeType: 0
+    Name: walkR
+  - Type: 4
+    SynchronizeType: 0
+    Name: jump
+  - Type: 4
+    SynchronizeType: 0
+    Name: test
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
