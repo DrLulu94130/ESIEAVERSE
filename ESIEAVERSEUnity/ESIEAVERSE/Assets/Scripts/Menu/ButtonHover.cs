@@ -28,25 +28,17 @@ using UnityEngine;
  using UnityEngine.EventSystems;
  public class ButtonHover : MonoBehaviour, ISelectHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] GameObject visu;
     [SerializeField] Animator anim;
-    private void Start()
-    {
-        visu.SetActive(false);
-    }
     public void OnPointerEnter(PointerEventData eventData)
     {
         anim.Play("ScaleUp");
-        visu.SetActive(true);
     }
     public void OnPointerExit(PointerEventData eventData)
     {
         anim.Play("ScaleDown");
-        visu.SetActive(false);
     }
     public void OnSelect(BaseEventData eventData)
     {
         anim.Play("ScaleDown");
-        visu.SetActive(false);
     }
 }
