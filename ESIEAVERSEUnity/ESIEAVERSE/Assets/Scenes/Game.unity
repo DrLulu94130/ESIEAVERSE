@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &3818809
 MeshCollider:
@@ -307,8 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &11594847
 MeshCollider:
@@ -489,8 +489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &14515822
 MeshCollider:
@@ -550,8 +550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &28208801
 MeshCollider:
@@ -702,8 +702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &33763823
 MeshCollider:
@@ -866,8 +866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &60968300
 MeshCollider:
@@ -941,8 +941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &74605241
 MeshCollider:
@@ -1016,8 +1016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &80422647
 MeshCollider:
@@ -1077,8 +1077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &88837717
 MeshCollider:
@@ -1124,8 +1124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &92915127
 MeshCollider:
@@ -1199,8 +1199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &102829819
 MeshCollider:
@@ -1246,8 +1246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &108467194
 MeshCollider:
@@ -1586,8 +1586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &114483128
 MeshCollider:
@@ -1633,8 +1633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &117237130
 MeshCollider:
@@ -1764,8 +1764,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &136391861
 MeshCollider:
@@ -1867,8 +1867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &154927511
 MeshCollider:
@@ -1914,8 +1914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &157098408
 MeshCollider:
@@ -2049,8 +2049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &179669510
 MeshCollider:
@@ -2096,8 +2096,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &180029383
 MeshCollider:
@@ -2143,8 +2143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &182370024
 MeshCollider:
@@ -2190,8 +2190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &185353243
 MeshCollider:
@@ -2562,8 +2562,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &244371748
 MeshCollider:
@@ -2693,8 +2693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &256286438
 MeshCollider:
@@ -2855,8 +2855,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &275069938
 MeshCollider:
@@ -2972,8 +2972,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &279527877
 MeshCollider:
@@ -3047,8 +3047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &289549444
 MeshCollider:
@@ -3094,8 +3094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &290984168
 MeshCollider:
@@ -3155,8 +3155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &295268538
 MeshCollider:
@@ -3244,8 +3244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &321922458
 MeshCollider:
@@ -3352,8 +3352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &331648586
 MeshCollider:
@@ -3525,8 +3525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &366811291
 MeshCollider:
@@ -3586,8 +3586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &372392752
 MeshCollider:
@@ -3633,8 +3633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &374960140
 MeshCollider:
@@ -3736,8 +3736,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &393405677
 MeshCollider:
@@ -3881,8 +3881,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &442938946
 MeshCollider:
@@ -3942,8 +3942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &444878420
 MeshCollider:
@@ -4017,8 +4017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &449322468
 MeshCollider:
@@ -4134,8 +4134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &467505184
 MeshCollider:
@@ -4181,8 +4181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &471927609
 MeshCollider:
@@ -4228,8 +4228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &473630118
 MeshCollider:
@@ -4289,8 +4289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &476905284
 MeshCollider:
@@ -4336,8 +4336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &478907364
 MeshCollider:
@@ -4514,8 +4514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &513561579
 MeshCollider:
@@ -4603,8 +4603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &520459447
 MeshCollider:
@@ -4748,8 +4748,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &543881269
 MeshCollider:
@@ -5038,8 +5038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &564967590
 MeshCollider:
@@ -5099,8 +5099,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &569705183
 MeshCollider:
@@ -5188,8 +5188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &594041440
 MeshCollider:
@@ -5277,8 +5277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &620194406
 MeshCollider:
@@ -5338,8 +5338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &627340338
 MeshCollider:
@@ -5469,8 +5469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &644242136
 MeshCollider:
@@ -5698,8 +5698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &692906095
 MeshCollider:
@@ -5759,8 +5759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &694876458
 MeshCollider:
@@ -5806,8 +5806,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &696427495
 MeshCollider:
@@ -5867,8 +5867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &698641117
 MeshCollider:
@@ -6092,8 +6092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &733800632
 MeshCollider:
@@ -6167,8 +6167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &747526316
 MeshCollider:
@@ -6228,8 +6228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &748557948
 MeshCollider:
@@ -6275,8 +6275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &752809138
 MeshCollider:
@@ -6409,8 +6409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &763855474
 MeshCollider:
@@ -6484,8 +6484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &770377185
 MeshCollider:
@@ -6531,8 +6531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &772821200
 MeshCollider:
@@ -6843,7 +6843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: -0.49991274, y: 0.5000872, z: 0.49991274, w: 0.5000872}
+  localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
 --- !u!114 &802068002
 MonoBehaviour:
@@ -6978,8 +6978,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &822403433
 MeshCollider:
@@ -7137,8 +7137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &839267230
 MeshCollider:
@@ -7240,8 +7240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &849800913
 MeshCollider:
@@ -7388,8 +7388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &866270623
 MeshCollider:
@@ -7435,8 +7435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &866426326
 MeshCollider:
@@ -7650,8 +7650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &874047933
 MeshCollider:
@@ -7776,8 +7776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &911423207
 MeshCollider:
@@ -7823,8 +7823,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &913783639
 MeshCollider:
@@ -7954,8 +7954,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &934410846
 MeshCollider:
@@ -8220,8 +8220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &949995406
 MeshCollider:
@@ -8281,8 +8281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &957845578
 MeshCollider:
@@ -8459,8 +8459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &969335840
 MeshCollider:
@@ -8688,8 +8688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1025070267
 MeshCollider:
@@ -8791,8 +8791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1045270465
 MeshCollider:
@@ -8838,8 +8838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1050816462
 MeshCollider:
@@ -8885,8 +8885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1054256303
 MeshCollider:
@@ -8946,8 +8946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1064449112
 MeshCollider:
@@ -9137,8 +9137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1082048571
 MeshCollider:
@@ -9184,8 +9184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1084598942
 MeshCollider:
@@ -9278,8 +9278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1105696021
 MeshCollider:
@@ -9353,8 +9353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1126470245
 MeshCollider:
@@ -9470,8 +9470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1147385996
 MeshCollider:
@@ -9615,8 +9615,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1152091848
 MeshCollider:
@@ -9801,8 +9801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1162728096
 MeshCollider:
@@ -9862,8 +9862,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1165759166
 MeshCollider:
@@ -9965,8 +9965,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1171916968
 MeshCollider:
@@ -10208,8 +10208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1210626290
 MeshCollider:
@@ -10451,8 +10451,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1254336981
 MeshCollider:
@@ -10512,8 +10512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1254543105
 MeshCollider:
@@ -10690,8 +10690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1279454672
 MeshCollider:
@@ -10766,7 +10766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: -0.49991274, y: 0.5000872, z: 0.49991274, w: 0.5000872}
+  localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
 --- !u!114 &1286981964
 MonoBehaviour:
@@ -10896,8 +10896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1307570251
 MeshCollider:
@@ -10943,8 +10943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1309700610
 MeshCollider:
@@ -11074,8 +11074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1325581227
 MeshCollider:
@@ -11149,8 +11149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1328568666
 MeshCollider:
@@ -11308,8 +11308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1362404079
 MeshCollider:
@@ -11500,8 +11500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1374883527
 MeshCollider:
@@ -11547,8 +11547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1386702039
 MeshCollider:
@@ -11622,8 +11622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1395763844
 MeshCollider:
@@ -11726,7 +11726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: -0.49991274, y: 0.5000872, z: 0.49991274, w: 0.5000872}
+  localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
 --- !u!114 &1402506940
 MonoBehaviour:
@@ -11786,8 +11786,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1405025579
 MeshCollider:
@@ -11875,8 +11875,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1416001579
 MeshCollider:
@@ -11936,8 +11936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1420271233
 MeshCollider:
@@ -12095,8 +12095,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1449820521
 MeshCollider:
@@ -12156,8 +12156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1452997272
 MeshCollider:
@@ -12287,8 +12287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1469180111
 MeshCollider:
@@ -12334,8 +12334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1477822188
 MeshCollider:
@@ -12666,8 +12666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1511552855
 MeshCollider:
@@ -12783,8 +12783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1523167125
 MeshCollider:
@@ -12934,8 +12934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1538858433
 MeshCollider:
@@ -12995,8 +12995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1542389948
 MeshCollider:
@@ -13056,8 +13056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1551412145
 MeshCollider:
@@ -13103,8 +13103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1553803224
 MeshCollider:
@@ -13178,8 +13178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1563218666
 MeshCollider:
@@ -13239,8 +13239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1571120682
 MeshCollider:
@@ -13286,8 +13286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1580508746
 MeshCollider:
@@ -13333,8 +13333,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1581879035
 MeshCollider:
@@ -13408,8 +13408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1583785051
 MeshCollider:
@@ -13455,8 +13455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1583870012
 MeshCollider:
@@ -13516,8 +13516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1594325724
 MeshCollider:
@@ -13563,8 +13563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1600619034
 MeshCollider:
@@ -13610,8 +13610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1607630954
 MeshCollider:
@@ -13746,8 +13746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1623452432
 MeshCollider:
@@ -13793,8 +13793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1633168971
 MeshCollider:
@@ -13952,8 +13952,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1674339626
 MeshCollider:
@@ -14013,8 +14013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1676311212
 MeshCollider:
@@ -14074,8 +14074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1689881579
 MeshCollider:
@@ -14121,8 +14121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1695559301
 MeshCollider:
@@ -14168,8 +14168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1698935383
 MeshCollider:
@@ -14271,8 +14271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1709806938
 MeshCollider:
@@ -14332,8 +14332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1712524448
 MeshCollider:
@@ -14449,8 +14449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1731848892
 MeshCollider:
@@ -14524,8 +14524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1748750997
 MeshCollider:
@@ -14585,8 +14585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1750173582
 MeshCollider:
@@ -14632,8 +14632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1756509024
 MeshCollider:
@@ -14707,8 +14707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1771332282
 MeshCollider:
@@ -14768,8 +14768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1772000841
 MeshCollider:
@@ -14871,8 +14871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1791272906
 MeshCollider:
@@ -15057,8 +15057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1811894279
 MeshCollider:
@@ -15119,7 +15119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: -0.49991274, y: 0.5000872, z: 0.49991274, w: 0.5000872}
+  localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
 --- !u!114 &1813005122
 MonoBehaviour:
@@ -15193,8 +15193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1825593630
 MeshCollider:
@@ -15254,8 +15254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1827051387
 MeshCollider:
@@ -15357,8 +15357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1833037869
 MeshCollider:
@@ -15404,8 +15404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1835148587
 MeshCollider:
@@ -15512,8 +15512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1856431420
 MeshCollider:
@@ -15559,8 +15559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1858187586
 MeshCollider:
@@ -15755,8 +15755,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1862395938
 MeshCollider:
@@ -15830,8 +15830,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1873476813
 MeshCollider:
@@ -16145,8 +16145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1885549793
 MeshCollider:
@@ -16248,8 +16248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1896438731
 MeshCollider:
@@ -16370,8 +16370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1922344732
 MeshCollider:
@@ -16417,8 +16417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1923812095
 MeshCollider:
@@ -16534,8 +16534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1953327102
 MeshCollider:
@@ -16581,8 +16581,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1953367710
 MeshCollider:
@@ -16726,8 +16726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1978865554
 MeshCollider:
@@ -16787,8 +16787,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &1980919097
 MeshCollider:
@@ -17123,8 +17123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2003653789
 MeshCollider:
@@ -17170,8 +17170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2012485641
 MeshCollider:
@@ -17334,8 +17334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2022398647
 MeshCollider:
@@ -17465,8 +17465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2038719043
 MeshCollider:
@@ -17512,8 +17512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2041167292
 MeshCollider:
@@ -17573,8 +17573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2047351888
 MeshCollider:
@@ -17634,8 +17634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2053134836
 MeshCollider:
@@ -17710,7 +17710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: -0.49991274, y: 0.5000872, z: 0.49991274, w: 0.5000872}
+  localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
 --- !u!114 &2065038513
 MonoBehaviour:
@@ -17756,8 +17756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4592291, y: 0.5376882, z: 0.4592291, w: -0.5376882}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: 0, y: 0, z: 0, w: 0}
+  localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
 --- !u!64 &2068193330
 MeshCollider:
@@ -17846,7 +17846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: -0.49991274, y: 0.5000872, z: 0.49991274, w: 0.5000872}
+  localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
 --- !u!114 &2070605134
 MonoBehaviour:
@@ -20814,6 +20814,8 @@ GameObject:
   - component: {fileID: 916398889951785511}
   - component: {fileID: 3523124849902547388}
   - component: {fileID: 480880159}
+  - component: {fileID: 8975629473908953336}
+  - component: {fileID: 8975629473908953335}
   - component: {fileID: 480880160}
   - component: {fileID: 480880161}
   m_Layer: 0
@@ -22967,6 +22969,8 @@ GameObject:
   - component: {fileID: 2443032694073188190}
   - component: {fileID: 3004353818898019234}
   - component: {fileID: 50075296}
+  - component: {fileID: 8632954909539102998}
+  - component: {fileID: 8632954909539102997}
   - component: {fileID: 50075297}
   - component: {fileID: 50075298}
   m_Layer: 0
@@ -24248,6 +24252,8 @@ GameObject:
   - component: {fileID: 6041665442060956080}
   - component: {fileID: 6051072401065765403}
   - component: {fileID: 1275888957}
+  - component: {fileID: 6051072401065765405}
+  - component: {fileID: 6051072401065765404}
   - component: {fileID: 1275888958}
   - component: {fileID: 1275888959}
   m_Layer: 0
@@ -25056,9 +25062,12 @@ GameObject:
   - component: {fileID: 440668156618988374}
   - component: {fileID: 407793647373694349}
   - component: {fileID: 275582043}
+  - component: {fileID: 6669298731951177595}
+  - component: {fileID: 6669298731951177594}
+  - component: {fileID: 6669298731951177593}
   m_Layer: 0
   m_Name: RDC_I02_INTERRUPTEUR
-  m_TagString: Untagged
+  m_TagString: Interaction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27796,6 +27805,8 @@ GameObject:
   - component: {fileID: 4541271124980013015}
   - component: {fileID: 3491809036442405063}
   - component: {fileID: 323482541}
+  - component: {fileID: 4856474461243548750}
+  - component: {fileID: 4856474461243548749}
   - component: {fileID: 323482542}
   - component: {fileID: 323482543}
   m_Layer: 0
@@ -28065,6 +28076,8 @@ GameObject:
   - component: {fileID: 8217282933411567377}
   - component: {fileID: 7473581610428680999}
   - component: {fileID: 1855198553}
+  - component: {fileID: 8217282933411567379}
+  - component: {fileID: 8217282933411567378}
   - component: {fileID: 1855198554}
   - component: {fileID: 1855198555}
   m_Layer: 0
@@ -28909,6 +28922,8 @@ GameObject:
   - component: {fileID: 1199166514806528490}
   - component: {fileID: 7551520661237191881}
   - component: {fileID: 1286981962}
+  - component: {fileID: 7551520661237191883}
+  - component: {fileID: 7551520661237191882}
   - component: {fileID: 1286981963}
   - component: {fileID: 1286981964}
   m_Layer: 0
@@ -31019,6 +31034,8 @@ GameObject:
   - component: {fileID: 102883598738473092}
   - component: {fileID: 5218793437131775362}
   - component: {fileID: 1813005120}
+  - component: {fileID: 7486453586085522922}
+  - component: {fileID: 7486453586085522921}
   - component: {fileID: 1813005121}
   - component: {fileID: 1813005122}
   m_Layer: 0
@@ -34584,6 +34601,8 @@ GameObject:
   - component: {fileID: 2557739905839836911}
   - component: {fileID: 624908318801203397}
   - component: {fileID: 825374440}
+  - component: {fileID: 4420762959770935902}
+  - component: {fileID: 4420762959770935901}
   m_Layer: 0
   m_Name: RDC_PORTE_PETITE
   m_TagString: Untagged
@@ -34591,6 +34610,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4420762959770935901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420762959770935900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
+  localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
+  Open: 0
+--- !u!114 &4420762959770935902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420762959770935900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
 --- !u!4 &4427374318375594187
 Transform:
   m_ObjectHideFlags: 0
@@ -35939,6 +35991,39 @@ Transform:
   m_Father: {fileID: 543450652145256454}
   m_RootOrder: 318
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &4856474461243548749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2191441124452599099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &4856474461243548750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2191441124452599099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!33 &4861998661314719498
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -38824,6 +38909,8 @@ GameObject:
   - component: {fileID: 5402741932741910257}
   - component: {fileID: 6013318207883661537}
   - component: {fileID: 1618668988}
+  - component: {fileID: 6013318207883661539}
+  - component: {fileID: 6013318207883661538}
   - component: {fileID: 1618668989}
   - component: {fileID: 1618668990}
   m_Layer: 0
@@ -38992,6 +39079,8 @@ GameObject:
   - component: {fileID: 6900055355393335749}
   - component: {fileID: 5365910205928063380}
   - component: {fileID: 1402506938}
+  - component: {fileID: 6900055355393335751}
+  - component: {fileID: 6900055355393335750}
   - component: {fileID: 1402506939}
   - component: {fileID: 1402506940}
   m_Layer: 0
@@ -39723,6 +39812,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6013318207883661538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5771319443078698031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &6013318207883661539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5771319443078698031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!33 &6041665442060956080
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -39788,6 +39910,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6051072401065765404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148718194315195507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &6051072401065765405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148718194315195507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!33 &6053391733029606074
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -41369,6 +41524,56 @@ Transform:
   m_Father: {fileID: 543450652145256454}
   m_RootOrder: 251
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6669298731951177593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366404017504754007}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &6669298731951177594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366404017504754007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61911c14b8a473f479ca6e8510e697d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOn: 0
+  Target: {fileID: 4769337211267044410}
+--- !u!114 &6669298731951177595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366404017504754007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
 --- !u!23 &6673789002975063090
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41711,6 +41916,8 @@ GameObject:
   - component: {fileID: 8640579948843664098}
   - component: {fileID: 4957894418120013032}
   - component: {fileID: 2070605132}
+  - component: {fileID: 8640579948843664100}
+  - component: {fileID: 8640579948843664099}
   - component: {fileID: 2070605133}
   - component: {fileID: 2070605134}
   m_Layer: 0
@@ -42179,6 +42386,8 @@ GameObject:
   - component: {fileID: 2225678699932768460}
   - component: {fileID: 7667016372406995396}
   - component: {fileID: 802068000}
+  - component: {fileID: 7667016372406995398}
+  - component: {fileID: 7667016372406995397}
   - component: {fileID: 802068001}
   - component: {fileID: 802068002}
   m_Layer: 0
@@ -42279,6 +42488,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5786271025599878734}
   m_Mesh: {fileID: 2973329488084457037, guid: 49e06e308a533ae46b2ffecba4439409, type: 3}
+--- !u!114 &6900055355393335750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786271025599878734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &6900055355393335751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786271025599878734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!1 &6908319000580806304
 GameObject:
   m_ObjectHideFlags: 0
@@ -44310,6 +44552,39 @@ Transform:
   m_Father: {fileID: 543450652145256454}
   m_RootOrder: 309
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7486453586085522921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3191662628736523879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &7486453586085522922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3191662628736523879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!23 &7488864678796576612
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44481,6 +44756,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7551520661237191882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2537989381149352106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &7551520661237191883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2537989381149352106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!1 &7552328400740972675
 GameObject:
   m_ObjectHideFlags: 0
@@ -44493,6 +44801,8 @@ GameObject:
   - component: {fileID: 320932473146174292}
   - component: {fileID: 3135891312461808069}
   - component: {fileID: 2065038511}
+  - component: {fileID: 7552328400740972677}
+  - component: {fileID: 7552328400740972676}
   - component: {fileID: 2065038512}
   - component: {fileID: 2065038513}
   m_Layer: 0
@@ -44502,6 +44812,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7552328400740972676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552328400740972675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &7552328400740972677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552328400740972675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!4 &7560278474576714251
 Transform:
   m_ObjectHideFlags: 0
@@ -45227,6 +45570,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7667016372406995397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6867722458220807285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &7667016372406995398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6867722458220807285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!4 &7670147518894068679
 Transform:
   m_ObjectHideFlags: 0
@@ -47003,6 +47379,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2266688580254852259}
   m_Mesh: {fileID: -1498304926976571616, guid: 49e06e308a533ae46b2ffecba4439409, type: 3}
+--- !u!114 &8217282933411567378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266688580254852259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &8217282933411567379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266688580254852259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!1 &8217971189934431218
 GameObject:
   m_ObjectHideFlags: 0
@@ -48074,6 +48483,8 @@ GameObject:
   - component: {fileID: 8819561038740519861}
   - component: {fileID: 2574085159742354324}
   - component: {fileID: 1305736488}
+  - component: {fileID: 8819561038740519863}
+  - component: {fileID: 8819561038740519862}
   m_Layer: 0
   m_Name: RDC_PORTE_GRANDE
   m_TagString: Untagged
@@ -48485,6 +48896,39 @@ Transform:
   m_Father: {fileID: 543450652145256454}
   m_RootOrder: 316
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &8632954909539102997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746848824481367610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &8632954909539102998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746848824481367610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!33 &8640579948843664098
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -48493,6 +48937,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6720008388613206448}
   m_Mesh: {fileID: -15993594138514464, guid: 49e06e308a533ae46b2ffecba4439409, type: 3}
+--- !u!114 &8640579948843664099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720008388613206448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &8640579948843664100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720008388613206448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!33 &8642376165004574662
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -49182,6 +49659,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8564621234725073858}
   m_Mesh: {fileID: 3565130090841767925, guid: 49e06e308a533ae46b2ffecba4439409, type: 3}
+--- !u!114 &8819561038740519862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564621234725073858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
+  localRot2: {x: 0.5416752, y: -0.45451945, z: -0.45451945, w: -0.5416752}
+  Open: 0
+--- !u!114 &8819561038740519863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564621234725073858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
 --- !u!33 &8819730867782830303
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -49658,6 +50168,39 @@ Transform:
   m_Father: {fileID: 543450652145256454}
   m_RootOrder: 317
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &8975629473908953335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212798460297872363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 0}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Selection: {fileID: 0}
+  Triggered: 0
+  Selected: 0
+--- !u!114 &8975629473908953336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212798460297872363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
 --- !u!23 &8977221772504259416
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -16,13 +16,13 @@ public class PlayerInteraction : MonoBehaviour
             if ( hit.transform.gameObject.tag == "Interaction")
             {
                 go = hit.transform.gameObject;
-                go.GetComponent<Outline>().enabled = true;
+                go.GetComponent<Interaction>().Selected = true;
             }
             else
             {
                 if ( go )
                 {
-                    go.GetComponent<Outline>().enabled = false;
+                    go.GetComponent<Interaction>().Selected = false;
                     go = null;
                 }
             }
@@ -32,7 +32,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             Debug.Log("F key was pressed.");
             Activated = true;
-            go.GetComponent<AnimInteract>().Open = !go.GetComponent<AnimInteract>().Open;
+            go.GetComponent<Interaction>().Triggered = !go.GetComponent<Interaction>().Triggered;
         }
         
         if ( Input.GetKeyUp(KeyCode.F) )
@@ -40,26 +40,5 @@ public class PlayerInteraction : MonoBehaviour
             Debug.Log("F key was released.");
             Activated = false;
         }
-        
-        /*
-        if (Input.GetKeyUp(KeyCode.F))
-        {
-            Debug.Log("F key was released.");
-            Activated = false;
-            go.GetComponent<AnimInteract>().Open = false;
-        }
-        */
-
-
-        /*
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            Activated = true;
-        }
-        else
-        {
-            Activated = false;
-        }
-        */
     }
 }
