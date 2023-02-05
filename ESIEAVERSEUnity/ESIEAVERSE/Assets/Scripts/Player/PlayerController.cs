@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     PlayerManager playerManager;
     [SerializeField] GameObject cameraHolder;
+    [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, walkSpeed, jumpForce, smoothTime;
     public PlayAudio audio;
@@ -33,6 +34,10 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(GetComponentInChildren<Camera>().gameObject);
             Destroy(rb);
+        }
+        if (PV.IsMine)
+        {
+            Destroy(Model);
         }
     }
 
@@ -68,7 +73,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * mouseSensitivity);
         verticalLookRotation += Input.GetAxisRaw("Mouse Y") * mouseSensitivity;
-        verticalLookRotation = Math.Clamp(verticalLookRotation, -90f, 90f);
+        verticalLookRotation = Math.Clamp(verticalLookRotation, -70f, 70f);
         cameraHolder.transform.localEulerAngles = Vector3.left * verticalLookRotation;
     }
 
