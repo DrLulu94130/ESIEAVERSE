@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class Login : MonoBehaviour
+public class LoginScript : MonoBehaviour
 {
     [SerializeField] Text txtValue;
     [SerializeField] Text ErrorField;

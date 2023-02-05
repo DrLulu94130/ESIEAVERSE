@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class DatabaseManager : MonoBehaviour
+public class RegisterScript : MonoBehaviour
 {
     [SerializeField] Text txtValue;
     [SerializeField] Text ErrorField;
