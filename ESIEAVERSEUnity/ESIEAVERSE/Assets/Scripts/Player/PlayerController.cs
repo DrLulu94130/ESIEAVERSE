@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
 
     PhotonView PV;
 
+    float H_input;
+    float V_input;
+
     private void Awake()
     {
         SoundManager.Instance.StopSound();
@@ -58,6 +61,8 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        anim.SetFloat("H_input", H_input);
+        anim.SetFloat("V_input", V_input);
         Look();
         Move();
         Jump();
@@ -79,101 +84,6 @@ public class PlayerController : MonoBehaviour
 
 
 
-    void Idle()
-    {
-        audio.IsWalking = false;
-        audio.IsSprinting = false;
-        anim.SetFloat("Vitesse", 0);
-
-    }
-
-    void Walking()
-    {
-        audio.IsWalking = true;
-        audio.IsSprinting = false;
-        anim.SetFloat("Vitesse", 1, 0.20f, smoothTime);
-
-    }
-
-    void Running()
-    {
-        audio.IsWalking = false;
-        audio.IsSprinting = true;
-        anim.SetFloat("Vitesse", 2);
-    }
-
-    void Sprinting()
-    {
-        audio.IsWalking = false;
-        audio.IsSprinting = true;
-        anim.SetFloat("Vitesse", 3, 0.20f, smoothTime);
-    }
-
-    void Bacward()
-    {
-        audio.IsWalking = true;
-        audio.IsSprinting = false;
-        anim.SetFloat("Vitesse", -1, 0.20f, smoothTime);
-    }
-
-    void Jumping()
-    {
-        audio.IsWalking = false;
-        audio.IsSprinting = false;
-        //Blend tree spécial
-    }
-
-    void Sides()
-    {
-        audio.IsWalking = true;
-        audio.IsSprinting = false;
-        //Blend tree spécial
-    }
-
-    void Interact()
-    {
-
-        //à faire
-    }
-
-
-    void Move_anim()
-    {
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            Sprinting();
-            
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            Bacward();
-            
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //blend tree dédié
-            
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            //blend tree dédié
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            //blend tree dédié
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Walking();
-            
-        }
-        /*if (Input.GetKeyDown(KeyCode.RightClick))
-        {
-            Interact();
-        }*/
-    }
-
     void Move()
     {
 
@@ -187,8 +97,29 @@ public class PlayerController : MonoBehaviour
             Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
 
+            H_input = Input.GetAxisRaw("Horizontal");
+            V_input = Input.GetAxisRaw("Vertical");
 
-            if (moveAmount != new Vector3(0, 0, 0))
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                anim.SetBool("Jumping", false);
+                anim.SetBool("Walking", false);
+                anim.SetBool("Running", true);         
+            }
+            else if (Input.GetKeyDown(KeyCode.Space))
+            {
+                anim.SetBool("Running", false);
+                anim.SetBool("Walking", false);
+                anim.SetBool("Jumping", true);     
+            }
+            else
+            {
+                anim.SetBool("Jumping", false);
+                anim.SetBool("Running", false);
+                anim.SetBool("Walking", true);    
+            }
+
+            /*if (moveAmount != new Vector3(0, 0, 0))
             {
                 //J'ai déplacé les anim en dehors et j'ai expliqué à Alexandre pourquoi
                 Move_anim();
@@ -200,7 +131,7 @@ public class PlayerController : MonoBehaviour
                 audio.IsWalking = false;
                 audio.IsSprinting = false;
                 
-            }
+            }*/
         }
     }
 
