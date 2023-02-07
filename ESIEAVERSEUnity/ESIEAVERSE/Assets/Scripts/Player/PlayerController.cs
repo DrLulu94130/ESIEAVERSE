@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     Vector3 smoothMoveVelocity;
     Vector3 moveAmount;
     bool pause = false;
+    bool emote_wheel = false;
     Rigidbody rb;
 
     PhotonView PV;
@@ -61,6 +62,15 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            emote_wheel = true;
+        }
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            emote_wheel = false;
+        }
+
         anim.SetFloat("H_input", H_input);
         anim.SetFloat("V_input", V_input);
         Look();
@@ -99,39 +109,35 @@ public class PlayerController : MonoBehaviour
 
             H_input = Input.GetAxisRaw("Horizontal");
             V_input = Input.GetAxisRaw("Vertical");
+           
 
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKey(KeyCode.LeftShift))
             {
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Walking", false);
-                anim.SetBool("Running", true);         
+                anim.SetBool("Running", true);
+                audio.IsSprinting = true;
+                audio.IsWalking = false;  
             }
-            else if (Input.GetKeyDown(KeyCode.Space))
+            else if (Input.GetKey(KeyCode.Space))
             {
                 anim.SetBool("Running", false);
                 anim.SetBool("Walking", false);
-                anim.SetBool("Jumping", true);     
+                anim.SetBool("Jumping", true);
             }
             else
             {
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Running", false);
-                anim.SetBool("Walking", true);    
-            }
-
-            /*if (moveAmount != new Vector3(0, 0, 0))
-            {
-                //J'ai déplacé les anim en dehors et j'ai expliqué à Alexandre pourquoi
-                Move_anim();
-
-            }
-            else
-            {
-                Idle();
-                audio.IsWalking = false;
+                anim.SetBool("Walking", true);
                 audio.IsSprinting = false;
-                
-            }*/
+
+                if (moveAmount != new Vector3(0, 0, 0))
+                {
+                    audio.IsWalking = true;
+                }
+
+            }
         }
     }
 

@@ -2182,6 +2182,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 892970187}
     m_Modifications:
+    - target: {fileID: -8717727649760357025, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeLayers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8717727649760357025, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 101604, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2284,6 +2292,14 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 4374a45fb4236334fadde4b6a20491d6, type: 2}
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277129328002676519, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: sceneViewId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277129328002676519, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.size
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8890,7 +8906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -307.69965, y: -273}
+  m_AnchoredPosition: {x: -307.69965, y: -273.00003}
   m_SizeDelta: {x: -481.10474, y: -361.2307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669748600
@@ -8942,6 +8958,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1682618921}
     m_Modifications:
+    - target: {fileID: -8717727649760357025, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeLayers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8717727649760357025, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 101604, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -9028,6 +9052,14 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 4374a45fb4236334fadde4b6a20491d6, type: 2}
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277129328002676519, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: sceneViewId
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277129328002676519, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.size
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
