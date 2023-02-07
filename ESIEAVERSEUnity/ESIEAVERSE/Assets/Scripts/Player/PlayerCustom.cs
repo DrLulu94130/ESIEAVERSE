@@ -7,6 +7,7 @@ using TMPro;
 public class PlayerCustom : MonoBehaviour
 {
     [SerializeField] GameObject[] Player;
+    [SerializeField] GameObject Admin;
     int s;
     public static int nj = -1;
     [SerializeField] Animator anim;
@@ -45,23 +46,52 @@ public class PlayerCustom : MonoBehaviour
 
     public void Droite()
     {
-        Player[s].SetActive(false);
+        if (s == 19)
+        {
+            Admin.SetActive(false);
+        }
+        else
+        {
+            Player[s].SetActive(false);
+        }
         s += 1;
-        if(s == 19)
+        if(s == 20)
         {
             s = 0;
         }
-        Player[s].SetActive(true);
+        if(s == 19)
+        {
+            Admin.SetActive(true);
+        }
+        else
+        {
+            Player[s].SetActive(true);
+        }
     }
     public void Gauche()
     {
-        Player[s].SetActive(false);
+
+        if (s == 19)
+        {
+            Admin.SetActive(false);
+        }
+        else
+        {
+            Player[s].SetActive(false);
+        }
         s -= 1;
         if(s == -1)
         {
-            s = 18;
+            s = 19;
         }
-        Player[s].SetActive(true);
+        if (s == 19)
+        {
+            Admin.SetActive(true);
+        }
+        else
+        {
+            Player[s].SetActive(true);
+        }
     }
     public void V()
     {

@@ -2000,6 +2000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Male_Face_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6765876638404841663, guid: c017ef0cd277a2e42969e469623dc825, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6768020438447505177, guid: c017ef0cd277a2e42969e469623dc825, type: 3}
       propertyPath: m_RootOrder
       value: 0
