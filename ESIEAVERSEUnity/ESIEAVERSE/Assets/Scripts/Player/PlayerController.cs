@@ -71,8 +71,19 @@ public class PlayerController : MonoBehaviour
             emote_wheel = false;
         }
 
-        anim.SetFloat("H_input", H_input);
-        anim.SetFloat("V_input", V_input);
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            anim.SetBool("Interact", true);
+            Debug.Log("Interact true");
+        }
+        if (Input.GetKeyUp(KeyCode.F))
+        {
+            anim.SetBool("Interact", false);
+            Debug.Log("Interact false");//ça fonctionne pas??!
+        }
+
+        anim.SetFloat("H_input", H_input, 0.1f, Time.deltaTime);
+        anim.SetFloat("V_input", V_input, 0.1f, Time.deltaTime);
         Look();
         Move();
         Jump();
