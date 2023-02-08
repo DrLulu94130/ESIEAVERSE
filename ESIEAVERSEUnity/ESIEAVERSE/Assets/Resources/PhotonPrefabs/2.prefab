@@ -550,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraHolder: {fileID: 6954059848055913222}
+  Model: {fileID: 0}
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
   sprintSpeed: 5

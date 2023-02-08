@@ -2953,6 +2953,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 892970187}
     m_Modifications:
+    - target: {fileID: -6464632138550317777, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeLayers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6464632138550317777, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: sceneViewId
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 101604, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -13485,7 +13501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -307.69977, y: -273.0001}
+  m_AnchoredPosition: {x: -307.69974, y: -273.00012}
   m_SizeDelta: {x: -481.10474, y: -361.2307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669748600
@@ -13537,6 +13553,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1682618921}
     m_Modifications:
+    - target: {fileID: -6464632138550317777, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeLayers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6464632138550317777, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: sceneViewId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 101604, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_IsActive
       value: 0
