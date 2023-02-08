@@ -611,8 +611,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65894905}
   m_TextComponent: {fileID: 1179168380}
   m_Placeholder: {fileID: 1484162748}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -3459,7 +3459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &413184506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11165,7 +11165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Enter your email
+  m_Text: Enter your Username
 --- !u!222 &1431858726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13485,7 +13485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -307.69977, y: -273.00006}
+  m_AnchoredPosition: {x: -307.69977, y: -273.0001}
   m_SizeDelta: {x: -481.10474, y: -361.2307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669748600
