@@ -23,17 +23,20 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Selected && !AsBeenSelected)
+        if ( Coutdown )
         {
-            AsBeenSelected = true;
-            Coutdown.timeRemaining = .5f;
-            Coutdown.timerIsRunning = true;
-        }
+            if (Selected && !AsBeenSelected)
+            {
+                AsBeenSelected = true;
+                Coutdown.timeRemaining = .5f;
+                Coutdown.timerIsRunning = true;
+            }
 
-        if ( Coutdown.TimerRunOut )
-        {
-            AsBeenSelected = false;
-            Selected = false;
+            if ( Coutdown.TimerRunOut )
+            {
+                AsBeenSelected = false;
+                Selected = false;
+            }
         }
 
 

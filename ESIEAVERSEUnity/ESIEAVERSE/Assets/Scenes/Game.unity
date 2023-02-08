@@ -152,6 +152,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &3818809
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -310,6 +311,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &11594847
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -492,6 +494,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &14515822
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -553,6 +556,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &28208801
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -705,6 +709,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &33763823
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -808,6 +813,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
   Open: 0
+  isChair: 0
 --- !u!114 &50075298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,6 +875,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &60968300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -944,6 +951,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &74605241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1019,6 +1027,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &80422647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1080,6 +1089,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &88837717
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1127,6 +1137,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &92915127
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1202,6 +1213,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &102829819
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1249,6 +1261,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &108467194
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1589,6 +1602,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &114483128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1636,6 +1650,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &117237130
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1767,6 +1782,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &136391861
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1870,6 +1886,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &154927511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1917,6 +1934,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &157098408
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2052,6 +2070,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &179669510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2099,6 +2118,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &180029383
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2146,6 +2166,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &182370024
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2193,6 +2214,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &185353243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2565,6 +2587,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &244371748
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2696,6 +2719,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &256286438
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2858,6 +2882,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &275069938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2975,6 +3000,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &279527877
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3050,6 +3076,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &289549444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3097,6 +3124,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &290984168
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3158,6 +3186,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &295268538
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3247,6 +3276,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &321922458
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3308,6 +3338,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
   Open: 0
+  isChair: 0
 --- !u!114 &323482543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3355,6 +3386,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &331648586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3528,6 +3560,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &366811291
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3589,6 +3622,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &372392752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3636,6 +3670,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &374960140
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3739,6 +3774,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &393405677
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3884,6 +3920,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &442938946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3945,6 +3982,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &444878420
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4020,6 +4058,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &449322468
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4289,6 +4328,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &467505184
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4336,6 +4376,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &471927609
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4383,6 +4424,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &473630118
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4444,6 +4486,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &476905284
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4491,6 +4534,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &478907364
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4552,6 +4596,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
   Open: 0
+  isChair: 0
 --- !u!114 &480880161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4669,6 +4714,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &513561579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4758,6 +4804,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &520459447
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4903,6 +4950,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &543881269
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5193,6 +5241,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &564967590
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5254,6 +5303,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &569705183
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5343,6 +5393,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &594041440
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5432,6 +5483,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &620194406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5493,6 +5545,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &627340338
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5624,6 +5677,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &644242136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5853,6 +5907,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &692906095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5914,6 +5969,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &694876458
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5961,6 +6017,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &696427495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6022,6 +6079,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &698641117
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6247,6 +6305,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &733800632
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6322,6 +6381,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &747526316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6383,6 +6443,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &748557948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6430,6 +6491,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &752809138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6564,6 +6626,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &763855474
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6639,6 +6702,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &770377185
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6686,6 +6750,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &772821200
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6997,6 +7062,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
+  isChair: 0
 --- !u!114 &802068002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7133,6 +7199,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &822403433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7292,6 +7359,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &839267230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7395,6 +7463,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &849800913
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7543,6 +7612,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &866270623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7590,6 +7660,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &866426326
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7805,6 +7876,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &874047933
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7931,6 +8003,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &911423207
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7978,6 +8051,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &913783639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8109,6 +8183,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &934410846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8375,6 +8450,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &949995406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8436,6 +8512,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &957845578
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8614,6 +8691,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &969335840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8843,6 +8921,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1025070267
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9067,6 +9146,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1045270465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9114,6 +9194,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1050816462
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9161,6 +9242,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1054256303
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9222,6 +9304,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1064449112
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9413,6 +9496,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1082048571
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9593,6 +9677,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1084598942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9687,6 +9772,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1105696021
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9762,6 +9848,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1126470245
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9879,6 +9966,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1147385996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10024,6 +10112,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1152091848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10210,6 +10299,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1162728096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10271,6 +10361,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1165759166
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10374,6 +10465,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1171916968
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10617,6 +10709,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1210626290
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10981,6 +11074,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1254336981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11042,6 +11136,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1254543105
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11173,6 +11268,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
   Open: 0
+  isChair: 0
 --- !u!114 &1275888959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11220,6 +11316,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1279454672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11295,6 +11392,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
+  isChair: 0
 --- !u!114 &1286981964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11426,6 +11524,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1307570251
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11473,6 +11572,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1309700610
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11604,6 +11704,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1325581227
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11679,6 +11780,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1328568666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11838,6 +11940,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1362404079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12030,6 +12133,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1374883527
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12077,6 +12181,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1386702039
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12152,6 +12257,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1395763844
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12255,6 +12361,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
+  isChair: 0
 --- !u!114 &1402506940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12316,6 +12423,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1405025579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12405,6 +12513,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1416001579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12466,6 +12575,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1420271233
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12625,6 +12735,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1449820521
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12686,6 +12797,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1452997272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12817,6 +12929,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1469180111
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12985,6 +13098,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1477822188
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13317,6 +13431,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1511552855
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13555,6 +13670,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1523167125
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13706,6 +13822,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1538858433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13767,6 +13884,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1542389948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13828,6 +13946,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1551412145
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13875,6 +13994,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1553803224
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13950,6 +14070,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1563218666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14011,6 +14132,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1571120682
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14058,6 +14180,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1580508746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14105,6 +14228,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1581879035
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14180,6 +14304,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1583785051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14227,6 +14352,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1583870012
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14288,6 +14414,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1594325724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14335,6 +14462,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1600619034
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14382,6 +14510,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1607630954
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14471,6 +14600,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
   Open: 0
+  isChair: 0
 --- !u!114 &1618668990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14518,6 +14648,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1623452432
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14565,6 +14696,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1633168971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14724,6 +14856,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1674339626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14785,6 +14918,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1676311212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14846,6 +14980,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1689881579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14893,6 +15028,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1695559301
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14940,6 +15076,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1698935383
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15043,6 +15180,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1709806938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15104,6 +15242,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1712524448
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15221,6 +15360,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1731848892
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15296,6 +15436,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1748750997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15357,6 +15498,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1750173582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15404,6 +15546,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1756509024
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15479,6 +15622,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1771332282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15540,6 +15684,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1772000841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15719,6 +15864,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1791272906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15905,6 +16051,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1811894279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15966,6 +16113,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
+  isChair: 0
 --- !u!114 &1813005122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16041,6 +16189,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1825593630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16102,6 +16251,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1827051387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16205,6 +16355,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1833037869
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16252,6 +16403,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1835148587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16327,6 +16479,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
   Open: 0
+  isChair: 0
 --- !u!114 &1855198555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16360,6 +16513,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1856431420
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16407,6 +16561,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1858187586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16603,6 +16758,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1862395938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16678,6 +16834,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1873476813
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16993,6 +17150,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1885549793
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17096,6 +17254,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1896438731
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17218,6 +17377,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1922344732
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17265,6 +17425,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1923812095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17382,6 +17543,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1953327102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17429,6 +17591,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1953367710
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17695,6 +17858,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1978865554
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17756,6 +17920,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &1980919097
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18092,6 +18257,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2003653789
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18139,6 +18305,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2012485641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18303,6 +18470,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2022398647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18434,6 +18602,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2038719043
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18481,6 +18650,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2041167292
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18542,6 +18712,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2047351888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18603,6 +18774,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2053134836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18678,6 +18850,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
+  isChair: 0
 --- !u!114 &2065038513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18725,6 +18898,7 @@ MonoBehaviour:
   localRot1: {x: 0, y: 0, z: 0, w: 0}
   localRot2: {x: 0, y: 0, z: 0, w: 0}
   Open: 0
+  isChair: 1
 --- !u!64 &2068193330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18814,6 +18988,7 @@ MonoBehaviour:
   localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
   localRot2: {x: 0.5213338, y: -0.47771436, z: -0.47771436, w: -0.5213338}
   Open: 0
+  isChair: 0
 --- !u!114 &2070605134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35567,8 +35742,6 @@ GameObject:
   - component: {fileID: 2557739905839836911}
   - component: {fileID: 624908318801203397}
   - component: {fileID: 825374440}
-  - component: {fileID: 4420762959770935902}
-  - component: {fileID: 4420762959770935901}
   m_Layer: 0
   m_Name: RDC_PORTE_PETITE
   m_TagString: Untagged
@@ -35576,40 +35749,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4420762959770935901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420762959770935900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: 0.49999997, y: 0.49999997, z: 0.49999997, w: -0.49999997}
-  Open: 0
---- !u!114 &4420762959770935902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420762959770935900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coutdown: {fileID: 0}
-  Door: {fileID: 0}
-  Switch: {fileID: 0}
-  Selection: {fileID: 0}
-  Triggered: 0
-  Selected: 0
-  AsBeenSelected: 0
 --- !u!4 &4427374318375594187
 Transform:
   m_ObjectHideFlags: 0
@@ -49460,8 +49599,6 @@ GameObject:
   - component: {fileID: 8819561038740519861}
   - component: {fileID: 2574085159742354324}
   - component: {fileID: 1305736488}
-  - component: {fileID: 8819561038740519863}
-  - component: {fileID: 8819561038740519862}
   m_Layer: 0
   m_Name: RDC_PORTE_GRANDE
   m_TagString: Untagged
@@ -50638,40 +50775,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8564621234725073858}
   m_Mesh: {fileID: 3565130090841767925, guid: 49e06e308a533ae46b2ffecba4439409, type: 3}
---- !u!114 &8819561038740519862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8564621234725073858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localRot1: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  localRot2: {x: 0.5416752, y: -0.45451945, z: -0.45451945, w: -0.5416752}
-  Open: 0
---- !u!114 &8819561038740519863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8564621234725073858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coutdown: {fileID: 0}
-  Door: {fileID: 0}
-  Switch: {fileID: 0}
-  Selection: {fileID: 0}
-  Triggered: 0
-  Selected: 0
-  AsBeenSelected: 0
 --- !u!33 &8819730867782830303
 MeshFilter:
   m_ObjectHideFlags: 0

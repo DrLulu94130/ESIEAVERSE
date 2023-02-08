@@ -7,6 +7,7 @@ public class DoorInteraction : MonoBehaviour
     public Quaternion localRot1;
     public Quaternion localRot2;
     public bool Open;
+    public bool isChair;
 
     Transform tf;
 
@@ -26,14 +27,16 @@ public class DoorInteraction : MonoBehaviour
         {
             tf.rotation = localRot1;
         }
-
-        if ( !GetComponent<Timer>().TimerRunOut )
+        if ( !isChair )
         {
-            GetComponent<Outline>().enabled = true;
-        }
-        else
-        {
-            GetComponent<Outline>().enabled = false;
+            if ( !GetComponent<Timer>().TimerRunOut )
+            {
+                GetComponent<Outline>().enabled = true;
+            }
+            else
+            {
+                GetComponent<Outline>().enabled = false;
+            }
         }
     }
 }
