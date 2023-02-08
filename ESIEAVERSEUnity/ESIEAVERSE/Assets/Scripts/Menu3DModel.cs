@@ -17,7 +17,7 @@ public class Menu3DModel : MonoBehaviour
         {
             Player[10].SetActive(true);
         }
-        anim.SetInteger("d", Random.Range(0, 4));
+        //anim.SetInteger("d", Random.Range(0, 4));
     }
     public void LeaveModel()
     {

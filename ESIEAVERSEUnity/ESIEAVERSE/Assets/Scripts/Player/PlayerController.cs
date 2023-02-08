@@ -21,6 +21,11 @@ public class PlayerController : MonoBehaviour
 
     PhotonView PV;
 
+    float H_input;
+    float V_input;
+
+    bool emotewheel = false;
+
     private void Awake()
     {
         SoundManager.Instance.StopSound();
@@ -61,9 +66,26 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            emotewheel = true;
+        }
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            emotewheel = false;
+        }
+
+        H_input = Input.GetAxis("Horizontal");
+        V_input = Input.GetAxis("Vertical");
+
+        anim.SetFloat("H_input", H_input, 0.1f, smoothTime);
+        anim.SetFloat("V_input", V_input, 0.1f, smoothTime);
+
         Look();
         Move();
         Jump();
+
+
         if (Cursor.lockState != CursorLockMode.Locked)
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -96,49 +118,46 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
-            if (moveAmount != new Vector3(0, 0, 0))
+
+            if (Input.GetKey(KeyCode.LeftShift))
             {
 
-                if(Input.GetKeyDown(KeyCode.W))
-                {
-                    anim.SetBool("walk", true);
-                    audio.IsWalking = true;
-                }
+                anim.SetBool("Walking", false);
+                anim.SetBool("Jumping", false);
+                anim.SetBool("Running", true);
+                audio.IsSprinting = true;
+                audio.IsWalking = false;
+            }
+            else if (Input.GetKey(KeyCode.Space))
+            {
 
-                if (Input.GetKeyDown(KeyCode.S))
-                {
-                    anim.SetBool("backward", true);
-                    audio.IsWalking = true;
-                }
-                if (Input.GetKeyDown(KeyCode.A))
-                {
-                    anim.SetBool("walkL", true);
-                    audio.IsWalking = true;
-                }
-                if (Input.GetKeyDown(KeyCode.D))
-                {
-                    anim.SetBool("walkR", true);
-                    audio.IsWalking = true;
-                }
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    anim.SetBool("jump", true);
-                    audio.IsWalking = true;
-                }
+                anim.SetBool("Walking", false);
+                anim.SetBool("Running", false);
+                anim.SetBool("Jumping", true);
+            }
+            else if (Input.GetKey(KeyCode.F))
+            {
 
+                anim.SetTrigger("Interact");
+            }
+            else
+            {
+
+                anim.SetBool("Running", false);
+                anim.SetBool("Jumping", false);
+                anim.SetBool("Walking", true);
+                audio.IsSprinting = false;
+                audio.IsWalking = true;
+            }
+
+            /*if (moveAmount != new Vector3(0, 0, 0))
+            {
 
             }
             else
             {
-                anim.SetBool("run", false);
-                anim.SetBool("walk", false);
-                anim.SetBool("backward", false);
-                anim.SetBool("walkL", false);
-                anim.SetBool("walkR", false);
-                anim.SetBool("jump", false);
                 
-                audio.IsWalking = false;
-            }
+            }*/
         }
     }
 
