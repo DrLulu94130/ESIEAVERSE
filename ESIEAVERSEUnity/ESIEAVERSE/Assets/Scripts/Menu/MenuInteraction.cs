@@ -6,13 +6,27 @@ using System.Collections;
 using static UnityEngine.Random;
 public class MenuInteraction : MonoBehaviour, ISelectHandler, IPointerEnterHandler
 {
+    public Menu3DModel GetN;
     [SerializeField] Animator anim;
+    [SerializeField] int PlayerValue;
+    [SerializeField] GameObject[] Player;
     private void Start()
     {
-
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
+        PlayerValue = GetN.n;
+        for ( int i = 0 ; i < 20 ; i++ )
+        {
+            if ( PlayerValue == i )
+            {
+                Player[i].GetComponent<Outline>().enabled = true;
+            }
+            else
+            {
+                Player[i].GetComponent<Outline>().enabled = false;
+            }
+        }
         float randomNumber = Range(0, 10);
         if (randomNumber == 0)
         {

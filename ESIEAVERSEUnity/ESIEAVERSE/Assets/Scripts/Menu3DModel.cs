@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Menu3DModel : MonoBehaviour
 {
+    public int n;
     [SerializeField] GameObject[] Player;
     [SerializeField] Animator anim;
     void Update()
     {
-        int n = PlayerCustom.nj;
+        n = PlayerCustom.nj;
         if (n != -1)
         {
             Player[n].SetActive(true);
@@ -17,11 +18,10 @@ public class Menu3DModel : MonoBehaviour
         {
             Player[10].SetActive(true);
         }
-        anim.SetInteger("d", Random.Range(0, 4));
     }
     public void LeaveModel()
     {
-        int n = PlayerCustom.nj;
+        n = PlayerCustom.nj;
         if (n != -1)
         {
             Player[n].SetActive(false);
