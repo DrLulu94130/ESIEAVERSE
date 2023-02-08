@@ -519,6 +519,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 8785338103037140559}
+  - {fileID: -9144721208547472705}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -719,8 +720,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters: []
-  m_SynchronizeLayers: []
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 0
+    Name: H_input
+  - Type: 1
+    SynchronizeType: 0
+    Name: V_input
+  - Type: 4
+    SynchronizeType: 0
+    Name: Walking
+  - Type: 4
+    SynchronizeType: 0
+    Name: Running
+  - Type: 4
+    SynchronizeType: 0
+    Name: Jumping
+  - Type: 9
+    SynchronizeType: 0
+    Name: Interact
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!1 &4716941208325611954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1250,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8519526763986837247}
     m_Modifications:
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.data[0]
+      value: 
+      objectReference: {fileID: 1489424887785275962}
     - target: {fileID: 100518, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -1604,7 +1633,7 @@ PrefabInstance:
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 4eed3a0bf29918f46a01b1cee16c3dcf, type: 2}
+      objectReference: {fileID: 9100000, guid: f23823d3f2fcfe64db4f7fab1c66a177, type: 2}
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_UpdateMode
       value: 0
@@ -1711,7 +1740,7 @@ MonoBehaviour:
   - {fileID: 8869196606634128602}
   - {fileID: 8869196606634069774}
   - {fileID: 8869196606634047486}
---- !u!114 &802341248978876792
+--- !u!114 &1489424887785275962
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1726,11 +1755,26 @@ MonoBehaviour:
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
   m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 2
+    Name: H_input
+  - Type: 1
+    SynchronizeType: 2
+    Name: V_input
   - Type: 4
     SynchronizeType: 1
-    Name: run
+    Name: Walking
+  - Type: 4
+    SynchronizeType: 1
+    Name: Running
+  - Type: 4
+    SynchronizeType: 1
+    Name: Jumping
+  - Type: 9
+    SynchronizeType: 1
+    Name: Interact
   m_SynchronizeLayers:
-  - SynchronizeType: 1
+  - SynchronizeType: 2
     LayerIndex: 0
 --- !u!1 &8869196606634069774 stripped
 GameObject:
