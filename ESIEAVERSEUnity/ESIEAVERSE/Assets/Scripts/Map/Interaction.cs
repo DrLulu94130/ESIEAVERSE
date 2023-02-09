@@ -7,7 +7,6 @@ public class Interaction : MonoBehaviour
     public Timer Coutdown;
     public DoorInteraction Door;
     public LightSwitch Switch;
-    public Outline Selection;
     public bool Triggered;
     public bool Selected;
     public bool AsBeenSelected;

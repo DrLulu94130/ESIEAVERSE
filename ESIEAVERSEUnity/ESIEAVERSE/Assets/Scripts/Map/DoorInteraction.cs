@@ -8,6 +8,12 @@ public class DoorInteraction : MonoBehaviour
     public Quaternion localRot2;
     public bool Open;
     public bool isChair;
+    public bool lastPosition;
+
+    public AudioClip gatesoundopen;
+    public AudioClip gatesoundclose;
+    public AudioSource audioSource;
+
 
     Transform tf;
 
@@ -27,16 +33,26 @@ public class DoorInteraction : MonoBehaviour
         {
             tf.rotation = localRot1;
         }
-        if ( !isChair )
+        if ( lastPosition != Open )
         {
-            if ( !GetComponent<Timer>().TimerRunOut )
+            lastPosition = Open;
+            if ( Open )
             {
-                GetComponent<Outline>().enabled = true;
+                audioSource.PlayOneShot(gatesoundopen);
             }
             else
             {
-                GetComponent<Outline>().enabled = false;
+                audioSource.PlayOneShot(gatesoundopen);
             }
+        }
+
+        if ( !GetComponent<Timer>().TimerRunOut )
+        {
+            GetComponent<Outline>().enabled = true;
+        }
+        else
+        {
+            GetComponent<Outline>().enabled = false;
         }
     }
 }
