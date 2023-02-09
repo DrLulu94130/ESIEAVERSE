@@ -229,9 +229,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &3162170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,8 +282,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &3818809
 MeshCollider:
@@ -483,8 +483,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &11594847
 MeshCollider:
@@ -708,8 +708,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &14515822
 MeshCollider:
@@ -816,9 +816,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &19926180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,9 +906,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &20827577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,9 +1199,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &26265387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1290,8 +1290,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &28208801
 MeshCollider:
@@ -1503,9 +1503,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &31842387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1556,8 +1556,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &33763823
 MeshCollider:
@@ -1721,8 +1721,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &50075298
 MonoBehaviour:
@@ -1829,9 +1829,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &58618335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1915,8 +1915,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &60968300
 MeshCollider:
@@ -2052,8 +2052,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &74605241
 MeshCollider:
@@ -2141,9 +2141,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &76407587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2250,9 +2250,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &78306651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2331,8 +2331,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &80422647
 MeshCollider:
@@ -2420,9 +2420,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &81034014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2524,9 +2524,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &84047500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,8 +2615,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &88837717
 MeshCollider:
@@ -2667,8 +2667,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &92915127
 MeshCollider:
@@ -2775,9 +2775,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &98562858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2865,9 +2865,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &99871776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2946,8 +2946,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &102829819
 MeshCollider:
@@ -2998,8 +2998,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &108467194
 MeshCollider:
@@ -3404,8 +3404,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &114483128
 MeshCollider:
@@ -3493,9 +3493,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &116103050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3565,8 +3565,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &117237130
 MeshCollider:
@@ -3834,8 +3834,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &136391861
 MeshCollider:
@@ -3999,8 +3999,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &154927511
 MeshCollider:
@@ -4070,8 +4070,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &157098408
 MeshCollider:
@@ -4301,9 +4301,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &169910429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4452,8 +4452,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &179669510
 MeshCollider:
@@ -4541,9 +4541,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &179822575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4613,8 +4613,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &180029383
 MeshCollider:
@@ -4684,8 +4684,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &182370024
 MeshCollider:
@@ -4811,9 +4811,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &184582900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4883,8 +4883,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &185353243
 MeshCollider:
@@ -4991,9 +4991,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &188040843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5171,7 +5171,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195840771}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -5186,7 +5186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195840771}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -5196,9 +5196,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &195840776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5206,7 +5206,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195840771}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -5584,8 +5584,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &216805386
 MonoBehaviour:
@@ -5758,9 +5758,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &222588899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6043,9 +6043,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &230396919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,8 +6261,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &244371748
 MeshCollider:
@@ -6444,9 +6444,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &254035375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6525,8 +6525,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &256286438
 MeshCollider:
@@ -6741,9 +6741,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &272534609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6831,9 +6831,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &273438266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6929,8 +6929,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &275069938
 MeshCollider:
@@ -7051,8 +7051,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &279527877
 MeshCollider:
@@ -7168,9 +7168,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &287749067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7221,8 +7221,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &289549444
 MeshCollider:
@@ -7292,8 +7292,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &290984168
 MeshCollider:
@@ -7381,9 +7381,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &292931687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7448,8 +7448,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &295268538
 MeshCollider:
@@ -7537,9 +7537,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &295323249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7627,9 +7627,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &298073042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7864,9 +7864,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &311145740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7983,8 +7983,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &315030688
 MonoBehaviour:
@@ -8054,8 +8054,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &321922458
 MeshCollider:
@@ -8120,8 +8120,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &323482543
 MonoBehaviour:
@@ -8229,8 +8229,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &331648586
 MeshCollider:
@@ -8318,9 +8318,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &332596927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8441,9 +8441,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &336164806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8531,9 +8531,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &337111353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8833,9 +8833,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &359192407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8919,8 +8919,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &366811291
 MeshCollider:
@@ -9004,8 +9004,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &372392752
 MeshCollider:
@@ -9093,9 +9093,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &372606652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9146,8 +9146,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &374960140
 MeshCollider:
@@ -9273,9 +9273,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &380261321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9377,9 +9377,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &383469288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9443,7 +9443,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384024985}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -9458,7 +9458,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384024985}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -9468,9 +9468,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &384024990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9478,7 +9478,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384024985}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -9609,9 +9609,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &388897223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9709,8 +9709,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &393405677
 MeshCollider:
@@ -9949,9 +9949,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &422331857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10215,8 +10215,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &442938946
 MeshCollider:
@@ -10281,8 +10281,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &444878420
 MeshCollider:
@@ -10399,8 +10399,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &449322468
 MeshCollider:
@@ -10748,9 +10748,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &464825444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10857,9 +10857,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &465882189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10929,8 +10929,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &467505184
 MeshCollider:
@@ -11018,9 +11018,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &467679561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11109,8 +11109,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &471927609
 MeshCollider:
@@ -11161,8 +11161,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &473630118
 MeshCollider:
@@ -11227,8 +11227,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &476905284
 MeshCollider:
@@ -11298,8 +11298,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &478907364
 MeshCollider:
@@ -11364,8 +11364,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &480880161
 MonoBehaviour:
@@ -11675,9 +11675,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &508395918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11785,8 +11785,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &513561579
 MeshCollider:
@@ -12049,8 +12049,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &520459447
 MeshCollider:
@@ -12138,9 +12138,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &521882255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12275,9 +12275,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &526769296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12398,9 +12398,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &532860841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12535,9 +12535,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &536413741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12658,9 +12658,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &540359994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12744,8 +12744,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &543881269
 MeshCollider:
@@ -13153,8 +13153,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &564967590
 MeshCollider:
@@ -13219,8 +13219,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &569705183
 MeshCollider:
@@ -13412,9 +13412,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &576160249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13559,9 +13559,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &585609401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13815,8 +13815,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &594041440
 MeshCollider:
@@ -13951,9 +13951,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &605122935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14131,9 +14131,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &617847628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14184,8 +14184,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &620194406
 MeshCollider:
@@ -14273,9 +14273,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &620409835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14359,8 +14359,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &627340338
 MeshCollider:
@@ -14594,7 +14594,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636789255}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -14609,7 +14609,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636789255}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -14619,9 +14619,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &636789260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14629,7 +14629,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636789255}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -14756,8 +14756,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &644242136
 MeshCollider:
@@ -15255,9 +15255,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &687135167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15383,9 +15383,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &691797716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15436,8 +15436,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &692906095
 MeshCollider:
@@ -15502,8 +15502,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &694876458
 MeshCollider:
@@ -15573,8 +15573,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &696427495
 MeshCollider:
@@ -15658,8 +15658,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &698641117
 MeshCollider:
@@ -15780,9 +15780,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &703869053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16073,9 +16073,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &711030462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16163,9 +16163,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &713734627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16347,9 +16347,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &725052863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16456,9 +16456,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &727866262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16528,8 +16528,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &733800632
 MeshCollider:
@@ -16636,9 +16636,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &738215135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16812,8 +16812,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &747526316
 MeshCollider:
@@ -16878,8 +16878,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &748557948
 MeshCollider:
@@ -17001,8 +17001,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &751199576
 MonoBehaviour:
@@ -17058,8 +17058,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &752809138
 MeshCollider:
@@ -17176,8 +17176,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &753741944
 MonoBehaviour:
@@ -17363,8 +17363,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &763855474
 MeshCollider:
@@ -17452,9 +17452,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &764683717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17571,8 +17571,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &770377185
 MeshCollider:
@@ -17642,8 +17642,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &772821200
 MeshCollider:
@@ -17745,9 +17745,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &777592787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18017,9 +18017,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &788920367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18107,9 +18107,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &791242957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18216,9 +18216,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &792164107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18432,8 +18432,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &802068002
 MonoBehaviour:
@@ -18653,9 +18653,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &816150883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18762,9 +18762,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &819942360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18867,8 +18867,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &822403433
 MeshCollider:
@@ -18956,9 +18956,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &822511873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19178,8 +19178,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &839267230
 MeshCollider:
@@ -19309,9 +19309,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &846112181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19414,8 +19414,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &849800913
 MeshCollider:
@@ -19522,9 +19522,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &851759060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19665,8 +19665,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &857616302
 MonoBehaviour:
@@ -19880,8 +19880,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &866270623
 MeshCollider:
@@ -19932,8 +19932,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &866426326
 MeshCollider:
@@ -20106,9 +20106,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &868119298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20196,9 +20196,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &868220839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20446,8 +20446,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &874047933
 MeshCollider:
@@ -20823,9 +20823,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &907303962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20913,9 +20913,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &909896727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20966,8 +20966,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &911423207
 MeshCollider:
@@ -21018,8 +21018,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &913783639
 MeshCollider:
@@ -21183,9 +21183,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &923377106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21325,8 +21325,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &934410846
 MeshCollider:
@@ -21733,9 +21733,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &945022573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21800,8 +21800,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &949995406
 MeshCollider:
@@ -21885,8 +21885,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &957845578
 MeshCollider:
@@ -22182,8 +22182,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &969335840
 MeshCollider:
@@ -22413,9 +22413,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &993236313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22522,9 +22522,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &996567950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22795,9 +22795,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1014035978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22952,8 +22952,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1025070267
 MeshCollider:
@@ -23300,9 +23300,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1040976805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23428,9 +23428,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1042375118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23495,8 +23495,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1045270465
 MeshCollider:
@@ -23547,8 +23547,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1050816462
 MeshCollider:
@@ -23637,8 +23637,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1054256303
 MeshCollider:
@@ -23759,9 +23759,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1062144219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23812,8 +23812,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1064449112
 MeshCollider:
@@ -24003,9 +24003,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1065108092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24173,9 +24173,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1077695675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24264,8 +24264,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1082048571
 MeshCollider:
@@ -24487,9 +24487,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1084107471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24540,8 +24540,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1084598942
 MeshCollider:
@@ -24634,9 +24634,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1088212791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24795,9 +24795,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1096470826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25102,9 +25102,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1102408975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25193,8 +25193,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1105696021
 MeshCollider:
@@ -25258,7 +25258,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105991300}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -25273,7 +25273,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105991300}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -25283,9 +25283,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1105991305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25293,7 +25293,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105991300}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -25539,9 +25539,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1106854990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25662,9 +25662,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1112655951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25734,8 +25734,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1126470245
 MeshCollider:
@@ -25955,9 +25955,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1144395668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26045,9 +26045,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1145057089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26282,8 +26282,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1147385996
 MeshCollider:
@@ -26488,9 +26488,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1151836943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26541,8 +26541,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1152091848
 MeshCollider:
@@ -26865,8 +26865,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1162728096
 MeshCollider:
@@ -26988,8 +26988,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1165759166
 MeshCollider:
@@ -27096,8 +27096,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1171916968
 MeshCollider:
@@ -27344,9 +27344,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1196661783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27491,8 +27491,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1210626290
 MeshCollider:
@@ -27688,9 +27688,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1217194137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28198,8 +28198,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1254336981
 MeshCollider:
@@ -28264,8 +28264,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1254543105
 MeshCollider:
@@ -28386,9 +28386,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1258796136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28523,9 +28523,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1261690212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28679,9 +28679,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1271829649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28769,9 +28769,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1273340619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28878,9 +28878,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1275013852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28945,8 +28945,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1275888959
 MonoBehaviour:
@@ -28997,8 +28997,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1279454672
 MeshCollider:
@@ -29096,8 +29096,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1286981964
 MonoBehaviour:
@@ -29185,9 +29185,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1289802716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29251,7 +29251,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290345674}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -29266,7 +29266,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290345674}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -29276,9 +29276,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1290345679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29286,7 +29286,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290345674}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -29450,8 +29450,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1307570251
 MeshCollider:
@@ -29521,8 +29521,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1309700610
 MeshCollider:
@@ -29752,8 +29752,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1325581227
 MeshCollider:
@@ -29855,9 +29855,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1327622782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29922,8 +29922,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1328568666
 MeshCollider:
@@ -30209,9 +30209,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1350561495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30371,8 +30371,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1357351491
 MonoBehaviour:
@@ -30456,8 +30456,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1362404079
 MeshCollider:
@@ -30728,9 +30728,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1371586017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30837,9 +30837,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1374737373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30890,8 +30890,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1374883527
 MeshCollider:
@@ -31093,9 +31093,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1386179926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31146,8 +31146,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1386702039
 MeshCollider:
@@ -31235,9 +31235,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1388440615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31373,8 +31373,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1395763844
 MeshCollider:
@@ -31462,9 +31462,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1395996969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31609,8 +31609,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1402506940
 MonoBehaviour:
@@ -31675,8 +31675,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1405025579
 MeshCollider:
@@ -31807,8 +31807,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1416001579
 MeshCollider:
@@ -31873,8 +31873,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1420271233
 MeshCollider:
@@ -32019,9 +32019,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1427462490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32269,9 +32269,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1442823238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32350,8 +32350,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1449820521
 MeshCollider:
@@ -32416,8 +32416,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1452997272
 MeshCollider:
@@ -32613,9 +32613,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1464871949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32737,8 +32737,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1466769416
 MonoBehaviour:
@@ -32864,9 +32864,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1468613514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32917,8 +32917,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1469180111
 MeshCollider:
@@ -33006,9 +33006,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1469320587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33237,9 +33237,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1474915831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33328,8 +33328,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1477822188
 MeshCollider:
@@ -33417,9 +33417,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1480153836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33615,9 +33615,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1487596319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33907,9 +33907,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1496013536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34063,9 +34063,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1506343650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34234,8 +34234,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1511552855
 MeshCollider:
@@ -34629,9 +34629,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1519978919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34701,8 +34701,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1523167125
 MeshCollider:
@@ -34790,9 +34790,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1525189321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35024,8 +35024,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1538858433
 MeshCollider:
@@ -35090,8 +35090,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1542389948
 MeshCollider:
@@ -35179,9 +35179,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1542595853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35265,8 +35265,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1551412145
 MeshCollider:
@@ -35336,8 +35336,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1553803224
 MeshCollider:
@@ -35492,8 +35492,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1563218666
 MeshCollider:
@@ -35652,9 +35652,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1569377852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35705,8 +35705,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1571120682
 MeshCollider:
@@ -35795,8 +35795,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1580508746
 MeshCollider:
@@ -35847,8 +35847,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1581879035
 MeshCollider:
@@ -35946,8 +35946,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1583785051
 MeshCollider:
@@ -35998,8 +35998,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1583870012
 MeshCollider:
@@ -36083,8 +36083,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1594325724
 MeshCollider:
@@ -36211,8 +36211,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1600619034
 MeshCollider:
@@ -36338,9 +36338,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1607610588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36391,8 +36391,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1607630954
 MeshCollider:
@@ -36494,9 +36494,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1611223620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36594,8 +36594,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1618668990
 MonoBehaviour:
@@ -36669,9 +36669,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1621375183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36736,8 +36736,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1623452432
 MeshCollider:
@@ -36845,8 +36845,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1633168971
 MeshCollider:
@@ -36934,9 +36934,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1633274468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37109,9 +37109,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1641515137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37474,8 +37474,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1674339626
 MeshCollider:
@@ -37540,8 +37540,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1676311212
 MeshCollider:
@@ -37629,9 +37629,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1679144552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37684,6 +37684,134 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8835839463093124709, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
+--- !u!1 &1679802973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679802975}
+  - component: {fileID: 1679802974}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1679802974
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679802973}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 5
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1679802975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679802973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1682912722
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37734,8 +37862,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1689881579
 MeshCollider:
@@ -37881,8 +38009,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1695559301
 MeshCollider:
@@ -37952,8 +38080,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1698935383
 MeshCollider:
@@ -38075,8 +38203,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1700643978
 MonoBehaviour:
@@ -38178,9 +38306,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1703831030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38283,8 +38411,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1705406506
 MonoBehaviour:
@@ -38349,8 +38477,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1709806938
 MeshCollider:
@@ -38428,7 +38556,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710720484}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -38443,7 +38571,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710720484}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -38453,9 +38581,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1710720489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38463,7 +38591,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710720484}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -38524,8 +38652,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1712524448
 MeshCollider:
@@ -38646,9 +38774,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1721678577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38821,9 +38949,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1728376614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38939,9 +39067,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1730730243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39011,8 +39139,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1731848892
 MeshCollider:
@@ -39138,9 +39266,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1734496146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39242,9 +39370,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1738596347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39366,8 +39494,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1748750997
 MeshCollider:
@@ -39432,8 +39560,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1750173582
 MeshCollider:
@@ -39522,8 +39650,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1756509024
 MeshCollider:
@@ -39677,9 +39805,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1766790666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39767,9 +39895,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1768291739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39820,8 +39948,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1771332282
 MeshCollider:
@@ -39905,8 +40033,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1772000841
 MeshCollider:
@@ -40065,9 +40193,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1781851663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40273,9 +40401,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1786039376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40364,8 +40492,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1791272906
 MeshCollider:
@@ -40550,9 +40678,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1798830797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40664,8 +40792,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1811894279
 MeshCollider:
@@ -40730,8 +40858,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1813005122
 MonoBehaviour:
@@ -40819,9 +40947,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1818460405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40938,8 +41066,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1822294661
 MonoBehaviour:
@@ -40990,8 +41118,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1825593630
 MeshCollider:
@@ -41056,8 +41184,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1827051387
 MeshCollider:
@@ -41173,9 +41301,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1828343558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41273,8 +41401,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1833037869
 MeshCollider:
@@ -41344,8 +41472,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1835148587
 MeshCollider:
@@ -41428,7 +41556,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838182346}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -41443,7 +41571,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838182346}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -41453,9 +41581,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1838182351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41463,7 +41591,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838182346}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -41576,8 +41704,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1841093737
 MonoBehaviour:
@@ -41684,9 +41812,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1844547247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41831,9 +41959,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1852328173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41921,9 +42049,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1853810042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42007,8 +42135,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1855198555
 MonoBehaviour:
@@ -42064,8 +42192,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1856431420
 MeshCollider:
@@ -42153,9 +42281,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1857717307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42206,8 +42334,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1858187586
 MeshCollider:
@@ -42407,8 +42535,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1862395938
 MeshCollider:
@@ -43767,9 +43895,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1871642721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43839,8 +43967,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1873476813
 MeshCollider:
@@ -43961,9 +44089,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1876188133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44066,8 +44194,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1879110135
 MonoBehaviour:
@@ -44377,8 +44505,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1885549793
 MeshCollider:
@@ -44551,9 +44679,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1891454074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44679,9 +44807,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1892917709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44760,8 +44888,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1896438731
 MeshCollider:
@@ -44868,9 +44996,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1899986099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44986,9 +45114,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1903210663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45157,8 +45285,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1919126914
 MonoBehaviour:
@@ -45233,8 +45361,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1922344732
 MeshCollider:
@@ -45304,8 +45432,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1923812095
 MeshCollider:
@@ -45445,9 +45573,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1930782397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45630,8 +45758,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1953327102
 MeshCollider:
@@ -45682,8 +45810,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1953367710
 MeshCollider:
@@ -45954,9 +46082,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1962566258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46092,8 +46220,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1967699901
 MonoBehaviour:
@@ -46181,9 +46309,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1971108204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46323,9 +46451,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1972872837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46409,8 +46537,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1978865554
 MeshCollider:
@@ -46475,8 +46603,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &1980919097
 MeshCollider:
@@ -46703,9 +46831,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1985003745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46831,9 +46959,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &1986234312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47072,8 +47200,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2003653789
 MeshCollider:
@@ -47200,8 +47328,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2012485641
 MeshCollider:
@@ -47483,8 +47611,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2022398647
 MeshCollider:
@@ -47643,9 +47771,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2027483105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47733,9 +47861,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2027665972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47970,8 +48098,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2038719043
 MeshCollider:
@@ -48041,8 +48169,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2041167292
 MeshCollider:
@@ -48164,8 +48292,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &2042038411
 MonoBehaviour:
@@ -48216,8 +48344,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2047351888
 MeshCollider:
@@ -48282,8 +48410,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2053134836
 MeshCollider:
@@ -48386,8 +48514,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &2058825036
 MonoBehaviour:
@@ -48513,9 +48641,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2063704600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48580,8 +48708,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &2065038513
 MonoBehaviour:
@@ -48632,8 +48760,8 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!64 &2068193330
 MeshCollider:
@@ -48745,8 +48873,8 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
+  AudioOpen: {fileID: 0}
+  AudioClose: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &2070605134
 MonoBehaviour:
@@ -48871,7 +48999,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078452472}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -48886,7 +49014,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078452472}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -48896,9 +49024,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2078452477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48906,7 +49034,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078452472}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -49093,7 +49221,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096487416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
   m_Name: 
@@ -49108,7 +49236,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096487416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
@@ -49118,9 +49246,9 @@ MonoBehaviour:
   Open: 0
   isChair: 0
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: d20eb39c4d211144e9039f73bd844028, type: 3}
+  AudioClose: {fileID: 8300000, guid: 275db498503a3a047b1ef5fc472ee3d7, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2096487421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49128,7 +49256,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096487416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
@@ -51086,9 +51214,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2114375678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51459,9 +51587,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2124303199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51549,9 +51677,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2124540505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51672,9 +51800,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2135591615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51804,9 +51932,9 @@ MonoBehaviour:
   Open: 0
   isChair: 1
   lastPosition: 0
-  gatesoundopen: {fileID: 0}
-  gatesoundclose: {fileID: 0}
-  audioSource: {fileID: 0}
+  AudioOpen: {fileID: 8300000, guid: 0cfc5ca74b547424d83a04d51d7edb98, type: 3}
+  AudioClose: {fileID: 8300000, guid: 1e9eaea30cdcc0b47bed3f7e7f09c176, type: 3}
+  audioSource: {fileID: 1679802974}
 --- !u!114 &2142294105
 MonoBehaviour:
   m_ObjectHideFlags: 0

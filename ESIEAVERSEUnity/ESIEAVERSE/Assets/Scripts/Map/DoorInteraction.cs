@@ -10,8 +10,8 @@ public class DoorInteraction : MonoBehaviour
     public bool isChair;
     public bool lastPosition;
 
-    public AudioClip gatesoundopen;
-    public AudioClip gatesoundclose;
+    public AudioClip AudioOpen;
+    public AudioClip AudioClose;
     public AudioSource audioSource;
 
 
@@ -38,11 +38,11 @@ public class DoorInteraction : MonoBehaviour
             lastPosition = Open;
             if ( Open )
             {
-                audioSource.PlayOneShot(gatesoundopen);
+                audioSource.PlayOneShot(AudioOpen);
             }
             else
             {
-                audioSource.PlayOneShot(gatesoundopen);
+                audioSource.PlayOneShot(AudioClose);
             }
         }
 
