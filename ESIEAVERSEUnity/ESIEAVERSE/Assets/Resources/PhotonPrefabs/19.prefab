@@ -764,7 +764,6 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 8785338103037140559}
-  - {fileID: 802341248978876792}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -793,18 +792,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 3494255123471490523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa0701205530e2342b27385d4cf9ab88, type: 3}
+  m_Script: {fileID: 11500000, guid: 82c3414d027810b44833035907317f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraHolder: {fileID: 6954059848055913222}
+  cameraHolder: {fileID: 0}
   Model: {fileID: 0}
-  anim: {fileID: 6534557734146509320}
-  mouseSensitivity: 3
-  sprintSpeed: 10
-  walkSpeed: 12
-  jumpForce: 300
-  smoothTime: 0.15
-  audio: {fileID: 1806796503662609482}
+  anim: {fileID: 0}
+  mouseSensitivity: 0
+  sprintSpeed: 0
+  walkSpeed: 0
+  jumpForce: 0
+  smoothTime: 0
+  audio: {fileID: 0}
 --- !u!114 &473203453501083107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1484,11 +1483,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a34e2e9511ab63041850d60a4868cfcf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
---- !u!95 &6534557734146509320 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
-  m_PrefabInstance: {fileID: 6534557734153846632}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6534557734153709048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400016, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
@@ -1501,6 +1495,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8519526763986837247}
     m_Modifications:
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4366892131001638989, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: ObservedComponents.Array.data[0]
+      value: 
+      objectReference: {fileID: 802341248978876792}
     - target: {fileID: 100518, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -1880,7 +1882,7 @@ PrefabInstance:
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 4eed3a0bf29918f46a01b1cee16c3dcf, type: 2}
+      objectReference: {fileID: 9100000, guid: f23823d3f2fcfe64db4f7fab1c66a177, type: 2}
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_UpdateMode
       value: 0
@@ -2005,28 +2007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 4
-    SynchronizeType: 1
-    Name: run
-  - Type: 4
-    SynchronizeType: 0
-    Name: walk
-  - Type: 4
-    SynchronizeType: 0
-    Name: backward
-  - Type: 4
-    SynchronizeType: 0
-    Name: walkL
-  - Type: 4
-    SynchronizeType: 0
-    Name: walkR
-  - Type: 4
-    SynchronizeType: 0
-    Name: jump
-  - Type: 4
-    SynchronizeType: 0
-    Name: test
+  m_SynchronizeParameters: []
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
