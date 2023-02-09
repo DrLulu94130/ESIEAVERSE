@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraHolder: {fileID: 6954059848055913222}
-  Model: {fileID: 0}
+  Model: {fileID: 6534557734153812440}
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
   sprintSpeed: 5
@@ -1088,7 +1088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6954059848055913222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.7, z: 0.51}
+  m_LocalPosition: {x: 0, y: 1.7, z: -0.104}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1404,6 +1404,10 @@ PrefabInstance:
       value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1464,6 +1468,11 @@ PrefabInstance:
 --- !u!4 &6534557734153709048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400016, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
+  m_PrefabInstance: {fileID: 6534557734153846632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6534557734153812440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100016, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
   m_PrefabInstance: {fileID: 6534557734153846632}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8869196606633956504
@@ -2004,6 +2013,27 @@ MonoBehaviour:
   - Type: 9
     SynchronizeType: 1
     Name: Interact
+  - Type: 4
+    SynchronizeType: 0
+    Name: Top
+  - Type: 4
+    SynchronizeType: 0
+    Name: TopR
+  - Type: 4
+    SynchronizeType: 0
+    Name: BottomR
+  - Type: 4
+    SynchronizeType: 0
+    Name: Bottom
+  - Type: 4
+    SynchronizeType: 0
+    Name: BottomL
+  - Type: 4
+    SynchronizeType: 0
+    Name: TopL
+  - Type: 4
+    SynchronizeType: 0
+    Name: Talking
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
