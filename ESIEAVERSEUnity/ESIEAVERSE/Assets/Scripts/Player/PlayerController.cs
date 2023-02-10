@@ -24,7 +24,6 @@ public class PlayerController : MonoBehaviour
     float H_input;
     float V_input;
 
-    bool emotewheel = false;
 
     private void Awake()
     {
@@ -66,14 +65,7 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            emotewheel = true;
-        }
-        if (Input.GetKeyUp(KeyCode.Tab))
-        {
-            emotewheel = false;
-        }
+       
 
         H_input = Input.GetAxis("Horizontal");
         V_input = Input.GetAxis("Vertical");

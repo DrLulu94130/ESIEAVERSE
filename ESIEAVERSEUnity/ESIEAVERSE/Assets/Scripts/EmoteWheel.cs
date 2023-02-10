@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
+using Photon.Pun;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EmoteWheel : MonoBehaviour
 {
     public static bool EmoteWheelIsOn = false;
 
     public GameObject EmoteWheelUI;
+
+    [SerializeField] Animator anim;
 
     void Start()
     {
@@ -20,6 +25,11 @@ public class EmoteWheel : MonoBehaviour
         {
             EmoteWheelIsOn = true;
             ToggleEmoteWheel(EmoteWheelIsOn);
+            if(Cursor.lockState != CursorLockMode.None)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            return;
         }
         if (Input.GetKeyUp(KeyCode.Tab))
         {
@@ -39,26 +49,32 @@ public class EmoteWheel : MonoBehaviour
     public void Top()
     {
         Debug.Log("Waving");
+        anim.SetBool("Top", true);
     }
     public void TopR()
     {
         Debug.Log("Salute");
+        anim.SetBool("TopR", true);
     }
     public void TopL()
     {
         Debug.Log("Shake Hands");
+        anim.SetBool("TopTopL", true);
     }
 
     public void Bottom()
     {
         Debug.Log("Searching Pockets");
+        anim.SetBool("Bottom", true);
     }
     public void BottomR()
     {
         Debug.Log("Laughing");
+        anim.SetBool("BottomR", true);
     }
     public void BottomL()
     {
         Debug.Log("Being Cocky");
+        anim.SetBool("BottomL", true);
     }
 }
