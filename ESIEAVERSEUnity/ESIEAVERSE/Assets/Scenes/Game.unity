@@ -16921,7 +16921,7 @@ GameObject:
   - component: {fileID: 459276342}
   - component: {fileID: 459276341}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: EmoteWheelUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17181,13 +17181,14 @@ GameObject:
   m_Component:
   - component: {fileID: 462248106}
   - component: {fileID: 462248107}
+  - component: {fileID: 462248108}
   m_Layer: 0
   m_Name: EmoteWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &462248106
 Transform:
   m_ObjectHideFlags: 0
@@ -17216,6 +17217,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &462248108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462248105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba9ec7bd5381004ca42a61b9ec4150a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EmoteWheelUI: {fileID: 459276339}
 --- !u!1 &464159064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 828621137323136555, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
