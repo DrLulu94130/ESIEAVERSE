@@ -37340,7 +37340,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1032159861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 462248108}
+        m_TargetAssemblyTypeName: EmoteWheel, Assembly-CSharp
+        m_MethodName: TopL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1034229525 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3881113858182980604, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -39341,13 +39353,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 462248108}
+        m_TargetAssemblyTypeName: EmoteWheel, Assembly-CSharp
+        m_MethodName: Top
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44780,7 +44792,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1235380724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 462248108}
+        m_TargetAssemblyTypeName: EmoteWheel, Assembly-CSharp
+        m_MethodName: BottomR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!64 &1236074412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53029,7 +53053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1473632313}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 462248108}
+        m_TargetAssemblyTypeName: EmoteWheel, Assembly-CSharp
+        m_MethodName: TopR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1473688056 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2785833213296084323, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -54768,7 +54804,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1513750129}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 462248108}
+        m_TargetAssemblyTypeName: EmoteWheel, Assembly-CSharp
+        m_MethodName: Bottom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1513937918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7868856171153006663, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -72670,7 +72718,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1961455749}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 462248108}
+        m_TargetAssemblyTypeName: EmoteWheel, Assembly-CSharp
+        m_MethodName: BottomL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1962195173 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2048316335773155167, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
