@@ -49,32 +49,49 @@ public class EmoteWheel : MonoBehaviour
     public void Top()
     {
         Debug.Log("Waving");
+        Reset();
         anim.SetBool("Top", true);
     }
     public void TopR()
     {
         Debug.Log("Salute");
+        Reset();
         anim.SetBool("TopR", true);
     }
     public void TopL()
     {
         Debug.Log("Shake Hands");
+        Reset();
         anim.SetBool("TopTopL", true);
     }
 
     public void Bottom()
     {
         Debug.Log("Searching Pockets");
+        Reset();
         anim.SetBool("Bottom", true);
     }
     public void BottomR()
     {
         Debug.Log("Laughing");
+        Reset();
         anim.SetBool("BottomR", true);
     }
     public void BottomL()
     {
         Debug.Log("Being Cocky");
+        Reset();
+        anim.SetBool("BottomL", true);
+    }
+
+    public void Reset()
+    {
+
+        anim.SetBool("Top", true);
+        anim.SetBool("TopR", true);
+        anim.SetBool("TopL", true);
+        anim.SetBool("Bottom", true);
+        anim.SetBool("BottomR", true);
         anim.SetBool("BottomL", true);
     }
 }
