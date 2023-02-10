@@ -152,11 +152,11 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void ChoseMairieDivry()
     {
-        PhotonNetwork.LoadLevel(1);
+        PhotonNetwork.LoadLevel(2);
     }
     public void ChoseMarieCurie()
     {
-        PhotonNetwork.LoadLevel(2);
+        PhotonNetwork.LoadLevel(1);
     }
 
     public void StartGame()
