@@ -26,6 +26,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] GameObject startGameButton;
     [SerializeField] private AudioClip _clip;
     [SerializeField] AudioClip[] clips;
+    public int Nscene = 1;
 
     private void Awake()
     {
@@ -149,9 +150,25 @@ public class Launcher : MonoBehaviourPunCallbacks
         Instantiate(playerListItemPrefab, playerListContent).GetComponent<PlayerListItem>().SetUp(newPlayer);
     }
 
-    public void StartGame()
+    public void ChoseMairieDivry()
     {
         PhotonNetwork.LoadLevel(1);
+    }
+    public void ChoseMarieCurie()
+    {
+        PhotonNetwork.LoadLevel(2);
+    }
+
+    public void StartGame()
+    {
+        if (Nscene == 1)
+        {
+            PhotonNetwork.LoadLevel(1);
+        }
+        if (Nscene == 2)
+        {
+            PhotonNetwork.LoadLevel(2);
+        }
     }
 
     IEnumerator LoadAsynchronously(int sceneIndex)
