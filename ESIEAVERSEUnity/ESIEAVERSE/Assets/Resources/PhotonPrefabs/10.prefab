@@ -571,6 +571,7 @@ MonoBehaviour:
   jumpForce: 300
   smoothTime: 0.15
   audio: {fileID: 1806796503662609482}
+  CameraHolder: {fileID: 6954059848055913222}
 --- !u!114 &-3340845826216886679
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
 
     float H_input;
     float V_input;
+    [SerializeField] GameObject CameraHolder;
+    bool tableau = true;
 
 
     private void Awake()
@@ -65,7 +67,27 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-       
+        if (Input.GetKey(KeyCode.T))
+        {
+            if (PV.IsMine)
+            {
+                if (!tableau)
+                {
+                    CameraHolder.SetActive(false);
+                    tableau = true;
+                }
+                else
+                {
+                    if (tableau)
+                    {
+                        CameraHolder.SetActive(true);
+                        tableau = false;
+                    }
+
+                }
+            }
+                    
+        }
 
         H_input = Input.GetAxis("Horizontal");
         V_input = Input.GetAxis("Vertical");
@@ -141,15 +163,6 @@ public class PlayerController : MonoBehaviour
                 audio.IsSprinting = false;
                 audio.IsWalking = true;
             }
-
-            /*if (moveAmount != new Vector3(0, 0, 0))
-            {
-
-            }
-            else
-            {
-                
-            }*/
         }
     }
 
