@@ -23576,6 +23576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe13f0dc6e52a604991caba1f18c8568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  M: {fileID: 2100000, guid: 7d450da1aad1a1c498592dcc81cccb70, type: 2}
 --- !u!1 &627573605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3745050279188904368, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -35390,7 +35391,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.707, y: 4.44, z: -50.544}
+  m_LocalPosition: {x: 32.72, y: 4.44, z: -50.544}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39483,6 +39484,8 @@ GameObject:
   - component: {fileID: 1078695384}
   - component: {fileID: 1078695383}
   - component: {fileID: 1078695382}
+  - component: {fileID: 1078695390}
+  - component: {fileID: 1078695389}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -39656,6 +39659,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1078695389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078695381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
+--- !u!114 &1078695390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078695381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 1078695389}
+  sceneViewId: 17
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1078985115 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2116481696906452138, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}

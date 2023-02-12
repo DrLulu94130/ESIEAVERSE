@@ -5,22 +5,48 @@ using static UnityEngine.Random;
 
 public class UpdateMaterial : MonoBehaviour
 {
+    public Material M;
     PhotonView view;
-    Texture currentMaterial;
-    private void Start()
+    void Update()
     {
-        Vector3 color = new Vector3(Random.Range(0, 255), Random.Range(0, 255), Random.Range(0, 255));
         view = GetComponent<PhotonView>();
-        if (view.IsMine)
+        if ((view.IsMine))
         {
-            view.RPC("setColor", RpcTarget.AllBuffered, color);
+            M = gameObject.GetComponent<Renderer>().material;
+            view.RPC("setTexture", RpcTarget.All);
         }
     }
 
     [PunRPC]
-    public void setColor(Vector3 randomColor)
+    public void setTexture()
     {
-        Color bColor = new Color(randomColor.x / 255f, randomColor.y / 255f, randomColor.z / 255f);
-        gameObject.GetComponent<Renderer>().material.color = bColor;
+        gameObject.GetComponent<Renderer>().material.mainTexture = M.mainTexture;
     }
 }
+
+
+/* 
+ * 
+ * using Photon.Pun;
+using UnityEngine;
+using static UnityEngine.Random;
+
+public class UpdateMaterial : MonoBehaviour
+{
+    public Texture t;
+    PhotonView view;
+    void Update()
+    {
+        view = GetComponent<PhotonView>();
+        if (view.IsMine)
+        {
+            view.RPC("setColor", RpcTarget.AllBuffered);
+        }
+    }
+
+    [PunRPC]
+    public void setColor()
+    {
+        gameObject.GetComponent<Renderer>().material.mainTexture = t;
+    }
+} */
