@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
     public Timer Coutdown;
     public DoorInteraction Door;
     public LightSwitch Switch;
+    public Tableau Board;
     public bool Triggered;
     public bool Selected;
     public bool AsBeenSelected;
@@ -17,6 +18,7 @@ public class Interaction : MonoBehaviour
         Coutdown = GetComponent<Timer>();
         Door = GetComponent<DoorInteraction>();
         Switch = GetComponent<LightSwitch>();
+        Board = GetComponent<Tableau>();
     }
 
     // Update is called once per frame
@@ -37,7 +39,6 @@ public class Interaction : MonoBehaviour
                 Selected = false;
             }
         }
-
 
         if (Door)
         {
@@ -62,5 +63,18 @@ public class Interaction : MonoBehaviour
                 Switch.isOn = false;
             }
         }
+
+        if ( Board )
+        {
+            if ( Triggered )
+            {
+                Board.Trigger = true;
+            }
+            else
+            {
+                Board.Trigger = false;
+            }
+        }
+
     }
 }
