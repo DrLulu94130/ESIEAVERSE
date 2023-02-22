@@ -10,6 +10,8 @@ public class LoginScript : MonoBehaviour
     [SerializeField] Text ErrorField;
     [SerializeField] InputField Username , Password;
     [SerializeField] string url;
+    public int ID;
+    public string role;
     
     public void StartLogin()
     {
@@ -32,16 +34,19 @@ public class LoginScript : MonoBehaviour
             else
             {
                 string response = www.downloadHandler.text;
-                ErrorField.text = "ID : " + www.downloadHandler.text;
-                if(response == "0") 
+                if(response == "Informations de login incorrectes") 
                 {
-                    ErrorField.text = "Invalid username or password";
+                    ErrorField.text = response;
                 } 
                 else 
                 {
-                    ErrorField.text = "ID : " + www.downloadHandler.text;
+
+                    string[] splitResponse = response.Split(',');
+                    ID = int.Parse(splitResponse[0]);
+                    role = splitResponse[1];
+                    ErrorField.text = "ID : " + ID + "\nRole : " + role;
                 }
-                txtValue.text = "Name : " + Username.text + " | " + "Password : " + Password.text ;
+                txtValue.text = ""; //"Name : " + Username.text + " | " + "Password : " + Password.text ;
             }
         }
     }

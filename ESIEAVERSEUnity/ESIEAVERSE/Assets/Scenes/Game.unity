@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -2185,8 +2185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -3294,8 +3294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -3612,8 +3612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -4278,8 +4278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -5449,8 +5449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -5822,8 +5822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -5913,8 +5913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -6261,8 +6261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -6608,8 +6608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -7553,8 +7553,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -7975,8 +7975,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -8542,8 +8542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -8671,8 +8671,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -9104,8 +9104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -9866,8 +9866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -10218,8 +10218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -11103,8 +11103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -12148,8 +12148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -12981,8 +12981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -13124,8 +13124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -13658,8 +13658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -13924,8 +13924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -15062,8 +15062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -15324,8 +15324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -15647,8 +15647,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -15842,8 +15842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -16081,8 +16081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -16172,8 +16172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -17208,8 +17208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -17359,8 +17359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -17450,8 +17450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -17961,8 +17961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -18331,8 +18331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -18946,8 +18946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -19629,8 +19629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -20753,8 +20753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -20991,8 +20991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -21335,8 +21335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -21672,8 +21672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -22330,8 +22330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -22624,8 +22624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -24853,8 +24853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -25057,8 +25057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -25258,8 +25258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -27041,8 +27041,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -27332,8 +27332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -27631,8 +27631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -28162,8 +28162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -28500,8 +28500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -29110,8 +29110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -29292,8 +29292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -29603,8 +29603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -29843,8 +29843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -30019,8 +30019,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -31053,8 +31053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -31144,8 +31144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -31235,8 +31235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -31455,8 +31455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -31798,8 +31798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -32018,8 +32018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -32166,8 +32166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -33842,8 +33842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -34200,8 +34200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -34508,8 +34508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -35047,8 +35047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -35318,8 +35318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -35678,8 +35678,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -35893,8 +35893,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -36022,8 +36022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -36364,8 +36364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -36531,8 +36531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -36955,8 +36955,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -37354,8 +37354,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -37763,8 +37763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -38116,8 +38116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -38654,8 +38654,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -39980,8 +39980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -41714,8 +41714,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -41928,8 +41928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -42197,8 +42197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -43151,8 +43151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -43351,8 +43351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -43681,8 +43681,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -44286,8 +44286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -44619,8 +44619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -44729,8 +44729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -44905,8 +44905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -45442,8 +45442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -45552,8 +45552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -45990,8 +45990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -46773,8 +46773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -47312,8 +47312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -48027,8 +48027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -48439,8 +48439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -48719,8 +48719,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -48810,8 +48810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -49181,8 +49181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -49343,8 +49343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -49434,8 +49434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -49539,8 +49539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0.4622305, y: 0.53511024, z: 0.4622305, w: -0.53511024}
-  localRot2: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -49915,8 +49915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -50130,8 +50130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -50240,8 +50240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -52115,8 +52115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -52433,8 +52433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -53065,8 +53065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -55099,8 +55099,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -55190,8 +55190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -56227,8 +56227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -56549,8 +56549,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -56810,8 +56810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -57167,8 +57167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -57523,8 +57523,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -57633,8 +57633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -58520,8 +58520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -59120,8 +59120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -59425,8 +59425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -59711,8 +59711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -59821,8 +59821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -60041,8 +60041,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -60773,8 +60773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -62566,8 +62566,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -63691,8 +63691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -63820,8 +63820,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -64016,8 +64016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -64126,8 +64126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -64572,8 +64572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -66211,8 +66211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -66616,8 +66616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -67776,8 +67776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -70038,8 +70038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -70129,8 +70129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -71269,8 +71269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -71689,8 +71689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -71794,8 +71794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -71956,8 +71956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -72490,8 +72490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -72742,8 +72742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -73033,8 +73033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -73124,8 +73124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -73395,8 +73395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -73746,8 +73746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -74109,8 +74109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -74324,8 +74324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -74715,8 +74715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -74943,8 +74943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -75624,8 +75624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -75877,8 +75877,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -76115,8 +76115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -76263,8 +76263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -77848,8 +77848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -77939,8 +77939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -78690,8 +78690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -78919,8 +78919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -79100,8 +79100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -79243,8 +79243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -79334,8 +79334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -79425,8 +79425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -79687,8 +79687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -81833,8 +81833,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -82366,8 +82366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0
@@ -82633,8 +82633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a212299fc5585841ab087398a54e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localRot1: {x: 0, y: 0, z: 0, w: 0}
-  localRot2: {x: 0, y: 0, z: 0, w: 0}
+  localRot1: {x: -0.46223077, y: -0.53511, z: -0.46223077, w: 0.53511}
+  localRot2: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
   Open: 0
   isChair: 1
   lastPosition: 0

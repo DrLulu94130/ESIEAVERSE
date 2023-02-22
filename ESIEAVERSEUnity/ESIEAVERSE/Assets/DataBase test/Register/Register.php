@@ -11,7 +11,7 @@ if ($result->num_rows > 0) {
     echo "Ce nom d'utilisateur existe déjà.";
 } else {
     $sql = "INSERT INTO Login (`Username`, `Password`)
-    VALUES ('$username_p' , '$password_p')";
+    VALUES ('$username_p' , MD5('$password_p'))";
     
     if ($conn->query($sql) === TRUE) {
         echo "Enregistrement effectué avec succès.";
