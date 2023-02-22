@@ -627,13 +627,14 @@ GameObject:
   - component: {fileID: 6184754003378094619}
   - component: {fileID: 6851000807666294868}
   - component: {fileID: 5205867464561025510}
-  - component: {fileID: -5475117117702533161}
   - component: {fileID: 5395241082252582858}
   - component: {fileID: 8785338103037140559}
   - component: {fileID: 473203453501083107}
   - component: {fileID: 1347863373219629417}
   - component: {fileID: 303006619282202063}
   - component: {fileID: 7814242990886969641}
+  - component: {fileID: 5146406695561803940}
+  - component: {fileID: 9116626478432514255}
   m_Layer: 0
   m_Name: 19
   m_TagString: Untagged
@@ -722,27 +723,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 3494255123471490523}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.8
   m_Height: 3.9313612
   m_Direction: 1
   m_Center: {x: 0, y: 0.9656806, z: 0}
---- !u!54 &-5475117117702533161
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3494255123471490523}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!114 &5395241082252582858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,7 +774,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3494255123471490523}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82c3414d027810b44833035907317f6c, type: 3}
   m_Name: 
@@ -799,10 +784,12 @@ MonoBehaviour:
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
   sprintSpeed: 5
+  sneakSpeed: 0
   walkSpeed: 3
   jumpForce: 300
   smoothTime: 0.15
   audio: {fileID: 1806796503662609482}
+  CameraHolder: {fileID: 0}
 --- !u!114 &1347863373219629417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,6 +916,75 @@ MonoBehaviour:
     Max: 1000
     SpeedUpPerc: 5
   restartOnDeviceChange: 1
+--- !u!20 &5146406695561803940
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494255123471490523}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &9116626478432514255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494255123471490523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e601fb70daa4f45aacc7e5f87e81b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _active: 1
+  _enableRotation: 1
+  _mouseSense: 1.8
+  _enableTranslation: 0
+  _translationSpeed: 55
+  _enableMovement: 1
+  _movementSpeed: 10
+  _boostedSpeed: 50
+  _boostSpeed: 304
+  _moveUp: 32
+  _moveDown: 99
+  _enableSpeedAcceleration: 1
+  _speedAccelerationFactor: 1
+  _initPositonButton: 114
 --- !u!1 &4716941208325611954
 GameObject:
   m_ObjectHideFlags: 0
