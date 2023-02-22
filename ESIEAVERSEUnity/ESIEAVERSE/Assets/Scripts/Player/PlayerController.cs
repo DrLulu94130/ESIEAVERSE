@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject cameraHolder;
     [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
-    [SerializeField] float mouseSensitivity, sprintSpeed, walkSpeed, jumpForce, smoothTime;
+    [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
     public PlayAudio audio;
     float verticalLookRotation;
     bool grounded;
@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     Vector3 moveAmount;
     bool pause = false;
     Rigidbody rb;
+    bool go = false;
+    float speed = 0;
 
     PhotonView PV;
 
@@ -115,23 +117,34 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+        /*if (Input.GetKey(KeyCode.LeftShift))
         {
             audio.IsSprinting = true;
         }
         else
         {
             audio.IsSprinting = false;
-        }
+        }*/
         if (Pause.isOn)
         {
             Vector3 moveDirP = new Vector3(0, 0, 0);
-            moveAmount = Vector3.SmoothDamp(moveAmount, moveDirP * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDirP * 0, ref smoothMoveVelocity, smoothTime);
         }
         else
         {
             Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-            moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * ((Input.GetKey(KeyCode.LeftShift)) ? sprintSpeed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                speed = sprintSpeed;
+                go = true;
+            }
+            if (Input.GetKey(KeyCode.C))
+            {
+                speed = sneakSpeed;
+                go = true;
+            }
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (go ? speed : walkSpeed), ref smoothMoveVelocity, smoothTime);
+            go = false;
 
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -139,8 +152,8 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Walking", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Running", true);
-                audio.IsSprinting = true;
-                audio.IsWalking = false;
+                //audio.IsSprinting = true;
+                //audio.IsWalking = false;
             }
             else if (Input.GetKey(KeyCode.Space))
             {
@@ -160,8 +173,8 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Walking", true);
-                audio.IsSprinting = false;
-                audio.IsWalking = true;
+                //audio.IsSprinting = false;
+                //audio.IsWalking = true;
             }
         }
     }

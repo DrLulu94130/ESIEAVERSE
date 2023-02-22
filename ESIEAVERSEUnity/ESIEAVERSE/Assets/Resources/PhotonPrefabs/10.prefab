@@ -567,9 +567,10 @@ MonoBehaviour:
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
   sprintSpeed: 5
+  sneakSpeed: 1
   walkSpeed: 3
   jumpForce: 300
-  smoothTime: 0.15
+  smoothTime: 0.2
   audio: {fileID: 1806796503662609482}
   CameraHolder: {fileID: 6954059848055913222}
 --- !u!114 &-3340845826216886679
@@ -1725,6 +1726,27 @@ MonoBehaviour:
   - Type: 9
     SynchronizeType: 1
     Name: Interact
+  - Type: 4
+    SynchronizeType: 0
+    Name: Top
+  - Type: 4
+    SynchronizeType: 0
+    Name: TopR
+  - Type: 4
+    SynchronizeType: 0
+    Name: BottomR
+  - Type: 4
+    SynchronizeType: 0
+    Name: Bottom
+  - Type: 4
+    SynchronizeType: 0
+    Name: BottomL
+  - Type: 4
+    SynchronizeType: 0
+    Name: TopL
+  - Type: 4
+    SynchronizeType: 0
+    Name: Talking
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
