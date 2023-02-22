@@ -23471,11 +23471,13 @@ GameObject:
   - component: {fileID: 627446639}
   - component: {fileID: 627446646}
   - component: {fileID: 627446647}
+  - component: {fileID: 627446650}
   - component: {fileID: 627446649}
   - component: {fileID: 627446648}
+  - component: {fileID: 627446651}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Interaction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23693,6 +23695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4408883aeb3255b4a9918f38b12b1992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Tab: {fileID: 963194227}
   Trigger: 0
 --- !u!114 &627446649
 MonoBehaviour:
@@ -23713,6 +23716,39 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+--- !u!114 &627446650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627446638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
+--- !u!114 &627446651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627446638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &627573605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3745050279188904368, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -35539,7 +35575,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}

@@ -7777,6 +7777,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e53174452b9cb4349b1c283f0a6786dc, type: 3}
   - {fileID: 8300000, guid: e53174452b9cb4349b1c283f0a6786dc, type: 3}
   Nscene: 1
+  DatabaseMana: {fileID: 1228012603}
+  ID: 0
 --- !u!114 &994079798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10319,8 +10321,9 @@ MonoBehaviour:
   ErrorField: {fileID: 979363820}
   Username: {fileID: 37815892}
   Password: {fileID: 65894903}
-  roleurl: https://pstesieaverse.alwaysdata.net/role.php
   url: https://pstesieaverse.alwaysdata.net/Login.php
+  ID: 0
+  role: 
 --- !u!4 &1228012606
 Transform:
   m_ObjectHideFlags: 0
@@ -16825,7 +16828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 41707749811717823, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0012207031
+      value: 0.00090026855
       objectReference: {fileID: 0}
     - target: {fileID: 41868075245216117, guid: df2cda036b18b5c48b00a006f7d6bfe5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -20368,7 +20371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2868780458115191791, guid: 72d8aa313bb3e5c4cab11230ed4db91a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -42.21
+      value: -42.210007
       objectReference: {fileID: 0}
     - target: {fileID: 2868780458115191791, guid: 72d8aa313bb3e5c4cab11230ed4db91a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

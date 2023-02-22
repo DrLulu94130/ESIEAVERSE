@@ -533,6 +533,7 @@ GameObject:
   - component: {fileID: 5395241082252582858}
   - component: {fileID: 8785338103037140559}
   - component: {fileID: 473203453501083107}
+  - component: {fileID: -5629501811990760620}
   - component: {fileID: -7066441712645531597}
   - component: {fileID: 8897189908879899482}
   - component: {fileID: -4518548406126119853}
@@ -700,10 +701,30 @@ MonoBehaviour:
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
   sprintSpeed: 5
+  sneakSpeed: 0
   walkSpeed: 3
   jumpForce: 300
   smoothTime: 0.15
   audio: {fileID: 1806796503662609482}
+  role: 0
+  CameraHolder: {fileID: 0}
+--- !u!114 &-5629501811990760620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494255123471490523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e223aa70554e3b546a8337f3411b500a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveCam: 1
+  ListSize: 2
+  List:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &-7066441712645531597
 MonoBehaviour:
   m_ObjectHideFlags: 0

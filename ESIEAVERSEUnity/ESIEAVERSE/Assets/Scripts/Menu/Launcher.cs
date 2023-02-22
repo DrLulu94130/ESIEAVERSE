@@ -28,6 +28,9 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] AudioClip[] clips;
     public int Nscene = 1;
 
+    public GameObject DatabaseMana;
+    public int ID;
+
     private void Awake()
     {
         Instance = this;
@@ -185,5 +188,10 @@ public class Launcher : MonoBehaviourPunCallbacks
         
             yield return null;
         }
+    }
+
+    public void Update()
+    {
+        ID = DatabaseMana.GetComponent<LoginScript>().ID;
     }
 }

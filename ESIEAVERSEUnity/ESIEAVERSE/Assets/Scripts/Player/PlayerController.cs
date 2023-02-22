@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     PlayerManager playerManager;
-    [SerializeField] GameObject cameraHolder;
+    [SerializeField] public GameObject cameraHolder;
     [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     bool go = false;
     float speed = 0;
+
+    public float role;
 
     PhotonView PV;
 
@@ -117,6 +119,7 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+
         /*if (Input.GetKey(KeyCode.LeftShift))
         {
             audio.IsSprinting = true;
