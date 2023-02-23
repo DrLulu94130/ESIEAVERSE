@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Photon.Pun;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ public class Tableau : MonoBehaviour
     public Tableau Board;
     [SerializeField] GameObject Camera;
     public PhotonView PV;
+    public static bool o;
+    public static bool done;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,22 +23,23 @@ public class Tableau : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        o = Trigger;
         bool tab = Trigger;
         if (tab)
         {
             if (PV.IsMine)
             {
                 UnityEngine.Debug.Log("CAM");
-                Tab.enabled = true;
-                Camera.SetActive(false);
+                Camera.SetActive(true);
+                done = true;
             }
         }
         if(!tab)
         {
             if (PV.IsMine)
             {
-                Tab.enabled = false;
-                Camera.SetActive(true);
+                Camera.SetActive(false);
+                done = false;
             }
         }
         if ( !GetComponent<Timer>().TimerRunOut )

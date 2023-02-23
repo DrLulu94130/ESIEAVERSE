@@ -23763,6 +23763,7 @@ MonoBehaviour:
   Trigger: 0
   Board: {fileID: 0}
   Camera: {fileID: 24640508}
+  PV: {fileID: 0}
 --- !u!114 &627446649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35641,7 +35642,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}

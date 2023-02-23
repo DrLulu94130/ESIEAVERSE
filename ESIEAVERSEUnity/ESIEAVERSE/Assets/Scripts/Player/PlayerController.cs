@@ -1,5 +1,8 @@
 using System;
+using System.Threading;
 using Photon.Pun;
+using System.Collections;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,6 +23,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     bool go = false;
     float speed = 0;
+    bool tab;
 
     public float role;
 
@@ -53,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        tab = Tableau.o;
         if (!PV.IsMine)
             return;
         if(Pause.isOn)
@@ -71,7 +76,7 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKey(KeyCode.T))
+        /*if (Input.GetKey(KeyCode.T))
         {
             if (PV.IsMine)
             {
@@ -91,6 +96,21 @@ public class PlayerController : MonoBehaviour
                 }
             }
                     
+        }*/
+        if((tab) && (Tableau.done))
+        {
+            UnityEngine.Debug.Log("test");
+            if (PV.IsMine)
+            {
+                CameraHolder.SetActive(false);
+            }
+        }
+        if ((!tab) && (!Tableau.done))
+        {
+            if (PV.IsMine)
+            {
+                CameraHolder.SetActive(true);
+            }
         }
 
         H_input = Input.GetAxis("Horizontal");
@@ -109,6 +129,13 @@ public class PlayerController : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
         }
     }
+/*
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(2);
+        CameraHolder.SetActive(false);
+    } */
+
     void Look()
     {
         transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * mouseSensitivity);
