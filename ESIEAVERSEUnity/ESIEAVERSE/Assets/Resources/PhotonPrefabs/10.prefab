@@ -567,7 +567,7 @@ MonoBehaviour:
   Model: {fileID: 8869196606634058598}
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
-  sprintSpeed: 5
+  sprintSpeed: 10
   sneakSpeed: 1
   walkSpeed: 3
   jumpForce: 300

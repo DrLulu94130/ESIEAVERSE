@@ -13,6 +13,7 @@ public class Tableau : MonoBehaviour
     public PhotonView PV;
     public static bool o;
     public static bool done;
+    public static bool isOn = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,21 +28,28 @@ public class Tableau : MonoBehaviour
         bool tab = Trigger;
         if (tab)
         {
+            isOn = true;
             if (PV.IsMine)
             {
                 UnityEngine.Debug.Log("CAM");
                 Camera.SetActive(true);
                 done = true;
             }
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                isOn = false;
+                Camera.SetActive(false);
+                done = false;
+            }
         }
-        if(!tab)
+       /* if(!tab)
         {
             if (PV.IsMine)
             {
                 Camera.SetActive(false);
                 done = false;
             }
-        }
+        }*/
         if ( !GetComponent<Timer>().TimerRunOut )
         {
             GetComponent<Outline>().enabled = true;

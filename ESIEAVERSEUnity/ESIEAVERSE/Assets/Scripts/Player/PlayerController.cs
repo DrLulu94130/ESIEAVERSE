@@ -60,7 +60,25 @@ public class PlayerController : MonoBehaviour
         tab = Tableau.o;
         if (!PV.IsMine)
             return;
-        if(Pause.isOn)
+
+        if ((tab) && (Tableau.done))
+        {
+
+            UnityEngine.Debug.Log("test");
+            if (PV.IsMine)
+            {
+                CameraHolder.SetActive(false);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            if (PV.IsMine)
+            {
+                CameraHolder.SetActive(true);
+                return;
+            }
+        }
+        if ((Pause.isOn) || (Tableau.isOn))
         {
             if (Cursor.lockState != CursorLockMode.None)
             {
@@ -68,11 +86,11 @@ public class PlayerController : MonoBehaviour
             }
             return;
         }
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) && (Pause.isOn))
         {
             pause = !pause;
         }
-        if(pause == true)
+        if (pause == true)
         {
             return;
         }
@@ -97,21 +115,6 @@ public class PlayerController : MonoBehaviour
             }
                     
         }*/
-        if((tab) && (Tableau.done))
-        {
-            UnityEngine.Debug.Log("test");
-            if (PV.IsMine)
-            {
-                CameraHolder.SetActive(false);
-            }
-        }
-        if ((!tab) && (!Tableau.done))
-        {
-            if (PV.IsMine)
-            {
-                CameraHolder.SetActive(true);
-            }
-        }
 
         H_input = Input.GetAxis("Horizontal");
         V_input = Input.GetAxis("Vertical");
