@@ -2499,7 +2499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &24640509
 Transform:
   m_ObjectHideFlags: 0
@@ -23762,7 +23762,7 @@ MonoBehaviour:
   Tab: {fileID: 963194227}
   Trigger: 0
   Board: {fileID: 0}
-  CameraHolder: {fileID: 0}
+  Camera: {fileID: 24640508}
 --- !u!114 &627446649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23775,10 +23775,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Coutdown: {fileID: 0}
+  Coutdown: {fileID: 627446650}
   Door: {fileID: 0}
   Switch: {fileID: 0}
-  Board: {fileID: 0}
+  Board: {fileID: 627446648}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -35633,7 +35633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Tableau : MonoBehaviour
     public Camera Tab;
     public bool Trigger;
     public Tableau Board;
-    [SerializeField] GameObject CameraHolder;
+    [SerializeField] GameObject Camera;
     PhotonView PV;
     // Start is called before the first frame update
     void Start()
@@ -25,16 +25,17 @@ public class Tableau : MonoBehaviour
         {
             if (PV.IsMine)
             {
+                UnityEngine.Debug.Log("CAM");
                 Tab.enabled = true;
-                    CameraHolder.SetActive(false);
+                Camera.SetActive(false);
             }
         }
         if(!tab)
         {
             if (PV.IsMine)
             {
-                CameraHolder.SetActive(true);
                 Tab.enabled = false;
+                Camera.SetActive(true);
             }
         }
         if ( !GetComponent<Timer>().TimerRunOut )
