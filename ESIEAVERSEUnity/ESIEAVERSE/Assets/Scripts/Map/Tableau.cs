@@ -9,18 +9,18 @@ public class Tableau : MonoBehaviour
     public bool Trigger;
     public Tableau Board;
     [SerializeField] GameObject Camera;
-    PhotonView PV;
+    public PhotonView PV;
     // Start is called before the first frame update
     void Start()
     {
+        PV = GetComponent<PhotonView>();
         Board = GetComponent<Tableau>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Tab.enabled = Trigger;
-        bool tab = Board.Trigger;
+        bool tab = Trigger;
         if (tab)
         {
             if (PV.IsMine)
