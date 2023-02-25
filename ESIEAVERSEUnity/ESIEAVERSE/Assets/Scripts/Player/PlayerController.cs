@@ -185,6 +185,8 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Walking", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Running", true);
+                anim.SetBool("Sneaking", false);
+
                 //audio.IsSprinting = true;
                 //audio.IsWalking = false;
             }
@@ -194,6 +196,15 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Walking", false);
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", true);
+                anim.SetBool("Sneaking", false);
+            }
+            else if (Input.GetKey(KeyCode.C))
+            {
+                anim.SetBool("Walking", false);
+                anim.SetBool("Running", false);
+                anim.SetBool("Jumping", false);
+                anim.SetBool("Sneaking", true);
+
             }
             else if (Input.GetKey(KeyCode.F))
             {
@@ -206,6 +217,8 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Walking", true);
+                anim.SetBool("Sneaking", false);
+
                 //audio.IsSprinting = false;
                 //audio.IsWalking = true;
             }

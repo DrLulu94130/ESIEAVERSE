@@ -25,11 +25,7 @@ public class EmoteWheel : MonoBehaviour
         {
             EmoteWheelIsOn = true;
             ToggleEmoteWheel(EmoteWheelIsOn);
-            if(Cursor.lockState != CursorLockMode.None)
-            {
-                Cursor.lockState = CursorLockMode.None;
-            }
-            return;
+            
         }
         if (Input.GetKeyUp(KeyCode.Tab))
         {
@@ -43,6 +39,17 @@ public class EmoteWheel : MonoBehaviour
     {
 
         EmoteWheelUI.SetActive(EmoteWheelIsOn);
+
+        if (EmoteWheelIsOn)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
 
