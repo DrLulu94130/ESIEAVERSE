@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
     public PlayAudio audio;
+    public EmoteWheel EmoteWheelIsOn;
     float verticalLookRotation;
     bool grounded;
     Vector3 smoothMoveVelocity;
@@ -44,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+
         if (!PV.IsMine)
         {
             Destroy(GetComponentInChildren<Camera>().gameObject);
@@ -127,7 +130,12 @@ public class PlayerController : MonoBehaviour
         Jump();
 
 
-        if (Cursor.lockState != CursorLockMode.Locked)
+        /*if (Cursor.lockState != CursorLockMode.Locked)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }*/
+
+        if( (Pause.isOn == false) && (EmoteWheelIsOn == false))
         {
             Cursor.lockState = CursorLockMode.Locked;
         }

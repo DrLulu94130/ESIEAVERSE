@@ -573,6 +573,7 @@ MonoBehaviour:
   jumpForce: 300
   smoothTime: 0.2
   audio: {fileID: 1806796503662609482}
+  EmoteWheelIsOn: {fileID: 0}
   role: 0
   CameraHolder: {fileID: 6954059848055913222}
 --- !u!114 &6982518366412186954
