@@ -174,6 +174,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 speed = sprintSpeed;
