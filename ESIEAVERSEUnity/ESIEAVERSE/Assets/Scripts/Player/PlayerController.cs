@@ -194,6 +194,7 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Running", true);
                 anim.SetBool("Sneaking", false);
+                anim.SetBool("OpeningDoor", false);
 
                 //audio.IsSprinting = true;
                 //audio.IsWalking = false;
@@ -205,6 +206,7 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", true);
                 anim.SetBool("Sneaking", false);
+                anim.SetBool("OpeningDoor", false);
             }
             else if (Input.GetKey(KeyCode.C))
             {
@@ -212,12 +214,13 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Sneaking", true);
+                anim.SetBool("OpeningDoor", false);
 
             }
             else if (Input.GetKey(KeyCode.F))
             {
 
-                anim.SetTrigger("Interact");
+                anim.SetBool("OpeningDoor", true);
             }
             else
             {
@@ -226,6 +229,7 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Walking", true);
                 anim.SetBool("Sneaking", false);
+                anim.SetBool("OpeningDoor", false);
 
                 //audio.IsSprinting = false;
                 //audio.IsWalking = true;
@@ -238,6 +242,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
             rb.AddForce(transform.up * jumpForce);
+            anim.SetBool("Jumping", true);
+        }
+        else
+        {
+            anim.SetBool("Jumping", false);
         }
     }
 
