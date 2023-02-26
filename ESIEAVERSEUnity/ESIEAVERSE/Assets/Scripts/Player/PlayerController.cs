@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
-    public PlayAudio audio;
     public EmoteWheel EmoteWheelIsOn;
     float verticalLookRotation;
     bool grounded;
@@ -157,15 +156,6 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-
-        /*if (Input.GetKey(KeyCode.LeftShift))
-        {
-            audio.IsSprinting = true;
-        }
-        else
-        {
-            audio.IsSprinting = false;
-        }*/
         if (Pause.isOn)
         {
             Vector3 moveDirP = new Vector3(0, 0, 0);
@@ -196,9 +186,6 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Running", true);
                 anim.SetBool("Sneaking", false);
                 anim.SetBool("OpeningDoor", false);
-
-                //audio.IsSprinting = true;
-                //audio.IsWalking = false;
             }
             else if (Input.GetKey(KeyCode.Space))
             {
@@ -231,9 +218,6 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Walking", true);
                 anim.SetBool("Sneaking", false);
                 anim.SetBool("OpeningDoor", false);
-
-                //audio.IsSprinting = false;
-                //audio.IsWalking = true;
             }
         }
     }

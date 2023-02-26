@@ -11,7 +11,6 @@ public class AdminPlayerController : MonoBehaviour
     [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, walkSpeed, jumpForce, smoothTime;
-    public PlayAudio audio;
     float verticalLookRotation;
     bool grounded;
     Vector3 smoothMoveVelocity;
@@ -80,14 +79,6 @@ public class AdminPlayerController : MonoBehaviour
 
     void Move()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            audio.IsSprinting = true;
-        }
-        else
-        {
-            audio.IsSprinting = false;
-        }
         if (Pause.isOn)
         {
             Vector3 moveDirP = new Vector3(0, 0, 0);
@@ -103,28 +94,23 @@ public class AdminPlayerController : MonoBehaviour
                 if(Input.GetKeyDown(KeyCode.W))
                 {
                     anim.SetBool("walk", true);
-                    audio.IsWalking = true;
                 }
 
                 if (Input.GetKeyDown(KeyCode.S))
                 {
                     anim.SetBool("backward", true);
-                    audio.IsWalking = true;
                 }
                 if (Input.GetKeyDown(KeyCode.A))
                 {
                     anim.SetBool("walkL", true);
-                    audio.IsWalking = true;
                 }
                 if (Input.GetKeyDown(KeyCode.D))
                 {
                     anim.SetBool("walkR", true);
-                    audio.IsWalking = true;
                 }
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     anim.SetBool("jump", true);
-                    audio.IsWalking = true;
                 }
 
 
@@ -138,7 +124,6 @@ public class AdminPlayerController : MonoBehaviour
                 anim.SetBool("walkR", false);
                 anim.SetBool("jump", false);
                 
-                audio.IsWalking = false;
             }
         }
     }
