@@ -14,25 +14,25 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
-
-    float verticalLookRotation;
-    bool grounded;
-    Vector3 smoothMoveVelocity;
-    Vector3 moveAmount;
-    bool pause = false;
-    Rigidbody rb;
-    bool go = false;
-    float speed = 0;
-    bool tab;
+    [SerializeField] GameObject CameraHolder;
 
     public float role;
-
-    PhotonView PV;
-
+    float verticalLookRotation;
+    float speed = 0;
     float H_input;
     float V_input;
-    [SerializeField] GameObject CameraHolder;
+
+    Vector3 smoothMoveVelocity;
+    Vector3 moveAmount;
+
+    bool go = false;
+    bool pause = false;
+    bool grounded;
+    bool tab;
     bool tableau = true;
+
+    PhotonView PV;
+    Rigidbody rb;
 
 
     private void Awake()
