@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject Model;
     [SerializeField] Animator anim;
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
-    public EmoteWheel EmoteWheelIsOn;
+
     float verticalLookRotation;
     bool grounded;
     Vector3 smoothMoveVelocity;
@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
                 return;
             }
         }
-        if ((Pause.isOn) || (Tableau.isOn))
+        if ((Pause.isOn) || (Tableau.isOn) || (EmoteWheel.isOn))
         {
             if (Cursor.lockState != CursorLockMode.None)
             {
@@ -129,12 +129,7 @@ public class PlayerController : MonoBehaviour
         Jump();
 
 
-        /*if (Cursor.lockState != CursorLockMode.Locked)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-        }*/
-
-        if( (Pause.isOn == false) && (EmoteWheelIsOn == false))
+        if (Cursor.lockState != CursorLockMode.Locked)
         {
             Cursor.lockState = CursorLockMode.Locked;
         }

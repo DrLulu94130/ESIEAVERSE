@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class EmoteWheel : MonoBehaviour
 {
-    public static bool EmoteWheelIsOn = false;
+    public static bool isOn = false;
 
     public GameObject EmoteWheelUI;
 
@@ -15,7 +15,7 @@ public class EmoteWheel : MonoBehaviour
 
     void Start()
     {
-        ToggleEmoteWheel(false);
+        ToggleEmoteWheel();
     }
 
     // Update is called once per frame
@@ -23,24 +23,24 @@ public class EmoteWheel : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            EmoteWheelIsOn = true;
-            ToggleEmoteWheel(EmoteWheelIsOn);
+            isOn = true;
+            ToggleEmoteWheel();
             
         }
         if (Input.GetKeyUp(KeyCode.Tab))
         {
-            EmoteWheelIsOn = false;
-            ToggleEmoteWheel(EmoteWheelIsOn);
+            isOn = false;
+            ToggleEmoteWheel();
         }
     }
 
 
-    public void ToggleEmoteWheel(bool EmoteWheelIsOn)
+    public void ToggleEmoteWheel()
     {
 
-        EmoteWheelUI.SetActive(EmoteWheelIsOn);
+        EmoteWheelUI.SetActive(isOn);
 
-        if (EmoteWheelIsOn)
+        if (isOn)
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
