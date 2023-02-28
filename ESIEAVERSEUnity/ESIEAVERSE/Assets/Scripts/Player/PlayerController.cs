@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         if ((Pause.isOn) || (Tableau.isOn) || (EmoteWheel.isOn))
-        {
+        {   
             if (Cursor.lockState != CursorLockMode.None)
             {
                 Cursor.lockState = CursorLockMode.None;
@@ -172,7 +172,7 @@ public class PlayerController : MonoBehaviour
             }
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (go ? speed : walkSpeed), ref smoothMoveVelocity, smoothTime);
             go = false;
-
+            /*
             if (Input.GetKey(KeyCode.LeftShift))
             {
 
@@ -180,16 +180,6 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Running", true);
                 anim.SetBool("Sneaking", false);
-                anim.SetBool("OpeningDoor", false);
-            }
-            else if (Input.GetKey(KeyCode.Space))
-            {
-
-                anim.SetBool("Walking", false);
-                anim.SetBool("Running", false);
-                anim.SetBool("Jumping", true);
-                anim.SetBool("Sneaking", false);
-                anim.SetBool("OpeningDoor", false);
             }
             else if (Input.GetKey(KeyCode.C))
             {
@@ -197,37 +187,265 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Sneaking", true);
-                anim.SetBool("OpeningDoor", false);
-
             }
             else if (Input.GetKey(KeyCode.F))
             {
 
                 anim.SetBool("OpeningDoor", true);
             }
-            else
+            else if (moveAmount != new Vector3(0, 0, 0))
             {
 
                 anim.SetBool("Running", false);
                 anim.SetBool("Jumping", false);
                 anim.SetBool("Walking", true);
                 anim.SetBool("Sneaking", false);
-                anim.SetBool("OpeningDoor", false);
+            }
+            else
+            {
+                anim.SetBool("Running", false);
+                anim.SetBool("Jumping", false);
+                anim.SetBool("Walking", false);
+                anim.SetBool("Sneaking", false);
+            }*/
+
+            if (moveAmount != new Vector3(0, 0, 0))
+            {
+
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+
+                    anim.SetBool("Walking", false);
+                    anim.SetBool("Jumping", false);
+                    anim.SetBool("Running", true);
+                    anim.SetBool("Sneaking", false);
+
+                    anim.SetBool("Idling", false);
+
+                    if (Input.GetKey(KeyCode.C))
+                    {
+                        anim.SetBool("Walking", false);
+                        anim.SetBool("Running", false);
+                        anim.SetBool("Jumping", false);
+                        anim.SetBool("Sneaking", true);
+
+                        anim.SetBool("Idling", false);
+
+                        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+                        {
+
+                            anim.SetBool("Running", false);
+                            anim.SetBool("Jumping", true);
+                            anim.SetBool("Walking", false);
+                            anim.SetBool("Sneaking", false);
+
+                            anim.SetBool("Idling", false);
+                        }
+                        else
+                        {
+
+                            anim.SetBool("Jumping", false);
+                        }
+                        Door();
+                        Talk();
+                    }
+                }
+                else if (Input.GetKey(KeyCode.C))
+                {
+                    anim.SetBool("Walking", false);
+                    anim.SetBool("Running", false);
+                    anim.SetBool("Jumping", false);
+                    anim.SetBool("Sneaking", true);
+
+                    anim.SetBool("Idling", false);
+
+                    if (Input.GetKeyDown(KeyCode.Space) && grounded)
+                    {
+
+                        anim.SetBool("Running", false);
+                        anim.SetBool("Jumping", true);
+                        anim.SetBool("Walking", false);
+                        anim.SetBool("Sneaking", false);
+
+                        anim.SetBool("Idling", false);
+                    }
+                    else
+                    {
+
+                        anim.SetBool("Jumping", false);
+                    }
+                    Door();
+                    Talk();
+
+                    if (Input.GetKey(KeyCode.LeftShift))
+                    {
+
+                        anim.SetBool("Walking", false);
+                        anim.SetBool("Jumping", false);
+                        anim.SetBool("Running", true);
+                        anim.SetBool("Sneaking", false);
+
+                        anim.SetBool("Idling", false);
+
+                        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+                        {
+
+                            anim.SetBool("Running", false);
+                            anim.SetBool("Jumping", true);
+                            anim.SetBool("Walking", false);
+                            anim.SetBool("Sneaking", false);
+
+                            anim.SetBool("Idling", false);
+                        }
+                        else
+                        {
+
+                            anim.SetBool("Jumping", false);
+                        }
+                        Door();
+                        Talk();
+                    }
+                }
+                else
+                {
+                    anim.SetBool("Walking", true);
+                    anim.SetBool("Running", false);
+                    anim.SetBool("Jumping", false);
+                    anim.SetBool("Sneaking", false);
+
+                    anim.SetBool("Idling", false);
+
+                    if (Input.GetKeyDown(KeyCode.Space) && grounded)
+                    {
+
+                        anim.SetBool("Running", false);
+                        anim.SetBool("Jumping", true);
+                        anim.SetBool("Walking", false);
+                        anim.SetBool("Sneaking", false);
+
+                        anim.SetBool("Idling", false);
+                    }
+                    else
+                    {
+
+                        anim.SetBool("Jumping", false);
+                    }
+                    Door();
+                    Talk();
+                }
+            }
+            else
+            {
+
+                if (Input.GetKey(KeyCode.C))
+                {
+                    anim.SetBool("Walking", false);
+                    anim.SetBool("Running", false);
+                    anim.SetBool("Jumping", false);
+                    anim.SetBool("Sneaking", true);
+
+                    anim.SetBool("Idling", false);
+
+                    if (Input.GetKeyDown(KeyCode.Space) && grounded)
+                    {
+
+                        anim.SetBool("Running", false);
+                        anim.SetBool("Jumping", true);
+                        anim.SetBool("Walking", false);
+                        anim.SetBool("Sneaking", false);
+
+                        anim.SetBool("Idling", false);
+                    }
+                    else
+                    {
+
+                        anim.SetBool("Jumping", false);
+                    }
+                    Door();
+                    Talk();
+                }
+                else
+                {
+                    anim.SetBool("Walking", false);
+                    anim.SetBool("Running", false);
+                    anim.SetBool("Jumping", false);
+                    anim.SetBool("Sneaking", false);
+
+                    anim.SetBool("Idling", true);
+
+                    if (Input.GetKeyDown(KeyCode.Space) && grounded)
+                    {
+
+                        anim.SetBool("Running", false);
+                        anim.SetBool("Jumping", true);
+                        anim.SetBool("Walking", false);
+                        anim.SetBool("Sneaking", false);
+
+                        anim.SetBool("Idling", false);
+                    }
+                    else
+                    {
+
+                        anim.SetBool("Jumping", false);
+                    }
+                    Door();
+                    Talk();
+                }
+
+                
             }
         }
     }
+
 
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
             rb.AddForce(transform.up * jumpForce);
+
+            anim.SetBool("Running", false);
             anim.SetBool("Jumping", true);
+            anim.SetBool("Walking", false);
+            anim.SetBool("Sneaking", false);
+
+            anim.SetBool("Idling", false);
         }
         else
         {
+
             anim.SetBool("Jumping", false);
         }
+    }
+
+    void Door()
+    {
+        if (Input.GetKey(KeyCode.F))
+        {
+
+            anim.SetBool("OpeningDoor", true);
+        }
+        else
+        {
+
+            anim.SetBool("OpeningDoor", false);
+        }
+
+    }
+
+    void Talk()
+    {
+        if (Input.GetKey(KeyCode.V))
+        {
+
+            anim.SetBool("Talking", true);
+        }
+        else
+        {
+
+            anim.SetBool("Talking", false);
+        }
+
     }
 
     public void SetGroudedState(bool _grounded)

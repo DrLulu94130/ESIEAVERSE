@@ -558,9 +558,8 @@ MonoBehaviour:
   walkSpeed: 3
   jumpForce: 300
   smoothTime: 0.2
-  EmoteWheelIsOn: {fileID: 0}
-  role: 0
   CameraHolder: {fileID: 6954059848055913222}
+  role: 0
 --- !u!114 &6982518366412186954
 MonoBehaviour:
   m_ObjectHideFlags: 0
