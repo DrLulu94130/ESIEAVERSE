@@ -691,9 +691,9 @@ MonoBehaviour:
   walkSpeed: 3
   jumpForce: 300
   smoothTime: 0.15
-  EmoteWheelIsOn: {fileID: 0}
-  role: 0
   CameraHolder: {fileID: 0}
+  message: 
+  role: 0
 --- !u!114 &6931252899784745123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,9 +2013,17 @@ MonoBehaviour:
   - Type: 4
     SynchronizeType: 1
     Name: Talking
+  - Type: 4
+    SynchronizeType: 1
+    Name: Idling
+  - Type: 4
+    SynchronizeType: 1
+    Name: OpeningDoor
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
+  - SynchronizeType: 2
+    LayerIndex: 1
 --- !u!114 &712949991773534969
 MonoBehaviour:
   m_ObjectHideFlags: 0

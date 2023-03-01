@@ -849,9 +849,9 @@ MonoBehaviour:
   walkSpeed: 3
   jumpForce: 300
   smoothTime: 0.15
-  EmoteWheelIsOn: {fileID: 0}
-  role: 0
   CameraHolder: {fileID: 0}
+  message: 
+  role: 0
 --- !u!114 &3800001029351756020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,9 +2084,17 @@ MonoBehaviour:
   - Type: 4
     SynchronizeType: 1
     Name: Talking
+  - Type: 4
+    SynchronizeType: 1
+    Name: Idling
+  - Type: 4
+    SynchronizeType: 1
+    Name: OpeningDoor
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
+  - SynchronizeType: 2
+    LayerIndex: 1
 --- !u!1 &8869196606634069774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 154518, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
