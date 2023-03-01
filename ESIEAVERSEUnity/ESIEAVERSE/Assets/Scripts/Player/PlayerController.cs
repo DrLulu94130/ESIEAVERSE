@@ -153,6 +153,8 @@ public class PlayerController : MonoBehaviour
         Move();
         Jump();
 
+        StartCoroutine(UpperBody());
+
 
         if (Cursor.lockState != CursorLockMode.Locked)
         {
@@ -271,8 +273,6 @@ public class PlayerController : MonoBehaviour
 
                             anim.SetBool("Jumping", false);
                         }
-                        Door();
-                        Talk();
                     }
                 }
                 else if (Input.GetKey(KeyCode.C))
@@ -299,8 +299,6 @@ public class PlayerController : MonoBehaviour
 
                         anim.SetBool("Jumping", false);
                     }
-                    Door();
-                    Talk();
 
                     if (Input.GetKey(KeyCode.LeftShift))
                     {
@@ -327,8 +325,6 @@ public class PlayerController : MonoBehaviour
 
                             anim.SetBool("Jumping", false);
                         }
-                        Door();
-                        Talk();
                     }
                 }
                 else
@@ -355,8 +351,6 @@ public class PlayerController : MonoBehaviour
 
                         anim.SetBool("Jumping", false);
                     }
-                    Door();
-                    Talk();
                 }
             }
             else
@@ -386,8 +380,6 @@ public class PlayerController : MonoBehaviour
 
                         anim.SetBool("Jumping", false);
                     }
-                    Door();
-                    Talk();
                 }
                 else
                 {
@@ -412,9 +404,7 @@ public class PlayerController : MonoBehaviour
                     {
 
                         anim.SetBool("Jumping", false);
-                    }
-                    Door();
-                    Talk();
+                    }         
                 }
 
                 
@@ -443,34 +433,32 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Door()
-    {
+    private IEnumerator UpperBody()
+    {   
         if (Input.GetKey(KeyCode.F))
         {
-
+            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 1);
             anim.SetBool("OpeningDoor", true);
-        }
-        else
-        {
-
-            anim.SetBool("OpeningDoor", false);
-        }
-
-    }
-
-    void Talk()
-    {
-        if (Input.GetKey(KeyCode.V))
-        {
-
-            anim.SetBool("Talking", true);
-        }
-        else
-        {
-
             anim.SetBool("Talking", false);
-        }
 
+            yield return new WaitForSeconds(0.9f);
+            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
+        }
+        else if (Input.GetKey(KeyCode.V))
+        {
+            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 1);
+            anim.SetBool("Talking", true);
+            anim.SetBool("OpeningDoor", false);
+
+            yield return new WaitForSeconds(0.9f);
+            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
+        }
+        else
+        {
+            anim.SetBool("Talking", false);
+            anim.SetBool("OpeningDoor", false);
+
+        }
     }
 
     public void SetGroudedState(bool _grounded)
