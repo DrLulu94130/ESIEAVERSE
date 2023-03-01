@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using Photon.Pun.UtilityScripts;
 
 public class LoginScript : MonoBehaviour
 {
@@ -10,8 +11,8 @@ public class LoginScript : MonoBehaviour
     [SerializeField] Text ErrorField;
     [SerializeField] InputField Username , Password;
     [SerializeField] string url;
-    public int ID;
-    public string role;
+    public static int ID;
+    public static string role;
     
     public void StartLogin()
     {
@@ -45,6 +46,9 @@ public class LoginScript : MonoBehaviour
                     ID = int.Parse(splitResponse[0]);
                     role = splitResponse[1];
                     ErrorField.text = "ID : " + ID + "\nRole : " + role;
+                    PlayerPrefs.SetInt("ID",ID);
+                    PlayerPrefs.SetString("role",role);
+                    
                 }
                 txtValue.text = ""; //"Name : " + Username.text + " | " + "Password : " + Password.text ;
             }

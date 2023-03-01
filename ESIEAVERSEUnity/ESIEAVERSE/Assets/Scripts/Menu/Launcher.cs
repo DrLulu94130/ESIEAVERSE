@@ -29,7 +29,6 @@ public class Launcher : MonoBehaviourPunCallbacks
     public int Nscene = 1;
 
     public GameObject DatabaseMana;
-    public int ID;
 
     private void Awake()
     {
@@ -188,10 +187,5 @@ public class Launcher : MonoBehaviourPunCallbacks
         
             yield return null;
         }
-    }
-
-    public void Update()
-    {
-        ID = DatabaseMana.GetComponent<LoginScript>().ID;
     }
 }

@@ -5,6 +5,7 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun.UtilityScripts;
 
 
 public class PlayerController : MonoBehaviour
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
     [SerializeField] GameObject CameraHolder;
 
+    public string message;
     public float role;
     float verticalLookRotation;
     float speed = 0;
@@ -59,6 +61,19 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(KeyCode.M))
+        {
+            foreach (var item in PhotonNetwork.PlayerList)
+            {
+                message += "ID :";
+                message += PlayerPrefs.GetInt("ID");
+                message += " | role :";
+                message += PlayerPrefs.GetString("role");
+                message += "oui";
+                Debug.Log(message);
+            }
+        }
+
         tab = Tableau.o;
         if (!PV.IsMine)
             return;
