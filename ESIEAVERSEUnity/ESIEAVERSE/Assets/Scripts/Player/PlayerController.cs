@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
 
         if (!PV.IsMine)
         {
@@ -80,7 +81,7 @@ public class PlayerController : MonoBehaviour
 
         if ((tab) && (Tableau.done))
         {
-            UnityEngine.Debug.Log("test");
+            //UnityEngine.Debug.Log("test");
             if (PV.IsMine)
             {
                 CameraHolder.SetActive(false);
@@ -89,7 +90,7 @@ public class PlayerController : MonoBehaviour
         if (!(tab))
         {
 
-            UnityEngine.Debug.Log("test2");
+            //UnityEngine.Debug.Log("test2");
             if (PV.IsMine)
             {
                 CameraHolder.SetActive(true);
