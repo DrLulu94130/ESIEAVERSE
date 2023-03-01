@@ -200,42 +200,6 @@ public class PlayerController : MonoBehaviour
             }
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (go ? speed : walkSpeed), ref smoothMoveVelocity, smoothTime);
             go = false;
-            /*
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-
-                anim.SetBool("Walking", false);
-                anim.SetBool("Jumping", false);
-                anim.SetBool("Running", true);
-                anim.SetBool("Sneaking", false);
-            }
-            else if (Input.GetKey(KeyCode.C))
-            {
-                anim.SetBool("Walking", false);
-                anim.SetBool("Running", false);
-                anim.SetBool("Jumping", false);
-                anim.SetBool("Sneaking", true);
-            }
-            else if (Input.GetKey(KeyCode.F))
-            {
-
-                anim.SetBool("OpeningDoor", true);
-            }
-            else if (moveAmount != new Vector3(0, 0, 0))
-            {
-
-                anim.SetBool("Running", false);
-                anim.SetBool("Jumping", false);
-                anim.SetBool("Walking", true);
-                anim.SetBool("Sneaking", false);
-            }
-            else
-            {
-                anim.SetBool("Running", false);
-                anim.SetBool("Jumping", false);
-                anim.SetBool("Walking", false);
-                anim.SetBool("Sneaking", false);
-            }*/
 
             if (moveAmount != new Vector3(0, 0, 0))
             {
@@ -419,13 +383,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
             rb.AddForce(transform.up * jumpForce);
-
-            anim.SetBool("Running", false);
             anim.SetBool("Jumping", true);
-            anim.SetBool("Walking", false);
-            anim.SetBool("Sneaking", false);
-
-            anim.SetBool("Idling", false);
         }
         else
         {
@@ -438,20 +396,18 @@ public class PlayerController : MonoBehaviour
     {   
         if (Input.GetKey(KeyCode.F))
         {
-            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 1);
+            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0.5f);
             anim.SetBool("OpeningDoor", true);
-            anim.SetBool("Talking", false);
 
-            yield return new WaitForSeconds(0.9f);
+            yield return new WaitForSeconds(1.2f);
             anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
         }
         else if (Input.GetKey(KeyCode.V))
         {
-            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 1);
+            anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0.5f);
             anim.SetBool("Talking", true);
-            anim.SetBool("OpeningDoor", false);
 
-            yield return new WaitForSeconds(0.9f);
+            yield return new WaitForSeconds(2);
             anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
         }
         else
