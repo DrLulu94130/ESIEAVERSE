@@ -65,13 +65,22 @@ public class PlayerController : MonoBehaviour
 
         if ((tab) && (Tableau.done))
         {
-
             UnityEngine.Debug.Log("test");
             if (PV.IsMine)
             {
                 CameraHolder.SetActive(false);
             }
         }
+        if (!(tab))
+        {
+
+            UnityEngine.Debug.Log("test2");
+            if (PV.IsMine)
+            {
+                CameraHolder.SetActive(true);
+            }
+        }
+        /*
         if (Input.GetKeyDown(KeyCode.T))
         {
             if (PV.IsMine)
@@ -80,6 +89,7 @@ public class PlayerController : MonoBehaviour
                 return;
             }
         }
+        */
         if ((Pause.isOn) || (Tableau.isOn) || (EmoteWheel.isOn))
         {   
             if (Cursor.lockState != CursorLockMode.None)

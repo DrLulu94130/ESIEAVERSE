@@ -37,6 +37,7 @@ public class Tableau : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Q))
             {
+                GetComponent<Interaction>().Triggered = false;
                 isOn = false;
                 Camera.SetActive(false);
                 done = false;
