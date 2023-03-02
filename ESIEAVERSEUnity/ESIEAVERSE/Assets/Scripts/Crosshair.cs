@@ -17,7 +17,7 @@ public class Crosshair : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( (Pause.isOn) || (EmoteWheel.isOn) || (Tableau.isOn))
+        if( (Pause.isOn) || (EmoteWheel.isOn) || (Tableau.isOn) || (Bibliotheque.isOn) )
         {
             CrosshairUI.SetActive(false);
             isOn = false;

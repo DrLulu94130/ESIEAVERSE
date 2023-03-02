@@ -211,6 +211,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -358,6 +359,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -2209,6 +2211,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -2318,6 +2321,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -2336,6 +2340,108 @@ MonoBehaviour:
   TimerRunOut: 0
   timeRemaining: 0
   timerIsRunning: 0
+--- !u!1 &19933465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 19933469}
+  - component: {fileID: 19933468}
+  - component: {fileID: 19933467}
+  - component: {fileID: 19933466}
+  m_Layer: 5
+  m_Name: Bibliotheque
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &19933466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19933465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &19933467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19933465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &19933468
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19933465}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &19933469
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19933465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 421071271}
+  - {fileID: 1493418413}
+  m_Father: {fileID: 2051012517}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &20751103 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2679980991818218168, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -2428,6 +2534,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -2792,6 +2899,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -3097,6 +3205,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -3350,6 +3459,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -3668,6 +3778,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -3834,6 +3945,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -3989,6 +4101,121 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 653049258860859229, guid: 7b99cb5434bbb514a9bf1e2686fddd8e, type: 3}
+--- !u!1 &65011853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65011858}
+  - component: {fileID: 65011857}
+  - component: {fileID: 65011856}
+  - component: {fileID: 65011855}
+  - component: {fileID: 65011854}
+  m_Layer: 5
+  m_Name: Canvas Crosshair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &65011854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65011853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e81b424c39ff6147b70cf776dc7282f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrosshairUI: {fileID: 322299729}
+--- !u!114 &65011855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65011853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &65011856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65011853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &65011857
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65011853}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &65011858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65011853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 322299733}
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &67630802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 341215447365951850, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -4223,6 +4450,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -4334,6 +4562,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -4424,6 +4653,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -4633,6 +4863,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -4738,6 +4969,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -5009,6 +5241,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -5100,6 +5333,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -5505,6 +5739,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -5878,6 +6113,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -5969,6 +6205,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -6059,6 +6296,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -6317,6 +6555,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -6587,6 +6826,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -6664,6 +6904,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -6906,6 +7147,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -7517,6 +7759,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -7609,6 +7852,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -7868,6 +8112,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -8031,6 +8276,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -8249,6 +8495,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -8449,6 +8696,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -8598,6 +8846,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -8727,6 +8976,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -8875,6 +9125,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -9160,6 +9411,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -9398,7 +9650,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9512,6 +9764,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -9725,6 +9978,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -10036,6 +10290,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -10192,6 +10447,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -10388,6 +10644,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -10723,6 +10980,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -10821,6 +11079,82 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!1 &256960316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256960317}
+  - component: {fileID: 256960319}
+  - component: {fileID: 256960318}
+  m_Layer: 5
+  m_Name: 'Illustration '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &256960317
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256960316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 857149150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &256960318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256960316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f0494ee0a50cade45bd4e9fb79d10cd9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &256960319
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256960316}
+  m_CullTransparentMesh: 1
 --- !u!1 &260516824 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1827966551404780839, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -11059,6 +11393,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -11150,6 +11485,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -11273,6 +11609,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -11636,6 +11973,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -11883,6 +12221,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12040,6 +12379,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12150,6 +12490,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12351,6 +12692,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12593,6 +12935,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12713,6 +13056,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12823,6 +13167,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -12930,6 +13275,107 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!1 &322299729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 322299733}
+  - component: {fileID: 322299732}
+  - component: {fileID: 322299731}
+  - component: {fileID: 322299730}
+  m_Layer: 5
+  m_Name: Crosshair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &322299730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322299729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &322299731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322299729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &322299732
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322299729}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &322299733
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322299729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 667543272}
+  m_Father: {fileID: 65011858}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &322991479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2298499026866095102, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -13184,6 +13630,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -13327,6 +13774,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -13417,6 +13865,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -13598,6 +14047,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -13708,6 +14158,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -13861,6 +14312,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -14202,6 +14654,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -14420,6 +14873,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -14457,6 +14911,153 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8139831608541841261, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
+--- !u!1 &360065873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360065874}
+  - component: {fileID: 360065877}
+  - component: {fileID: 360065876}
+  - component: {fileID: 360065875}
+  - component: {fileID: 360065878}
+  m_Layer: 5
+  m_Name: "Boutton Biblioth\xE8ques Num\xE9riques"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &360065874
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360065873}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1224861533}
+  m_Father: {fileID: 1493418413}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 63, y: 10.598694}
+  m_SizeDelta: {x: 130, y: 88.8026}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &360065875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360065873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.7058824}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.50980395}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 360065876}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 360065878}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: OpenBibliothequeNumerique
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &360065876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360065873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &360065877
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360065873}
+  m_CullTransparentMesh: 1
+--- !u!114 &360065878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360065873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97fdc24d8ee0ac4ba36b65c9b5609b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &360653170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -609809217823205917, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -14795,6 +15396,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15033,6 +15635,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15138,6 +15741,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15230,6 +15834,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15340,6 +15945,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15463,6 +16069,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15602,6 +16209,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -15925,6 +16533,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -16120,6 +16729,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -16156,6 +16766,129 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -11137153789336370, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &421071270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 421071271}
+  - component: {fileID: 421071273}
+  - component: {fileID: 421071272}
+  - component: {fileID: 421071274}
+  m_Layer: 5
+  m_Name: "LivresPartag\xE9s"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &421071271
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421071270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1975655377}
+  - {fileID: 1988136475}
+  m_Father: {fileID: 19933469}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -180, y: 0}
+  m_SizeDelta: {x: 300, y: 350}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &421071272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421071270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &421071273
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421071270}
+  m_CullTransparentMesh: 1
+--- !u!114 &421071274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421071270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.7058824}
+    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.627451}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.627451}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.78431374}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 421071272}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &422331850 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5137503767391546795, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -16229,6 +16962,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -16359,6 +17093,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -16450,6 +17185,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -17137,6 +17873,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -17257,7 +17994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &459276340
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17486,6 +18223,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -17658,6 +18396,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -17749,6 +18488,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -17858,6 +18598,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -17968,6 +18709,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -18130,6 +18872,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -18260,6 +19003,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -18630,6 +19374,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -19245,6 +19990,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -19420,6 +20166,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -19928,6 +20675,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -20089,6 +20837,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -20228,6 +20977,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -20413,6 +21163,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -20556,6 +21307,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -20713,6 +21465,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -20837,6 +21590,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -21052,6 +21806,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -21290,6 +22045,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -21634,6 +22390,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -21971,6 +22728,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -22184,6 +22942,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -22202,6 +22961,153 @@ MonoBehaviour:
   TimerRunOut: 0
   timeRemaining: 0
   timerIsRunning: 0
+--- !u!1 &576967448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576967449}
+  - component: {fileID: 576967452}
+  - component: {fileID: 576967451}
+  - component: {fileID: 576967450}
+  - component: {fileID: 576967453}
+  m_Layer: 5
+  m_Name: Boutton Presse en ligne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &576967449
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576967448}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1374251682}
+  m_Father: {fileID: 1493418413}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -65, y: -85}
+  m_SizeDelta: {x: 130, y: 88.8026}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &576967450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576967448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.7058824}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.50980395}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 576967451}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 576967453}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: OpenPresseEnLigne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &576967451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576967448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &576967452
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576967448}
+  m_CullTransparentMesh: 1
+--- !u!114 &576967453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576967448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97fdc24d8ee0ac4ba36b65c9b5609b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &577610512 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3811793620594516900, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -22404,6 +23310,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -22499,6 +23406,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -22629,6 +23537,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -22923,6 +23832,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -23207,6 +24117,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -23445,6 +24356,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -23588,6 +24500,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -23991,6 +24904,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 627446648}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -24304,6 +25218,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -24419,6 +25334,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -25003,6 +25919,82 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &667543271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667543272}
+  - component: {fileID: 667543274}
+  - component: {fileID: 667543273}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &667543272
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667543271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 322299733}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 25, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &667543273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667543271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.47058824}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e02f4ca0cbea0924ca909556bad22475, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &667543274
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667543271}
+  m_CullTransparentMesh: 1
 --- !u!1 &667717339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5983532798112357502, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -25191,6 +26183,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -25395,6 +26388,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -25485,6 +26479,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -25596,6 +26591,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -25724,6 +26720,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -26217,6 +27214,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -26549,6 +27547,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -26697,6 +27696,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -26902,6 +27902,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -27030,6 +28031,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -27159,6 +28161,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -27411,6 +28414,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -27520,6 +28524,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -27702,6 +28707,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -28001,6 +29007,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -28106,6 +29113,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -28282,6 +29290,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -28532,6 +29541,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -28726,6 +29736,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -28870,6 +29881,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29168,6 +30180,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29480,6 +30493,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29570,6 +30584,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29662,6 +30677,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29771,6 +30787,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29881,6 +30898,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -29973,6 +30991,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -30213,6 +31232,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -30389,6 +31409,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -30687,6 +31708,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -30797,6 +31819,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -30992,6 +32015,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -31307,6 +32331,141 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!1 &839623324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 839623325}
+  - component: {fileID: 839623327}
+  - component: {fileID: 839623326}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &839623325
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839623324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1975655377}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5, y: -3}
+  m_SizeDelta: {x: 230, y: 94.7551}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &839623326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839623324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Notre page web
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &839623327
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839623324}
+  m_CullTransparentMesh: 1
 --- !u!64 &841413125
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31423,6 +32582,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -31514,6 +32674,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -31605,6 +32766,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -31695,6 +32857,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -31825,6 +32988,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -32038,6 +33202,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -32168,6 +33333,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -32223,6 +33389,153 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8808076340854732562, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
+--- !u!1 &857149149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857149150}
+  - component: {fileID: 857149153}
+  - component: {fileID: 857149152}
+  - component: {fileID: 857149151}
+  - component: {fileID: 857149154}
+  m_Layer: 5
+  m_Name: Boutton Centre de Documentation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &857149150
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857149149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 256960317}
+  m_Father: {fileID: 1493418413}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -65, y: 10.598694}
+  m_SizeDelta: {x: 130, y: 88.8026}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &857149151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857149149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.7058824}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.50980395}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 857149152}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 857149154}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: OpenCentreDeDocumentation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &857149152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857149149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &857149153
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857149149}
+  m_CullTransparentMesh: 1
+--- !u!114 &857149154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857149149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97fdc24d8ee0ac4ba36b65c9b5609b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &857616294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1148718195461364638, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -32311,6 +33624,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -32388,6 +33702,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -32536,6 +33851,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -32973,6 +34289,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -33064,6 +34381,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -33787,6 +35105,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -33878,6 +35197,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -34212,6 +35532,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -34354,6 +35675,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -34460,9 +35782,157 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+--- !u!1 &924673747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924673748}
+  - component: {fileID: 924673751}
+  - component: {fileID: 924673750}
+  - component: {fileID: 924673749}
+  - component: {fileID: 924673752}
+  m_Layer: 5
+  m_Name: Boutton CFC - Droits de diffusion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &924673748
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924673747}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1778393378}
+  m_Father: {fileID: 1493418413}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 63, y: -85}
+  m_SizeDelta: {x: 130, y: 88.8026}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &924673749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924673747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.7058824}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.50980395}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 924673750}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 924673752}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: OpenCancun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &924673750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924673747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &924673751
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924673747}
+  m_CullTransparentMesh: 1
+--- !u!114 &924673752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924673747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97fdc24d8ee0ac4ba36b65c9b5609b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!64 &924970356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34570,6 +36040,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -34878,6 +36349,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -35273,6 +36745,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -35417,6 +36890,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -35688,6 +37162,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -36048,6 +37523,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -36172,6 +37648,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -36263,6 +37740,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -36392,6 +37870,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -36734,6 +38213,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -36901,6 +38381,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -37024,6 +38505,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -37134,6 +38616,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -37325,6 +38808,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -37613,6 +39097,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -37724,6 +39209,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -37933,6 +39419,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -38133,6 +39620,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -38486,6 +39974,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -38590,6 +40079,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -38738,6 +40228,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -39024,6 +40515,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -39389,6 +40881,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -39653,6 +41146,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -39915,6 +41409,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -39991,6 +41486,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -40350,6 +41846,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -40645,6 +42142,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -40812,6 +42310,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -40993,6 +42492,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -41301,6 +42801,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -41483,6 +42984,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -41740,6 +43242,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -41864,6 +43367,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -42084,6 +43588,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -42298,6 +43803,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -42567,6 +44073,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -42657,6 +44164,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -42767,6 +44275,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -42785,82 +44294,6 @@ MonoBehaviour:
   TimerRunOut: 0
   timeRemaining: 0
   timerIsRunning: 0
---- !u!1 &1145948428
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1145948429}
-  - component: {fileID: 1145948431}
-  - component: {fileID: 1145948430}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1145948429
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145948428}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1158610758}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1145948430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145948428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.99433964, g: 0.99669814, b: 1, a: 0.39215687}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e02f4ca0cbea0924ca909556bad22475, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1145948431
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145948428}
-  m_CullTransparentMesh: 1
 --- !u!1 &1146190583 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4267568750123109927, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -43420,6 +44853,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -43597,6 +45031,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -43797,6 +45232,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -43814,116 +45250,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1186085932719245125, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
---- !u!1 &1158610753
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1158610758}
-  - component: {fileID: 1158610757}
-  - component: {fileID: 1158610756}
-  - component: {fileID: 1158610755}
-  - component: {fileID: 1158610754}
-  m_Layer: 5
-  m_Name: Crosshair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!222 &1158610754
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158610753}
-  m_CullTransparentMesh: 1
---- !u!114 &1158610755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158610753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1158610756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158610753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1158610757
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158610753}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1158610758
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158610753}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.49270838, y: 0.49270838, z: 0.49270838}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1145948429}
-  m_Father: {fileID: 1854218214}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 965, y: 540}
-  m_SizeDelta: {x: 1919.9999, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1158670758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1773028579574561862, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -44237,6 +45563,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -44842,6 +46169,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -44998,6 +46326,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -45175,6 +46504,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -45285,6 +46615,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -45461,6 +46792,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -45749,6 +47081,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -45921,9 +47254,86 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+--- !u!1 &1224861532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1224861533}
+  - component: {fileID: 1224861535}
+  - component: {fileID: 1224861534}
+  m_Layer: 5
+  m_Name: 'Illustration '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1224861533
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224861532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 360065874}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1224861534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224861532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f0494ee0a50cade45bd4e9fb79d10cd9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1224861535
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224861532}
+  m_CullTransparentMesh: 1
 --- !u!1 &1227369241 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5931009087804197036, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -45998,6 +47408,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -46108,6 +47519,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -46546,6 +47958,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47014,6 +48427,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47171,6 +48585,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47329,6 +48744,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47438,6 +48854,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47529,6 +48946,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47639,6 +49057,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -47868,6 +49287,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -48114,6 +49534,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -48225,6 +49646,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -48368,6 +49790,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -48492,6 +49915,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -48583,6 +50007,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -48995,6 +50420,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -49275,6 +50701,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -49366,6 +50793,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -49522,6 +50950,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -49737,6 +51166,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -49899,6 +51329,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -49990,6 +51421,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50095,6 +51527,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50337,6 +51770,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50471,6 +51905,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50594,6 +52029,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50686,6 +52122,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50796,6 +52233,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -50958,6 +52396,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -51392,6 +52831,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -51467,6 +52907,159 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1911897318350428776, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &1373808043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373808044}
+  - component: {fileID: 1373808046}
+  - component: {fileID: 1373808045}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1373808044
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373808043}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1978279141}
+  m_Father: {fileID: 1493418413}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 110}
+  m_SizeDelta: {x: 310, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1373808045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373808043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5016d6f22359696438a0d54178534ae4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1373808046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373808043}
+  m_CullTransparentMesh: 1
+--- !u!1 &1374251681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1374251682}
+  - component: {fileID: 1374251684}
+  - component: {fileID: 1374251683}
+  m_Layer: 5
+  m_Name: 'Illustration '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1374251682
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374251681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 576967449}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1374251683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374251681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f0494ee0a50cade45bd4e9fb79d10cd9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1374251684
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374251681}
+  m_CullTransparentMesh: 1
 --- !u!1 &1374737366 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 142173826555323481, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -51540,6 +53133,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -51781,6 +53375,82 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4974372790923811486, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
+--- !u!1 &1382636983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1382636984}
+  - component: {fileID: 1382636986}
+  - component: {fileID: 1382636985}
+  m_Layer: 5
+  m_Name: 'Illustration '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1382636984
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382636983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1988136475}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1382636985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382636983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f0494ee0a50cade45bd4e9fb79d10cd9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1382636986
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382636983}
+  m_CullTransparentMesh: 1
 --- !u!1 &1385513136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8805942060871049842, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -51873,6 +53543,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -52016,6 +53687,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -52301,6 +53973,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -52671,6 +54344,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -52989,6 +54663,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -53193,6 +54868,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -53501,6 +55177,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -53621,6 +55298,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -54089,6 +55767,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -54214,6 +55893,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -54342,6 +56022,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -54485,6 +56166,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -54729,6 +56411,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -54910,6 +56593,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -55128,6 +56812,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -55306,6 +56991,132 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8510342455295710012, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &1493418412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493418413}
+  - component: {fileID: 1493418416}
+  - component: {fileID: 1493418415}
+  - component: {fileID: 1493418414}
+  m_Layer: 5
+  m_Name: "Biblioth\xE8ques Num\xE9riques"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1493418413
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493418412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1373808044}
+  - {fileID: 857149150}
+  - {fileID: 360065874}
+  - {fileID: 576967449}
+  - {fileID: 924673748}
+  m_Father: {fileID: 19933469}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 180, y: 0}
+  m_SizeDelta: {x: 300, y: 350}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1493418414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493418412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.7058824}
+    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.627451}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.627451}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.78431374}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1493418415}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1493418415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493418412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1493418416
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493418412}
+  m_CullTransparentMesh: 1
 --- !u!1 &1493696373 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 608556248818498802, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -55478,6 +57289,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -55655,6 +57467,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -55746,6 +57559,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -55893,6 +57707,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -56188,6 +58003,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -56601,6 +58417,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -56783,6 +58600,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -56892,6 +58710,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -57105,6 +58924,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -57366,6 +59186,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -57560,6 +59381,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -57723,6 +59545,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -58079,6 +59902,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -58189,6 +60013,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -58459,6 +60284,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -59076,6 +60902,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -59423,6 +61250,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -59518,6 +61346,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -59676,6 +61505,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -59785,6 +61615,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -59981,6 +61812,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -60090,6 +61922,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -60267,6 +62100,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -60377,6 +62211,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -60520,6 +62355,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -60597,6 +62433,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -60796,6 +62633,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -61010,6 +62848,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -61329,6 +63168,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -61448,6 +63288,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -61827,6 +63668,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -62478,6 +64320,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -62583,6 +64426,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -62673,6 +64517,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -62784,6 +64629,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -63012,6 +64858,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -63122,6 +64969,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -63316,6 +65164,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -63530,6 +65379,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -63649,6 +65499,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -63849,6 +65700,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -64136,6 +65988,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -64247,6 +66100,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -64376,6 +66230,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -64481,6 +66336,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -64572,6 +66428,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -64682,6 +66539,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -65128,6 +66986,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -65289,6 +67148,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -65380,6 +67240,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -65682,6 +67543,82 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2779606508705360688, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &1778393377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778393378}
+  - component: {fileID: 1778393380}
+  - component: {fileID: 1778393379}
+  m_Layer: 5
+  m_Name: 'Illustration '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1778393378
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778393377}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 924673748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1778393379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778393377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f0494ee0a50cade45bd4e9fb79d10cd9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1778393380
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778393377}
+  m_CullTransparentMesh: 1
 --- !u!1 &1781069214 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4691667010901568731, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -65793,6 +67730,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -66002,6 +67940,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -66375,6 +68314,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -66481,6 +68421,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -66638,6 +68579,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -66767,6 +68709,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -66975,6 +68918,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -67095,6 +69039,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -67172,6 +69117,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -67460,6 +69406,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -67817,6 +69764,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -67979,6 +69927,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -68088,6 +70037,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -68332,6 +70282,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -68555,6 +70506,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -68646,6 +70598,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -68683,121 +70636,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8427414965601979805, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
---- !u!1 &1854218209
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1854218214}
-  - component: {fileID: 1854218213}
-  - component: {fileID: 1854218212}
-  - component: {fileID: 1854218211}
-  - component: {fileID: 1854218210}
-  m_Layer: 5
-  m_Name: Canvas crosshair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1854218210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854218209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e81b424c39ff6147b70cf776dc7282f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CrosshairUI: {fileID: 1158610753}
---- !u!114 &1854218211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854218209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1854218212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854218209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1854218213
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854218209}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1854218214
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854218209}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1158610758}
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!64 &1855198553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69013,6 +70851,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -70709,6 +72548,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -70800,6 +72640,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -70890,6 +72731,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -71142,6 +72984,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -71267,6 +73110,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -71825,6 +73669,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -71940,6 +73785,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72106,6 +73952,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72254,6 +74101,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72360,6 +74208,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72465,6 +74314,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72627,6 +74477,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72736,6 +74587,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -72855,6 +74707,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -73084,6 +74937,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -73161,6 +75015,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -73413,6 +75268,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -73612,6 +75468,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -73704,6 +75561,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -73795,6 +75653,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -74066,6 +75925,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -74417,6 +76277,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -74688,6 +76549,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -74780,6 +76642,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -74918,6 +76781,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -74995,6 +76859,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -75099,6 +76964,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -75242,6 +77108,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -75279,6 +77146,83 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7038799617446995851, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &1975655376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975655377}
+  - component: {fileID: 1975655379}
+  - component: {fileID: 1975655378}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1975655377
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975655376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 839623325}
+  m_Father: {fileID: 421071271}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 110}
+  m_SizeDelta: {x: 310, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1975655378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975655376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5016d6f22359696438a0d54178534ae4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1975655379
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975655376}
+  m_CullTransparentMesh: 1
 --- !u!1 &1975769684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2298499026866095102, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -75312,6 +77256,141 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5575997092954145187, guid: 7b99cb5434bbb514a9bf1e2686fddd8e, type: 3}
+--- !u!1 &1978279140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1978279141}
+  - component: {fileID: 1978279143}
+  - component: {fileID: 1978279142}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1978279141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978279140}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1373808044}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -3}
+  m_SizeDelta: {x: 230, y: 94.7551}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1978279142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978279140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Biblioth\xE8ques Num\xE9riques"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1978279143
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978279140}
+  m_CullTransparentMesh: 1
 --- !u!1 &1978602928 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3826870412994538774, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -75386,6 +77465,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -75614,6 +77694,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -75843,6 +77924,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -75991,6 +78073,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -76023,6 +78106,153 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1603469297311427686, guid: 7b99cb5434bbb514a9bf1e2686fddd8e, type: 3}
+--- !u!1 &1988136474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1988136475}
+  - component: {fileID: 1988136478}
+  - component: {fileID: 1988136477}
+  - component: {fileID: 1988136476}
+  - component: {fileID: 1988136479}
+  m_Layer: 5
+  m_Name: Boutton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1988136475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988136474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1382636984}
+  m_Father: {fileID: 421071271}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 280, y: 210}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1988136476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988136474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.7058824}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.50980395}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1988136477}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1988136479}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: OpenOurWebPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1988136477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988136474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bea9614f3d6c1e645aaacef83ff1295c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1988136478
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988136474}
+  m_CullTransparentMesh: 1
+--- !u!114 &1988136479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988136474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97fdc24d8ee0ac4ba36b65c9b5609b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1990695248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4719373942209362575, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -76295,6 +78525,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -76400,6 +78631,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -76548,6 +78780,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -76786,6 +79019,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -76934,6 +79168,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -77525,6 +79760,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -77616,6 +79852,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -77774,6 +80011,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -78215,6 +80453,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -78374,6 +80613,121 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5634488383566399569, guid: 49e06e308a533ae46b2ffecba4439409, type: 3}
+--- !u!1 &2051012512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051012517}
+  - component: {fileID: 2051012516}
+  - component: {fileID: 2051012515}
+  - component: {fileID: 2051012514}
+  - component: {fileID: 2051012513}
+  m_Layer: 5
+  m_Name: Canvas Bibliotheque
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2051012513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051012512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6daad6e31dc80084fb1054437ebcb4ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BibliothequeUI: {fileID: 19933465}
+--- !u!114 &2051012514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051012512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2051012515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051012512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &2051012516
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051012512}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &2051012517
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051012512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 19933469}
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &2052016831 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7174421703937181627, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -78519,6 +80873,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -78610,6 +80965,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -78646,6 +81002,173 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2301091195944690056, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &2057482764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2057482771}
+  - component: {fileID: 2057482770}
+  - component: {fileID: 2057482769}
+  - component: {fileID: 2057482768}
+  - component: {fileID: 2057482767}
+  - component: {fileID: 2057482766}
+  - component: {fileID: 2057482765}
+  - component: {fileID: 2057482772}
+  m_Layer: 0
+  m_Name: Bibliotheque
+  m_TagString: Interaction
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2057482765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad427fae52b5e184098ba5bc1757a5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coutdown: {fileID: 2057482766}
+  Door: {fileID: 0}
+  Switch: {fileID: 0}
+  Board: {fileID: 0}
+  Library: {fileID: 2057482772}
+  Triggered: 0
+  Selected: 0
+  AsBeenSelected: 0
+--- !u!114 &2057482766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a6c9b211ca014f8679f9632daef26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerRunOut: 0
+  timeRemaining: 0
+  timerIsRunning: 0
+--- !u!114 &2057482767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 7
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!65 &2057482768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2154775, y: 0.9999998, z: 1.1568112}
+  m_Center: {x: -0.064747125, y: 0, z: 0.02105727}
+--- !u!23 &2057482769
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 087bef098ce39294db0ac97db2e8e819, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2057482770
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2057482771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.89, y: 0.6396, z: -12.55}
+  m_LocalScale: {x: 2.0234, y: 3.3020847, z: 2.1108441}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2057482772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057482764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6daad6e31dc80084fb1054437ebcb4ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BibliothequeUI: {fileID: 19933465}
 --- !u!1 &2058825028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6956683455867810994, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -78734,6 +81257,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -78881,6 +81405,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -79284,6 +81809,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -79361,6 +81887,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -79485,6 +82012,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -79590,6 +82118,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -79771,6 +82300,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -79914,6 +82444,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -80005,6 +82536,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -80096,6 +82628,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -80220,6 +82753,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -80358,6 +82892,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -82337,6 +84872,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -82504,6 +85040,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -82821,6 +85358,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -82912,6 +85450,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -83037,6 +85576,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -83146,6 +85686,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -83304,6 +85845,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -83408,6 +85950,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -99297,6 +101840,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -103119,6 +105663,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -103218,6 +105763,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -104865,6 +107411,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -105798,6 +108345,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -107863,6 +110411,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -108068,6 +110617,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -108125,6 +110675,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -108884,6 +111435,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -110694,6 +113246,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -112210,6 +114763,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -112252,6 +114806,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
@@ -113451,6 +116006,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   Switch: {fileID: 0}
   Board: {fileID: 0}
+  Library: {fileID: 0}
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0

@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
 
 
+
     private void Awake()
     {
         SoundManager.Instance.StopSound();
@@ -44,9 +45,13 @@ public class PlayerController : MonoBehaviour
         PV = GetComponent<PhotonView>();
     }
 
+
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
 
         if (!PV.IsMine)
@@ -59,6 +64,8 @@ public class PlayerController : MonoBehaviour
             Destroy(Model);
         }
     }
+
+
 
     void Update()
     {
@@ -96,24 +103,31 @@ public class PlayerController : MonoBehaviour
                 CameraHolder.SetActive(true);
             }
         }
-        /*
-        if (Input.GetKeyDown(KeyCode.T))
+        
+        /*if (Input.GetKeyDown(KeyCode.T))
         {
             if (PV.IsMine)
             {
                 CameraHolder.SetActive(true);
                 return;
             }
-        }
-        */
-        if ((Pause.isOn) || (Tableau.isOn) || (EmoteWheel.isOn))
+        }*/
+        
+        if ((Pause.isOn) || (Tableau.isOn) || (EmoteWheel.isOn) || (Bibliotheque.isOn))
         {   
             if (Cursor.lockState != CursorLockMode.None)
             {
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
             return;
         }
+        if (Cursor.lockState != CursorLockMode.Locked)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+
         if (Input.GetKeyDown(KeyCode.Return) && (Pause.isOn))
         {
             pause = !pause;
@@ -122,6 +136,7 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+
         /*if (Input.GetKey(KeyCode.T))
         {
             if (PV.IsMine)
@@ -154,20 +169,18 @@ public class PlayerController : MonoBehaviour
         Move();
         Jump();
 
-        StartCoroutine(UpperBody());
-
-
-        if (Cursor.lockState != CursorLockMode.Locked)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-        }
+        StartCoroutine(UpperBody()); 
     }
-/*
-    IEnumerator waiter()
+
+
+
+    /*IEnumerator waiter()
     {
         yield return new WaitForSeconds(2);
         CameraHolder.SetActive(false);
-    } */
+    }*/
+
+
 
     void Look()
     {
@@ -176,6 +189,8 @@ public class PlayerController : MonoBehaviour
         verticalLookRotation = Math.Clamp(verticalLookRotation, -70f, 70f);
         cameraHolder.transform.localEulerAngles = Vector3.left * verticalLookRotation;
     }
+
+
 
     void Move()
     {
@@ -198,6 +213,7 @@ public class PlayerController : MonoBehaviour
                 speed = sneakSpeed;
                 go = true;
             }
+
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (go ? speed : walkSpeed), ref smoothMoveVelocity, smoothTime);
             go = false;
 
@@ -206,7 +222,6 @@ public class PlayerController : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
-
                     anim.SetBool("Walking", false);
                     anim.SetBool("Jumping", false);
                     anim.SetBool("Running", true);
@@ -225,7 +240,6 @@ public class PlayerController : MonoBehaviour
 
                         if (Input.GetKeyDown(KeyCode.Space) && grounded)
                         {
-
                             anim.SetBool("Running", false);
                             anim.SetBool("Jumping", true);
                             anim.SetBool("Walking", false);
@@ -235,7 +249,6 @@ public class PlayerController : MonoBehaviour
                         }
                         else
                         {
-
                             anim.SetBool("Jumping", false);
                         }
                     }
@@ -251,7 +264,6 @@ public class PlayerController : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.Space) && grounded)
                     {
-
                         anim.SetBool("Running", false);
                         anim.SetBool("Jumping", true);
                         anim.SetBool("Walking", false);
@@ -261,13 +273,11 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-
                         anim.SetBool("Jumping", false);
                     }
 
                     if (Input.GetKey(KeyCode.LeftShift))
                     {
-
                         anim.SetBool("Walking", false);
                         anim.SetBool("Jumping", false);
                         anim.SetBool("Running", true);
@@ -277,7 +287,6 @@ public class PlayerController : MonoBehaviour
 
                         if (Input.GetKeyDown(KeyCode.Space) && grounded)
                         {
-
                             anim.SetBool("Running", false);
                             anim.SetBool("Jumping", true);
                             anim.SetBool("Walking", false);
@@ -287,7 +296,6 @@ public class PlayerController : MonoBehaviour
                         }
                         else
                         {
-
                             anim.SetBool("Jumping", false);
                         }
                     }
@@ -303,7 +311,6 @@ public class PlayerController : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.Space) && grounded)
                     {
-
                         anim.SetBool("Running", false);
                         anim.SetBool("Jumping", true);
                         anim.SetBool("Walking", false);
@@ -313,7 +320,6 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-
                         anim.SetBool("Jumping", false);
                     }
                 }
@@ -332,7 +338,6 @@ public class PlayerController : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.Space) && grounded)
                     {
-
                         anim.SetBool("Running", false);
                         anim.SetBool("Jumping", true);
                         anim.SetBool("Walking", false);
@@ -342,7 +347,6 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-
                         anim.SetBool("Jumping", false);
                     }
                 }
@@ -357,7 +361,6 @@ public class PlayerController : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.Space) && grounded)
                     {
-
                         anim.SetBool("Running", false);
                         anim.SetBool("Jumping", true);
                         anim.SetBool("Walking", false);
@@ -367,15 +370,13 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-
                         anim.SetBool("Jumping", false);
                     }         
-                }
-
-                
+                }          
             }
         }
     }
+
 
 
     void Jump()
@@ -387,13 +388,15 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-
             anim.SetBool("Jumping", false);
         }
     }
 
+
+
     private IEnumerator UpperBody()
     {   
+
         if (Input.GetKey(KeyCode.F))
         {
             anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0.5f);
@@ -414,14 +417,17 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("Talking", false);
             anim.SetBool("OpeningDoor", false);
-
         }
     }
+
+
 
     public void SetGroudedState(bool _grounded)
     {
         grounded = _grounded;
     }
+
+
 
     private void FixedUpdate()
     {

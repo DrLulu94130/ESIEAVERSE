@@ -8,6 +8,7 @@ public class Interaction : MonoBehaviour
     public DoorInteraction Door;
     public LightSwitch Switch;
     public Tableau Board;
+    public Bibliotheque Library;
     public bool Triggered;
     public bool Selected;
     public bool AsBeenSelected;
@@ -19,6 +20,7 @@ public class Interaction : MonoBehaviour
         Door = GetComponent<DoorInteraction>();
         Switch = GetComponent<LightSwitch>();
         Board = GetComponent<Tableau>();
+        Library = GetComponent<Bibliotheque>();
     }
 
     // Update is called once per frame
@@ -73,6 +75,18 @@ public class Interaction : MonoBehaviour
             else
             {
                 Board.Trigger = false;
+            }
+        }
+
+        if( Library  )
+        {
+            if (Triggered)
+            {
+                Bibliotheque.isOn = true;
+            }
+            else
+            {
+                Bibliotheque.isOn = false;
             }
         }
 
