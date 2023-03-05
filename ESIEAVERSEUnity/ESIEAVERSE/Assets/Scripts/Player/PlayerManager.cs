@@ -118,7 +118,39 @@ public class PlayerManager : MonoBehaviourPunCallbacks
             }
             if (PlayerCustom.nj == 21)
             {
-                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "20"), spawnpoint.position, spawnpoint.rotation);
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "21"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 22)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "22"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 23)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "23"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 24)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "24"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 25)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "25"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 26)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "26"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 27)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "27"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 28)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "28"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 29)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "29"), spawnpoint.position, spawnpoint.rotation);
             }
         }
         

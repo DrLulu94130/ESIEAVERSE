@@ -46,7 +46,7 @@ public class PlayerCustom : MonoBehaviour
 
     public void Droite()
     {
-        if (s == 21)
+        if (s == 29)
         {
             Admin.SetActive(false);
         }
@@ -55,11 +55,11 @@ public class PlayerCustom : MonoBehaviour
             Player[s].SetActive(false);
         }
         s += 1;
-        if(s == 22)
+        if(s == 30)
         {
             s = 0;
         }
-        if(s == 21)
+        if(s == 29)
         {
             Admin.SetActive(true);
         }
@@ -72,7 +72,7 @@ public class PlayerCustom : MonoBehaviour
     public void Gauche()
     {
 
-        if (s == 21)
+        if (s == 29)
         {
             Admin.SetActive(false);
         }
@@ -83,9 +83,9 @@ public class PlayerCustom : MonoBehaviour
         s -= 1;
         if(s == -1)
         {
-            s = 21;
+            s = 29;
         }
-        if (s == 21)
+        if (s == 29)
         {
             Admin.SetActive(true);
         }
