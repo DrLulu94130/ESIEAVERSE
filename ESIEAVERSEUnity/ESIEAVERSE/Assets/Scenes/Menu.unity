@@ -3402,6 +3402,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.46
       objectReference: {fileID: 0}
+    - target: {fileID: 475712, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 478850, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3469,6 +3473,10 @@ PrefabInstance:
     - target: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613488999573925775, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
@@ -3961,6 +3969,11 @@ Transform:
 --- !u!1 &419608505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 115752, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+  m_PrefabInstance: {fileID: 1680043060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &419648777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1152003264561497348, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
   m_PrefabInstance: {fileID: 1680043060}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &437489490 stripped
@@ -6750,6 +6763,7 @@ MonoBehaviour:
   - {fileID: 15605812}
   - {fileID: 1724981453}
   - {fileID: 245924764}
+  - {fileID: 1714097449}
   - {fileID: 925304962}
   anim: {fileID: 1046436162}
 --- !u!1 &896467959
@@ -7778,7 +7792,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e53174452b9cb4349b1c283f0a6786dc, type: 3}
   Nscene: 1
   DatabaseMana: {fileID: 1228012603}
-  ID: 0
 --- !u!114 &994079798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10322,8 +10335,6 @@ MonoBehaviour:
   Username: {fileID: 37815892}
   Password: {fileID: 65894903}
   url: https://pstesieaverse.alwaysdata.net/Login.php
-  ID: 0
-  role: 
 --- !u!4 &1228012606
 Transform:
   m_ObjectHideFlags: 0
@@ -14390,7 +14401,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -307.6998, y: -273.00018}
+  m_AnchoredPosition: {x: -307.69974, y: -273.0003}
   m_SizeDelta: {x: -481.10474, y: -361.2307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669748600
@@ -14482,6 +14493,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.092
       objectReference: {fileID: 0}
+    - target: {fileID: 475712, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 478850, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14553,6 +14568,10 @@ PrefabInstance:
     - target: {fileID: 13747864, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613488999573925775, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
@@ -14657,6 +14676,7 @@ MonoBehaviour:
   - {fileID: 1331730289}
   - {fileID: 1767974247}
   - {fileID: 437489490}
+  - {fileID: 419648777}
   Admin: {fileID: 1627989171}
   anim: {fileID: 1680043062}
   usernameInput: {fileID: 1804837685}
@@ -14871,6 +14891,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713361583}
   m_CullTransparentMesh: 1
+--- !u!1 &1714097449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1152003264561497348, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+  m_PrefabInstance: {fileID: 369187384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1719493994
 GameObject:
   m_ObjectHideFlags: 0

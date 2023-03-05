@@ -112,6 +112,14 @@ public class PlayerManager : MonoBehaviourPunCallbacks
             {
                 PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "19"), spawnpoint.position, spawnpoint.rotation);
             }
+            if (PlayerCustom.nj == 20)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "20"), spawnpoint.position, spawnpoint.rotation);
+            }
+            if (PlayerCustom.nj == 21)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "20"), spawnpoint.position, spawnpoint.rotation);
+            }
         }
         
     }
