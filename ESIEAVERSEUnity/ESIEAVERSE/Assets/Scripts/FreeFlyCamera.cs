@@ -4,6 +4,8 @@
 //===========================================================================//
 
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
 [RequireComponent(typeof(Camera))]
 public class FreeFlyCamera : MonoBehaviour
@@ -88,6 +90,9 @@ public class FreeFlyCamera : MonoBehaviour
     private Vector3 _initPosition;
     private Vector3 _initRotation;
 
+    [SerializeField] GameObject Model;
+    private PhotonView PV;
+
 #if UNITY_EDITOR
     private void OnValidate()
     {
@@ -101,6 +106,10 @@ public class FreeFlyCamera : MonoBehaviour
     {
         _initPosition = transform.position;
         _initRotation = transform.eulerAngles;
+        if(PV.IsMine)
+        {
+            Destroy(Model);
+        }
     }
 
     private void OnEnable()
