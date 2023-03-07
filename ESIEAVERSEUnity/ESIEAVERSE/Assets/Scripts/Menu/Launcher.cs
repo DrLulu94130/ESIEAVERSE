@@ -23,6 +23,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] GameObject roomListItemPrefab;
     [SerializeField] GameObject playerListItemPrefab;
     [SerializeField] Transform playerListContent;
+    [SerializeField] GameObject startGameButton2;
     [SerializeField] GameObject startGameButton;
     [SerializeField] private AudioClip _clip;
     [SerializeField] AudioClip[] clips;
@@ -96,6 +97,7 @@ public class Launcher : MonoBehaviourPunCallbacks
             Instantiate(playerListItemPrefab, playerListContent).GetComponent<PlayerListItem>().SetUp(players[i]);
         }
         startGameButton.SetActive(PhotonNetwork.IsMasterClient);
+        startGameButton2.SetActive(PhotonNetwork.IsMasterClient);
     }
 
     void CheckMaster()

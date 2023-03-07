@@ -6615,7 +6615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &892970187
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6688,6 +6688,7 @@ MonoBehaviour:
   - {fileID: 15605812}
   - {fileID: 1724981453}
   - {fileID: 245924764}
+  - {fileID: 1680043071}
   - {fileID: 1714097449}
   - {fileID: 1662641095}
   - {fileID: 806297571}
@@ -7716,7 +7717,8 @@ MonoBehaviour:
   roomListItemPrefab: {fileID: 5077078771376006170, guid: 72d8aa313bb3e5c4cab11230ed4db91a, type: 3}
   playerListItemPrefab: {fileID: 5190317455478918347, guid: a8509eae99cd4894197d72466e8a84f3, type: 3}
   playerListContent: {fileID: 326570313}
-  startGameButton: {fileID: 85836088}
+  startGameButton2: {fileID: 46216048}
+  startGameButton: {fileID: 1504752347}
   _clip: {fileID: 0}
   clips:
   - {fileID: 8300000, guid: 857a73aa0456f42499886df4d8fc14c8, type: 3}
@@ -14265,7 +14267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -307.69977, y: -273.00024}
+  m_AnchoredPosition: {x: -307.69977, y: -273.0003}
   m_SizeDelta: {x: -481.10474, y: -361.2307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669748600
@@ -14589,8 +14591,8 @@ MonoBehaviour:
   - {fileID: 1331730289}
   - {fileID: 1767974247}
   - {fileID: 437489490}
-  - {fileID: 419648777}
   - {fileID: 1680043071}
+  - {fileID: 419648777}
   - {fileID: 1680043070}
   - {fileID: 1680043069}
   - {fileID: 1680043068}
