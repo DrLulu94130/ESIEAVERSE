@@ -69,19 +69,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.M))
-        {
-            foreach (var item in PhotonNetwork.PlayerList)
-            {
-                message += "ID :";
-                message += PlayerPrefs.GetInt("ID");
-                message += " | role :";
-                message += PlayerPrefs.GetString("role");
-                message += "oui";
-                Debug.Log(message);
-            }
-        }
-
         tab = Tableau.o;
         if (!PV.IsMine)
             return;
