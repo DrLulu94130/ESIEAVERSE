@@ -32,21 +32,21 @@ using UnityEngine;
     [SerializeField] Animator anim;
     private void Start()
     {
-        visu.SetActive(false);
+        //visu.SetActive(false);
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
         anim.Play("ScaleUp");
-        visu.SetActive(true);
+        //visu.SetActive(true);
     }
     public void OnPointerExit(PointerEventData eventData)
     {
         anim.Play("ScaleDown");
-        visu.SetActive(false);
+        //visu.SetActive(false);
     }
     public void OnSelect(BaseEventData eventData)
     {
         anim.Play("ScaleDown");
-        visu.SetActive(false);
+        //visu.SetActive(false);
     }
 }
