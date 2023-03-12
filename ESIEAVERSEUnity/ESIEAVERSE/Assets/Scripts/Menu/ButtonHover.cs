@@ -28,7 +28,7 @@ using UnityEngine;
  using UnityEngine.EventSystems;
  public class ButtonHover : MonoBehaviour, ISelectHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] GameObject visu;
+    //[SerializeField] GameObject visu;
     [SerializeField] Animator anim;
     private void Start()
     {
