@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     bool grounded;
     bool tab;
     bool tableau = true;
+    bool chat = false;
 
     PhotonView PV;
     Rigidbody rb;
@@ -119,8 +120,14 @@ public class PlayerController : MonoBehaviour
         {
             pause = !pause;
         }
-        if (pause == true)
+        if(Input.GetKeyDown(KeyCode.Return))
         {
+            chat = !chat;
+        }
+        if((pause == true) || (chat == true))
+        {
+            Vector3 moveDirP = new Vector3(0, 0, 0);
+            moveAmount = Vector3.SmoothDamp(moveAmount, moveDirP * 0, ref smoothMoveVelocity, smoothTime);
             return;
         }
 
