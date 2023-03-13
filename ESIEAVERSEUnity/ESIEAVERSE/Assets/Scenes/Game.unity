@@ -201,6 +201,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &317634
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -349,6 +350,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &3162174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2069,6 +2071,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &16187195
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2198,6 +2201,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &19926184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2411,6 +2415,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &20827581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2800,6 +2805,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &26265391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3092,6 +3098,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &31842391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3299,6 +3306,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &44918566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3543,6 +3551,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &54577742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3767,6 +3776,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &58618339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4202,6 +4212,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &76407591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4314,6 +4325,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &76903392
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4405,6 +4417,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &78306655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4535,6 +4548,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &81034018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4646,6 +4660,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &84047504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4852,6 +4867,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &98562862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4944,6 +4960,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &99871780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5257,6 +5274,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &111941382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5406,6 +5424,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &115257540
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5498,6 +5517,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &115754383
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5589,6 +5609,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &116103054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5891,6 +5912,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &123088507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6130,6 +6152,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &130783030 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3504971342285397430, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -6227,6 +6250,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &131554399
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6447,6 +6471,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &140585051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 802716575957132030, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -6999,6 +7024,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &169910433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7092,6 +7118,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &170161487
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7348,6 +7375,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &179822579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7460,6 +7488,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &180410159
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7627,6 +7656,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &184582904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,6 +7806,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &188040847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7945,6 +7976,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &190502035
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8094,6 +8126,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &194095664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8243,6 +8276,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &195840777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8544,6 +8578,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &205952837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8888,6 +8923,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &216805387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9074,6 +9110,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &222588903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9429,6 +9466,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &228625121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9558,6 +9596,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &230396923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9727,6 +9766,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &237036866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9951,6 +9991,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &254035379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10328,6 +10369,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &272534613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10420,6 +10462,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &273438270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10544,6 +10587,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &273837909
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10749,6 +10793,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &287749071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10912,6 +10957,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &292931691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11042,6 +11088,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &295323253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11172,6 +11219,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &298073046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11379,6 +11427,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &303477448
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11660,6 +11709,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &311145744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11767,6 +11817,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &312307341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5983532798112357502, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -11864,6 +11915,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &315030689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12209,6 +12261,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &328500808
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12320,6 +12373,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &331708131
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12411,6 +12465,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &332596931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12598,6 +12653,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &336164810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12709,6 +12765,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &337111357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12859,6 +12916,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &342893025
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13235,6 +13293,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &350801211
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13478,6 +13537,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &359192411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13945,6 +14005,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &372606656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14208,6 +14269,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &380261325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14357,6 +14419,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &383469292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14450,6 +14513,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &384024991
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14561,6 +14625,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &385549570
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14728,6 +14793,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &388897227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14878,6 +14944,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &392535968
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15179,6 +15246,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &406743820
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15385,6 +15453,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &413273906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15656,6 +15725,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &422331861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15806,6 +15876,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &424000382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15820,6 +15891,128 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6073812543336967524, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &424804847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 424804848}
+  - component: {fileID: 424804851}
+  - component: {fileID: 424804850}
+  - component: {fileID: 424804849}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &424804848
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424804847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1511519308}
+  m_Father: {fileID: 1044366210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 13.4641, y: 3.5}
+  m_SizeDelta: {x: 37.214, y: 37.6113}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &424804849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424804847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 424804850}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &424804850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424804847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d1cd0e5960d398343a72747bf8452b6a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &424804851
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424804847}
+  m_CullTransparentMesh: 1
 --- !u!1 &425288975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8931402666257153854, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -15936,6 +16129,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &425595634
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16184,6 +16378,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &437215982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16571,6 +16766,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &455468535 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3701329248358264769, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -16691,6 +16887,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &459127129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17000,6 +17197,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &461676496
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17173,6 +17371,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &464159070
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17265,6 +17464,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &464186743
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17375,6 +17575,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &464825448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17486,6 +17687,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &465882193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17597,6 +17799,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &467679565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17728,6 +17931,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &470235181
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17972,6 +18176,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &479222872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18575,6 +18780,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &497777987
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18761,6 +18967,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &508395922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19252,6 +19459,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &520323718
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19362,6 +19570,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &521882259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19488,6 +19697,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &524208297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2559112055426964113, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -19698,6 +19908,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &526769300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19885,6 +20096,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &532860845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20015,6 +20227,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &536413745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20126,6 +20339,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &540359998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20276,6 +20490,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &546051829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20376,6 +20591,107 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5684504287537746292, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &550560607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 550560611}
+  - component: {fileID: 550560610}
+  - component: {fileID: 550560609}
+  - component: {fileID: 550560608}
+  m_Layer: 5
+  m_Name: PauseMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &550560608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550560607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &550560609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550560607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &550560610
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550560607}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &550560611
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550560607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1044366210}
+  m_Father: {fileID: 2009503761}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &554092617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1092721236424481063, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -20473,6 +20789,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &554519184
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20871,6 +21188,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &561097665
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21096,6 +21414,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &570693349
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21301,6 +21620,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &576160253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21707,6 +22027,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &585230442 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2463766231937234405, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -21803,6 +22124,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &585609405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21934,6 +22256,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &588413716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22215,6 +22538,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &592823792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22496,6 +22820,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &605122939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22740,6 +23065,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &617847632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22851,6 +23177,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &620409839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23227,6 +23554,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &627446650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23504,6 +23832,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &635516636 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4920443841400253774, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -23658,6 +23987,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &636789261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24534,6 +24864,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &675897015
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24740,6 +25071,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &686742940
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24831,6 +25163,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &687135171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24943,6 +25276,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &687227096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25110,6 +25444,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &691797720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25411,6 +25746,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &703869057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25749,6 +26085,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &711030466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25898,6 +26235,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &713734631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26119,6 +26457,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &721687675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 724720398527021569, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -26234,6 +26573,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &725052867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26383,6 +26723,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &727866266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26583,6 +26924,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &735178823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26714,6 +27056,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &736605283
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26824,6 +27167,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &738215139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26993,6 +27337,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &745249981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27199,6 +27544,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &750509596
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27305,6 +27651,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &751384309 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1702744840133457805, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -27454,6 +27801,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &755276026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8801743574780033816, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -27724,6 +28072,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &760755981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27872,6 +28221,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &764683721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28003,6 +28353,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &767261009
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28265,6 +28616,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &777592791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28612,6 +28964,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &788536728
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28722,6 +29075,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &788920371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28815,6 +29169,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &790651083
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28925,6 +29280,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &791242961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29055,6 +29411,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &792164111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29148,6 +29505,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &793724395
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29427,6 +29785,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &799516667
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29538,6 +29897,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &804548823
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29819,6 +30179,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &816150887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29968,6 +30329,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &819942364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30084,6 +30446,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &822511877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30559,6 +30922,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &843898106
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30670,6 +31034,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &845255665
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30762,6 +31127,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &845636941
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30853,6 +31219,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &846112185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31022,6 +31389,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &848150190
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31170,6 +31538,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &851759064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31301,6 +31670,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &855454682
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31611,6 +31981,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &857649512 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4206696572821879207, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -31689,6 +32060,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &857649518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31838,6 +32210,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &863411097
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32163,6 +32536,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &868119302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32255,6 +32629,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &868220843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33094,6 +33469,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &907303966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33186,6 +33562,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &909896731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33436,6 +33813,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &919757873
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33622,6 +34000,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &923377110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33729,6 +34108,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &924587101 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3557016606710234727, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -33992,6 +34372,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &925399623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34255,6 +34636,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &936673628
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34614,6 +34996,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &945022577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34745,6 +35128,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &948176882
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35065,6 +35449,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &956239871
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35384,6 +35769,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &964025115
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35509,6 +35895,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &966710181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4889060643688956224, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -35587,6 +35974,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &966710187
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35717,6 +36105,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &968226958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36056,6 +36445,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &979281166
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36281,6 +36671,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &988576987
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36429,6 +36820,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &993236317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36540,6 +36932,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &996567954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36690,6 +37083,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1001497581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36914,6 +37308,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1014035982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37026,6 +37421,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1015915695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37208,6 +37604,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1022267583 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7881982666264971636, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -37362,6 +37759,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1030651546
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37816,6 +38214,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1039971253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37926,6 +38325,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1040976809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38075,6 +38475,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1042375122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38090,6 +38491,108 @@ MonoBehaviour:
   TimerRunOut: 0
   timeRemaining: 0
   timerIsRunning: 0
+--- !u!1 &1044366209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044366210}
+  - component: {fileID: 1044366213}
+  - component: {fileID: 1044366212}
+  - component: {fileID: 1044366211}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1044366210
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044366209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 424804848}
+  - {fileID: 2100413738}
+  m_Father: {fileID: 550560611}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -20.8, y: -135.9}
+  m_SizeDelta: {x: 855.6001, y: 337.2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1044366211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044366209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1044366212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044366209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1044366213
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044366209}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1044969698 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6941264584937147633, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -38301,6 +38804,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1051311893
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38620,6 +39124,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1062144223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38871,6 +39376,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1065108096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39149,6 +39655,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1077695668 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7745382289612430129, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -39226,6 +39733,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1077695679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39605,6 +40113,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1079255974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39849,6 +40358,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1084107475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39984,6 +40494,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1088212795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40190,6 +40701,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1096470830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40490,6 +41002,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1102408979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40621,6 +41134,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1105991306
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40865,6 +41379,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1106854994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40976,6 +41491,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1112655955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41221,6 +41737,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1127686780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41465,6 +41982,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1137710295
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41707,6 +42225,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1143956328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41817,6 +42336,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1144395672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41928,6 +42448,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1145057093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42418,6 +42939,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1151836947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42568,6 +43090,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1153335753
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42774,6 +43297,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1158232695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43058,6 +43582,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1163293955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43492,6 +44017,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1190296942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43640,6 +44166,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1196661787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43828,6 +44355,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1201079195
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43958,6 +44486,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1202420958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44145,6 +44674,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1209600343
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44369,6 +44899,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1217194141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44533,6 +45064,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1224861532
 GameObject:
   m_ObjectHideFlags: 0
@@ -44763,6 +45295,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1227369247
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44816,6 +45349,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1228700782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44966,6 +45500,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1231089553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45439,6 +45974,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1243048316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45796,6 +46332,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1258796140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45945,6 +46482,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1261690216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46076,6 +46614,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1268284947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46186,6 +46725,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1271829653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46297,6 +46837,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1273340623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46446,6 +46987,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1275013856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46615,6 +47157,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1282082543
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46782,6 +47325,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1289802720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46894,6 +47438,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1290345680
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47076,6 +47621,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1297531774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -271536220150350096, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -47187,6 +47733,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1299339689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2073709462091702651, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -47265,6 +47812,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1299339695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47547,6 +48095,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1313262857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47810,6 +48359,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1325283108
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47902,6 +48452,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1325495354
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47993,6 +48544,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1327622786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48219,6 +48771,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1333313652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48368,6 +48921,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1336260265
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48460,6 +49014,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1336501654
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48552,6 +49107,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1337395382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48772,6 +49328,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1346804945 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3757983516952411932, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -48926,6 +49483,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1348916635
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49036,6 +49594,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1350561499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49129,6 +49688,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1351583694
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49240,6 +49800,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1352756867
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49408,6 +49969,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1357351492
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49802,6 +50364,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1371586021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50123,6 +50686,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1374737377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50472,6 +51036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d82326cb9fb381a499853a89ecb0f531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ThisTimer: {fileID: 0}
   messages: []
 --- !u!4 &1384702955
 Transform:
@@ -50618,6 +51183,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1386179930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50748,6 +51314,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1388440619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51049,6 +51616,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1395996973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51275,6 +51843,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1410566788
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51481,6 +52050,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1420800435
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51705,6 +52275,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1427462494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51987,6 +52558,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1442823242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52099,6 +52671,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1446256308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52399,6 +52972,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1464871953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52511,6 +53085,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1466769417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52659,6 +53234,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1468613518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52751,6 +53327,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1469320591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52996,6 +53573,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1474915835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53145,6 +53723,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1480153840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53389,6 +53968,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1487596323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53834,6 +54414,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1496013540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54022,6 +54603,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1502037710
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54114,6 +54696,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1502274265
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54281,6 +54864,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1506343654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54391,6 +54975,141 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3264663825418618181, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
+--- !u!1 &1511519307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511519308}
+  - component: {fileID: 1511519310}
+  - component: {fileID: 1511519309}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1511519308
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511519307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 424804848}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1511519309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511519307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1511519310
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511519307}
+  m_CullTransparentMesh: 1
 --- !u!1 &1511677226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 134627484631067391, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -54502,6 +55221,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1512194232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7174421703937181627, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -54903,6 +55623,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1519978923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55034,6 +55755,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1523228231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55144,6 +55866,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1525189325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55347,6 +56070,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1531846514
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55553,6 +56277,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1540820464
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55701,6 +56426,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1542595857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55908,6 +56634,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1551355628
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56228,6 +56955,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1556247354
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56377,6 +57105,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1562186623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56620,6 +57349,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1569377856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56960,6 +57690,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1594713444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57294,6 +58025,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1604020367 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3045650512940565330, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -57409,6 +58141,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1607610592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57502,6 +58235,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1609297582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57612,6 +58346,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1611223624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57838,6 +58573,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1619299976
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57948,6 +58684,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1621375187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58098,6 +58835,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1626018552
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58209,6 +58947,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1626720039
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58372,6 +59111,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 2009503758}
 --- !u!1 &1632272237 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9172403624341657481, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -58450,6 +59190,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1632272243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58598,6 +59339,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1633274472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58785,6 +59527,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1641515141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59144,6 +59887,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1661235668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59250,6 +59994,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1665436100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5395626192977851438, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -59517,6 +60262,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1679144556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60170,6 +60916,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1701548133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1826861781773210202, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -60319,6 +61066,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1703831023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8419533399831544830, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -60396,6 +61144,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1703831034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60508,6 +61257,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1705610514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9029778857313347115, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -60662,6 +61412,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1710720490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60773,6 +61524,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1711048341
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60940,6 +61692,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1721678581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61127,6 +61880,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1728376618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61238,6 +61992,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1730730247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61425,6 +62180,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1734496150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61718,6 +62474,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1738596351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61830,6 +62587,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1739355403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61960,6 +62718,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1741588229
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62085,6 +62844,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1744175888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3134427961156955749, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -62163,6 +62923,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1744175894
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62274,6 +63035,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1746605946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62651,6 +63413,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1762229534
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62837,6 +63600,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1766790670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62929,6 +63693,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1768291743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63344,6 +64109,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1781851667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63569,6 +64335,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1786039380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63929,6 +64696,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1798830801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64036,6 +64804,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1799890668 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6174503076984988809, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -64204,6 +64973,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1805857865 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6410852067017611860, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -64396,6 +65166,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1811559983
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64506,6 +65277,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1818460409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64651,6 +65423,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1824355884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5701526127849197996, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -64729,6 +65502,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1824355890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64877,6 +65651,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1828343562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65141,6 +65916,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1838182352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65304,6 +66080,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1842072168 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6182431492521909796, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -65343,6 +66120,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1842072174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65492,6 +66270,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1844547251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65756,6 +66535,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1847630446
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65980,6 +66760,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1852328177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66072,6 +66853,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1853810046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66259,6 +67041,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1857717311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67891,6 +68674,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1869073402
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67983,6 +68767,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1871217236
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68074,6 +68859,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1871642725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68280,6 +69066,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1876188137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68406,6 +69193,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1001 &1879372246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68933,6 +69721,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 2009503758}
 --- !u!1 &1888201049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3001086895076292163, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -69049,6 +69838,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1888925596
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69235,6 +70025,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1891454078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69384,6 +70175,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1892917713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69553,6 +70345,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1895361528
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69664,6 +70457,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1896132172
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69799,6 +70593,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1898529596
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69909,6 +70704,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1899986103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70039,6 +70835,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1903210667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70393,6 +71190,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1919427845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5142152938759353040, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -70471,6 +71269,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1919427851
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -70677,6 +71476,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1924956709
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -70863,6 +71663,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1930782401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70956,6 +71757,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1931720883
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71048,6 +71850,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1932472683
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71349,6 +72152,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1941800674
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71593,6 +72397,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1957620268
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71875,6 +72680,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1962566262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71987,6 +72793,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1963849248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72150,6 +72957,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1968507977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2047096296928209142, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -72228,6 +73036,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1968507983
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72338,6 +73147,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1971108208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72487,6 +73297,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1972872841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72830,6 +73641,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1978602934
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72960,6 +73772,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1982412662
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73176,6 +73989,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1985003749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73325,6 +74139,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &1986234316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73820,6 +74635,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &1995837236
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73926,6 +74742,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &1998471372 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7113090574112095081, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -74099,6 +74916,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2002559685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74305,6 +75123,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2007232407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74357,6 +75176,65 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 481633649209342048, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
+--- !u!1 &2009503758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009503761}
+  - component: {fileID: 2009503760}
+  - component: {fileID: 2009503759}
+  m_Layer: 0
+  m_Name: Interract with UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2009503759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009503758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925a3a9c76c3f0f439629f201c8e906a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 550560607}
+--- !u!114 &2009503760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009503758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3657fb25416d0c428150ce9f30cae19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2009503761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009503758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 574.6986, y: 201.86858, z: -642.707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 550560611}
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2011185257 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9011192444635487173, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -74492,6 +75370,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2012475196
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75019,6 +75898,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2027483109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75111,6 +75991,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2027665976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75256,6 +76137,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &2029495703 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2442501774184192249, guid: 0b1882535568b5b44aefcfb94cf56e3e, type: 3}
@@ -75595,6 +76477,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &2042888641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6735803638960767851, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -75940,6 +76823,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2053338679
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76051,6 +76935,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2054117653
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76127,6 +77012,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2057482766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76343,6 +77229,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &2061834588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2372471930663559194, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -76496,6 +77383,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2063704604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76698,6 +77586,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!1 &2075309893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3033278384943328905, guid: 728dcf72ad545e74cb128f6f58e3e75f, type: 3}
@@ -76814,6 +77703,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2075527972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76944,6 +77834,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2078452478
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77036,6 +77927,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2079121365
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77223,6 +78115,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2087869496
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77410,6 +78303,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2092117665
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77502,6 +78396,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2093314743
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77594,6 +78489,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2093704960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77724,6 +78620,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2096487422
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77757,6 +78654,141 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4089959986533251452, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
+--- !u!1 &2100413737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100413738}
+  - component: {fileID: 2100413740}
+  - component: {fileID: 2100413739}
+  m_Layer: 5
+  m_Name: Press F
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2100413738
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100413737}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4285713, y: 1.4285713, z: 1.4285713}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1044366210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 58.5714, y: -11.428574}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2100413739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100413737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Press      to interract '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -138.18384, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2100413740
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100413737}
+  m_CullTransparentMesh: 1
 --- !u!1 &2103753767 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4946372509158148501, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}
@@ -77835,6 +78867,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2103753773
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78116,6 +79149,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2114375682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78540,6 +79574,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2120761303
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78844,6 +79879,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2124303203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78936,6 +79972,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2124540509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79124,6 +80161,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2132305583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79234,6 +80272,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2135591619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79384,6 +80423,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!64 &2141799237
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79475,6 +80515,7 @@ MonoBehaviour:
   Triggered: 0
   Selected: 0
   AsBeenSelected: 0
+  u: {fileID: 0}
 --- !u!114 &2142294109
 MonoBehaviour:
   m_ObjectHideFlags: 0
