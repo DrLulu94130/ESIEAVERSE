@@ -13930,7 +13930,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 994079797}
         m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
-        m_MethodName: ChoseMarieCurie
+        m_MethodName: ChoseMairieDivry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16311,7 +16311,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 994079797}
         m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
-        m_MethodName: ChoseMairieDivry
+        m_MethodName: ChoseMarieCurie
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17278,7 +17278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -307.69974, y: -273.00046}
+  m_AnchoredPosition: {x: -307.69974, y: -273.0005}
   m_SizeDelta: {x: -481.10474, y: -361.2307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669748600
