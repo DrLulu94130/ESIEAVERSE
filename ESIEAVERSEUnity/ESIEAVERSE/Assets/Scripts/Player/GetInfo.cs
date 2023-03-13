@@ -7,8 +7,9 @@ using Photon.Pun.UtilityScripts;
 public class GetInfo : MonoBehaviour
 {
     public Timer ThisTimer;
-    private string message;
-    public List<string> messages = new List<string>();
+    public string message;
+    public int MyID;
+    public string MyRole;
 
     private void Start()
     {
@@ -21,16 +22,17 @@ public class GetInfo : MonoBehaviour
         {
             ThisTimer.timeRemaining = 5;
             ThisTimer.timerIsRunning = true;
-            messages = new List<string>();
+            MyID = PlayerPrefs.GetInt("ID");
+            MyRole = PlayerPrefs.GetString("role");
+            message = "";
             foreach (var item in PhotonNetwork.PlayerList)
             {
                 message += "name : ";
                 message += item.NickName;
                 message += " | ID : ";
-                message += PlayerPrefs.GetInt("ID");
+                message += MyID;
                 message += " | role : ";
-                message += PlayerPrefs.GetString("role");
-                messages.Add(message);
+                message += MyRole;
                 message = "";
             }
         }
