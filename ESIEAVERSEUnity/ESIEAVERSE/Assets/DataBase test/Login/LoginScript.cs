@@ -50,7 +50,7 @@ public class LoginScript : MonoBehaviour
                     PlayerPrefs.SetString("role",role);
                     
                 }
-                txtValue.text = ""; //"Name : " + Username.text + " | " + "Password : " + Password.text ;
+                txtValue.text = "";
             }
         }
     }
