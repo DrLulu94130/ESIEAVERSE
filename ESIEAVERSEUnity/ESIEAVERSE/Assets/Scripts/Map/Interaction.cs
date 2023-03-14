@@ -12,7 +12,7 @@ public class Interaction : MonoBehaviour
     public bool Triggered;
     public bool Selected;
     public bool AsBeenSelected;
-    [SerializeField] GameObject u;
+    //[SerializeField] GameObject u;
 
     // Start is called before the first frame update
     void Start()
@@ -35,13 +35,13 @@ public class Interaction : MonoBehaviour
                 AsBeenSelected = true;
                 Coutdown.timeRemaining = .5f;
                 Coutdown.timerIsRunning = true;
-                u.SetActive(true);
+                //u.SetActive(true);
 
             }
 
             if ( Coutdown.TimerRunOut )
             {
-                u.SetActive(false);
+                //u.SetActive(false);
                 AsBeenSelected = false;
                 Selected = false;
             }
