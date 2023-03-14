@@ -6,6 +6,12 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject go;
     public bool Activated;
+    GameObject CanvaF;
+
+    void Start()
+    {
+        CanvaF = GameObject.Find("FInteraction");
+    }
 
     void Update()
     {
@@ -15,11 +21,13 @@ public class PlayerInteraction : MonoBehaviour
         {
             if ( hit.transform.gameObject.tag == "Interaction")
             {
+                CanvaF.SetActive(true);
                 go = hit.transform.gameObject;
                 go.GetComponent<Interaction>().Selected = true;
             }
             else
             {
+                CanvaF.SetActive(false);
                 if ( go )
                 {
                     go.GetComponent<Interaction>().Selected = false;
