@@ -11470,7 +11470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4123736594889599309, guid: 53f1136259afec9439f472570436101b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TogglePauseMenu
+      value: OffPauseMenu
       objectReference: {fileID: 0}
     - target: {fileID: 4123736594889599309, guid: 53f1136259afec9439f472570436101b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -17207,7 +17207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EmoteWheelUI: {fileID: 459276339}
-  anim: {fileID: 0}
+  anim: {fileID: 462248109}
 --- !u!95 &462248109
 Animator:
   serializedVersion: 4
@@ -78107,7 +78107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press      to interract '
+  m_text: 'Press      to interact '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

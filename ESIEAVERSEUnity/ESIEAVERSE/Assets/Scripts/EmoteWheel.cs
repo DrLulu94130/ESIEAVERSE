@@ -11,7 +11,7 @@ public class EmoteWheel : MonoBehaviour
 
     public GameObject EmoteWheelUI;
 
-    [SerializeField] Animator anim;
+    public Animator anim;
 
     void Start()
     {
@@ -56,49 +56,52 @@ public class EmoteWheel : MonoBehaviour
     public void Top()
     {
         Debug.Log("Waving");
-        Reset();
         anim.SetBool("Top", true);
+        Reset();
     }
     public void TopR()
     {
         Debug.Log("Salute");
-        Reset();
         anim.SetBool("TopR", true);
+        Reset();
     }
     public void TopL()
     {
         Debug.Log("Shake Hands");
+        anim.SetBool("TopL", true);
         Reset();
-        anim.SetBool("TopTopL", true);
     }
 
     public void Bottom()
     {
         Debug.Log("Searching Pockets");
-        Reset();
         anim.SetBool("Bottom", true);
+        Reset();
     }
     public void BottomR()
     {
         Debug.Log("Laughing");
-        Reset();
         anim.SetBool("BottomR", true);
+        Reset();
     }
     public void BottomL()
     {
         Debug.Log("Being Cocky");
-        Reset();
         anim.SetBool("BottomL", true);
+        Reset();
     }
 
-    public void Reset()
-    {
+    public IEnumerator Reset()
+    {   
+        yield return new WaitForSeconds(3.2f);
 
-        anim.SetBool("Top", true);
-        anim.SetBool("TopR", true);
-        anim.SetBool("TopL", true);
-        anim.SetBool("Bottom", true);
-        anim.SetBool("BottomR", true);
-        anim.SetBool("BottomL", true);
+        anim.SetBool("Top", false);
+        anim.SetBool("TopR", false);
+        anim.SetBool("TopL", false);
+        anim.SetBool("Bottom", false);
+        anim.SetBool("BottomR", false);
+        anim.SetBool("BottomL", false);
+
+        anim.SetBool("Idling", true);
     }
 }

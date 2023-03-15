@@ -114,6 +114,7 @@ public class PlayerController : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            Pause.isOn = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Return) && (Pause.isOn))
