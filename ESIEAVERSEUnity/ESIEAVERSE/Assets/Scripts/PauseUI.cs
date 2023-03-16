@@ -26,16 +26,4 @@ public class PauseUI : MonoBehaviour
         pauseMenu.SetActive(!pauseMenu.activeSelf);
         Pause.isOn = pauseMenu.activeSelf;
     }
-
-    public void OffPauseMenu()
-    {
-        pauseMenu.SetActive(false);
-        Pause.isOn = false;
-    }
-
-    public void OnPauseMenu()
-    {
-        pauseMenu.SetActive(true);
-        Pause.isOn = true;
-    }
 }

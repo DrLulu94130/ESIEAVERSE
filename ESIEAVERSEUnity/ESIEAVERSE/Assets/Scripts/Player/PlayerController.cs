@@ -110,11 +110,15 @@ public class PlayerController : MonoBehaviour
             }
             return;
         }
-        if (Cursor.lockState != CursorLockMode.Locked)
+        else if (Cursor.lockState != CursorLockMode.Locked)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+
             Pause.isOn = false;
+            Tableau.isOn = false;
+            EmoteWheel.isOn = false;
+            Bibliotheque.isOn = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Return) && (Pause.isOn))
