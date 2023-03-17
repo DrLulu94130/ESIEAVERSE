@@ -10,17 +10,23 @@ public class EmoteWheel : MonoBehaviour
     public static bool isOn = false;
 
     public GameObject EmoteWheelUI;
+    public GameObject Playerez;
 
     public Animator anim;
 
     void Start()
     {
+        Playerez = GameObject.Find("10(Clone)");
+        anim = Playerez.transform.GetChild(0).gameObject.GetComponent<Animator>();
         ToggleEmoteWheel();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Playerez = GameObject.Find("10(Clone)");
+        anim = Playerez.transform.GetChild(0).gameObject.GetComponent<Animator>();
+        
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             isOn = true;
