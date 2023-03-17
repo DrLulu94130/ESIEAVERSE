@@ -101,6 +101,8 @@ public class PlayerController : MonoBehaviour
             }
         }*/
         
+
+
         if ((Pause.isOn) || (Tableau.isOn) || (EmoteWheel.isOn) || (Bibliotheque.isOn))
         {   
             if (Cursor.lockState != CursorLockMode.None)
