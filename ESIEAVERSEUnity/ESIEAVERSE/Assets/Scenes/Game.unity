@@ -8856,7 +8856,6 @@ GameObject:
   - component: {fileID: 462248106}
   - component: {fileID: 462248107}
   - component: {fileID: 462248108}
-  - component: {fileID: 462248109}
   m_Layer: 0
   m_Name: EmoteWheel
   m_TagString: Untagged
@@ -8905,27 +8904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EmoteWheelUI: {fileID: 459276339}
-  anim: {fileID: 462248109}
---- !u!95 &462248109
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462248105}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 26b36d105784033438ac201afd6a8e6c, type: 3}
-  m_Controller: {fileID: 9100000, guid: f23823d3f2fcfe64db4f7fab1c66a177, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  anim: {fileID: 0}
 --- !u!1 &464159064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 828621137323136555, guid: 443ab7ff2ce587f4f996e4d36ee1ed6f, type: 3}

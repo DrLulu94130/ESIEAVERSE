@@ -10,17 +10,23 @@ public class EmoteWheel : MonoBehaviour
     public static bool isOn = false;
 
     public GameObject EmoteWheelUI;
+    public GameObject Playerez;
 
     public Animator anim;
 
     void Start()
     {
+        Playerez = GameObject.Find("10(Clone)");
+        anim = Playerez.transform.GetChild(0).gameObject.GetComponent<Animator>();
         ToggleEmoteWheel();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Playerez = GameObject.Find("10(Clone)");
+        anim = Playerez.transform.GetChild(0).gameObject.GetComponent<Animator>();
+        
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             isOn = true;
@@ -56,52 +62,33 @@ public class EmoteWheel : MonoBehaviour
     public void Top()
     {
         Debug.Log("Waving");
-        anim.SetBool("Top", true);
-        Reset();
+        anim.SetTrigger("Top");
     }
     public void TopR()
     {
         Debug.Log("Salute");
-        anim.SetBool("TopR", true);
-        Reset();
+        anim.SetTrigger("TopR");
     }
     public void TopL()
     {
         Debug.Log("Shake Hands");
-        anim.SetBool("TopL", true);
-        Reset();
+        anim.SetTrigger("TopL");
     }
 
     public void Bottom()
     {
         Debug.Log("Searching Pockets");
-        anim.SetBool("Bottom", true);
-        Reset();
+        anim.SetTrigger("Bottom");
     }
     public void BottomR()
     {
         Debug.Log("Laughing");
-        anim.SetBool("BottomR", true);
-        Reset();
+        anim.SetTrigger("BottomR");
     }
     public void BottomL()
     {
         Debug.Log("Being Cocky");
-        anim.SetBool("BottomL", true);
-        Reset();
+        anim.SetTrigger("BottomL");
     }
 
-    public IEnumerator Reset()
-    {   
-        yield return new WaitForSeconds(3.2f);
-
-        anim.SetBool("Top", false);
-        anim.SetBool("TopR", false);
-        anim.SetBool("TopL", false);
-        anim.SetBool("Bottom", false);
-        anim.SetBool("BottomR", false);
-        anim.SetBool("BottomL", false);
-
-        anim.SetBool("Idling", true);
-    }
 }
