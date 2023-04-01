@@ -1,3 +1,5 @@
+/*This script deals with opening the right link regarding a menu called library. Tester won't be able to acces moqt of those website as they link to private school resources. For the vision we have of the project each student is already loged in and can acces different resources via those link*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,8 +34,8 @@ public class OpenLink : MonoBehaviour
 
 
 
-    public void OpenCancun()
+    public void OpenRick()
     {
-        Application.OpenURL("https://youtu.be/TXISh9Noi7I?t=119");
+        Application.OpenURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley");
     }
 }
