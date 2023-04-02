@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator anim;                     /*is needed to gain control over the InGame Animator*/
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
     [SerializeField] GameObject CameraHolder;
+    [SerializeField] AudioSource a;
 
     public string message;
     public float role;

@@ -638,6 +638,7 @@ MonoBehaviour:
   jumpForce: 300
   smoothTime: 0.2
   CameraHolder: {fileID: 6954059848055913222}
+  a: {fileID: 0}
   message: 
   role: 0
 --- !u!114 &6982518366412186954
