@@ -632,9 +632,9 @@ MonoBehaviour:
   Model: {fileID: 8869196606634058598}
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
-  sprintSpeed: 10
-  sneakSpeed: 1
-  walkSpeed: 3
+  sprintSpeed: 5.5
+  sneakSpeed: 2
+  walkSpeed: 4
   jumpForce: 300
   smoothTime: 0.2
   CameraHolder: {fileID: 6954059848055913222}
