@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraHolder: {fileID: 6954059848055913222}
-  Model: {fileID: 8869196606634058598}
+  Model: {fileID: 2314157620813952584}
   anim: {fileID: 8869196606626673460}
   mouseSensitivity: 3
   sprintSpeed: 5.5
@@ -2041,6 +2041,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+--- !u!1 &2314157620813952584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6559560248580154064, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
+  m_PrefabInstance: {fileID: 8869196606633956504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &8869196606626673460 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9529260, guid: fe02926d86299874a921d05a946cbd6c, type: 3}
