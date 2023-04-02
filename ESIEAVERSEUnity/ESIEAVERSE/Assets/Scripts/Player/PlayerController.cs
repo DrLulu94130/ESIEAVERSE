@@ -1,3 +1,5 @@
+/*Many people contributed to this code so comments will be done line by line*/
+
 using System;
 using System.Threading;
 using Photon.Pun;
@@ -13,7 +15,7 @@ public class PlayerController : MonoBehaviour
     PlayerManager playerManager;
     [SerializeField] public GameObject cameraHolder;
     [SerializeField] GameObject Model;
-    [SerializeField] Animator anim;
+    [SerializeField] Animator anim;                     /*is needed to gain control over the InGame Animator*/
     [SerializeField] float mouseSensitivity, sprintSpeed, sneakSpeed, walkSpeed, jumpForce, smoothTime;
     [SerializeField] GameObject CameraHolder;
 
@@ -21,8 +23,8 @@ public class PlayerController : MonoBehaviour
     public float role;
     float verticalLookRotation;
     float speed = 0;
-    float H_input;
-    float V_input;
+    float H_input;                      /*H_input and V_input represent verical and horizontal input, they are float need to have */
+    float V_input;                      /*smooth transition in all the blend trees (see InGame Animator, running walking, sneaking blend trees*/
 
     Vector3 smoothMoveVelocity;
     Vector3 moveAmount;
@@ -50,10 +52,10 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;                   
         Cursor.visible = false;
 
-        anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);
+        anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0);                  /*is needed to switch between different layers inside InGame Animator in order to have moving animation and speaking/openingdoors animations at the same time (relies on a body mask*/
 
         if (!PV.IsMine)
         {
@@ -160,17 +162,17 @@ public class PlayerController : MonoBehaviour
                     
         }*/
 
-        H_input = Input.GetAxis("Horizontal");
-        V_input = Input.GetAxis("Vertical");
+        H_input = Input.GetAxis("Horizontal");                      /*This updates each frame the amount of movement the player aplies to the rigidbody*/
+        V_input = Input.GetAxis("Vertical");                        
 
-        anim.SetFloat("H_input", H_input, 0.1f, smoothTime);
-        anim.SetFloat("V_input", V_input, 0.1f, smoothTime);
+        anim.SetFloat("H_input", H_input, 0.1f, smoothTime);        /*Those values are used to blend different animation together and 0.1f, smoothTime*/
+        anim.SetFloat("V_input", V_input, 0.1f, smoothTime);        /*preserve no suddent change in aniamtion*/
 
         Look();
         Move();
         Jump();
 
-        StartCoroutine(UpperBody()); 
+        StartCoroutine(UpperBody());                                /*This sets the main layer for animation as the default one*/
     }
 
 
@@ -218,7 +220,7 @@ public class PlayerController : MonoBehaviour
             moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (go ? speed : walkSpeed), ref smoothMoveVelocity, smoothTime);
             go = false;
 
-            if (moveAmount != new Vector3(0, 0, 0))
+            if (moveAmount != new Vector3(0, 0, 0))                     /*Starting from here we update based on player input booleans in our animator*/
             {
 
                 if (Input.GetKey(KeyCode.LeftShift))
@@ -397,7 +399,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator UpperBody()
     {   
-
+        /*is we choose to walk and speak/opening doors this switch animation layer to have both moving and interacting animation*/
         if (Input.GetKey(KeyCode.F))
         {
             anim.SetLayerWeight(anim.GetLayerIndex("UpperBody Layer"), 0.5f);

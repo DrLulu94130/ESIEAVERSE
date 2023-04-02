@@ -1,3 +1,5 @@
+/*This code deals with displaying the ingame crosshair. Basicaly it hides it when we open specific menu and show it elseway*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

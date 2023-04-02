@@ -1,3 +1,5 @@
+/*This script display and hide the menu needed for the library. For more info see OpenLink.cs*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

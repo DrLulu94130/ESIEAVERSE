@@ -1,3 +1,5 @@
+/*This code serves as a way to first of all display at the right time the emote wheel and to apply to chosen animation to the player. It detect interaction with the emote wheel and order the inGame Animator to change the player animation*/
+
 using System.Collections;
 using System.Collections.Generic;
 using System;
