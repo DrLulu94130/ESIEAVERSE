@@ -6,19 +6,7 @@ public class FallScript : MonoBehaviour
 {
     public GameObject SpawnPoint;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnTriggerEnter( Collider Col )
+    void OnTriggerEnter( Collider Col ) // Get Player Back to SpawnPoint
     {
         Col.transform.position = SpawnPoint.transform.position;
     }

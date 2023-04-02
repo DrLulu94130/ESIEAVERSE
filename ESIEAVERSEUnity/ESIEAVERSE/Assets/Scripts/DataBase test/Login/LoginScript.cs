@@ -35,7 +35,7 @@ public class LoginScript : MonoBehaviour
             else
             {
                 string response = www.downloadHandler.text;
-                if(response == "Informations de login incorrectes") 
+                if(response == "Incorrect Login Infos") 
                 {
                     ErrorField.text = response;
                 } 

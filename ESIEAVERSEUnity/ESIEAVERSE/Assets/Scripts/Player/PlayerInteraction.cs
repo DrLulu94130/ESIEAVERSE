@@ -16,7 +16,7 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        Debug.DrawRay(transform.position, ( 5 * transform.TransformDirection(Vector3.forward)) , Color.green);
+        Debug.DrawRay(transform.position, ( 5 * transform.TransformDirection(Vector3.forward)) , Color.green); // Raycast Renderer in Unity
         if ( Physics.Raycast( transform.position , ( 5 * transform.TransformDirection(Vector3.forward) ) , out hit , 15))
         {
             if ( hit.transform.gameObject.tag == "Interaction")

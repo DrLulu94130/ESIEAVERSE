@@ -11,10 +11,12 @@ public class MenuManager : MonoBehaviour
     [SerializeField] AudioClip[] clips;
     [SerializeField] Toggle I;
     [SerializeField] Toggle I2;
+
     void Awake()
     {
         Instance = this;
     }
+
     public void OpenMenu(string menuName)
     {
         for (int i = 0; i < menus.Length; i++)
@@ -29,6 +31,7 @@ public class MenuManager : MonoBehaviour
             }
         }
     }
+
     public void OpenMenu(Menu menu)
     {
         for (int i = 0; i < menus.Length; i++)
@@ -46,6 +49,7 @@ public class MenuManager : MonoBehaviour
         SoundManager.Instance.PlaySound(clips[0]);
 
     }
+
     public void CloseMenu(Menu menu)
     {
         menu.Close();
@@ -56,12 +60,14 @@ public class MenuManager : MonoBehaviour
         int i = Random.Range(0, 4);
         SoundManager.Instance.PlaySound(clips[i]);
     }
+    
     public void Ivry()
     {
         campus = 0;
         I.isOn = !I.isOn;
         I2.isOn = !I2.isOn;
     }
+
     public void Ivry2()
     {
         campus = 1;

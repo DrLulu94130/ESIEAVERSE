@@ -12,9 +12,7 @@ public class Interaction : MonoBehaviour
     public bool Triggered;
     public bool Selected;
     public bool AsBeenSelected;
-    //[SerializeField] GameObject u;
 
-    // Start is called before the first frame update
     void Start()
     {
         Coutdown = GetComponent<Timer>();
@@ -24,28 +22,26 @@ public class Interaction : MonoBehaviour
         Library = GetComponent<Bibliotheque>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if ( Coutdown )
+        if ( Coutdown ) //Reset of the Outline Script
         {
             if (Selected && !AsBeenSelected)
             {
-                wait();
                 AsBeenSelected = true;
                 Coutdown.timeRemaining = .5f;
                 Coutdown.timerIsRunning = true;
-                //u.SetActive(true);
-
+                
             }
 
             if ( Coutdown.TimerRunOut )
             {
-                //u.SetActive(false);
                 AsBeenSelected = false;
                 Selected = false;
             }
         }
+
+        //Selection of scripts
 
         if (Door)
         {
@@ -95,10 +91,5 @@ public class Interaction : MonoBehaviour
             }
         }
 
-    }
-
-    IEnumerator wait()
-    {
-        yield return new WaitForSeconds(5);
     }
 }

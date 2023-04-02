@@ -22,8 +22,7 @@ public class DoorInteraction : MonoBehaviour
         tf = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void Update()// Change Rotation, Playing Audio and activate timer
     {
         if ( Open )
         {

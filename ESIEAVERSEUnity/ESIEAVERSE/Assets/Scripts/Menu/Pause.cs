@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviourPunCallbacks
 {
     public static bool isOn = false;
+    
     public void Leave()
     {
         LeaveRoom();
@@ -24,6 +25,7 @@ public class Pause : MonoBehaviourPunCallbacks
 
         base.OnLeftRoom();
     }
+
     public void ToMainMenu()
     {
         Destroy(RoomManager.Instance);
