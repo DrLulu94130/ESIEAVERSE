@@ -27,12 +27,12 @@ public class RegisterScript : MonoBehaviour
             if (www.isNetworkError || www.isHttpError)
             {
                 Debug.Log(www.error);
-                txtValue.text = "non" ;
+                txtValue.text = "Error" ;
             }
             else
             {
                 ErrorField.text = www.downloadHandler.text;
-                txtValue.text = "Name : " + Username.text + " | " + "Password : " + Password.text ;
+                //txtValue.text = "Name : " + Username.text + " | " + "Password : " + Password.text ;
             }
         }
     }
