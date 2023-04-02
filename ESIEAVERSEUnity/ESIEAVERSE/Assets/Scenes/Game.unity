@@ -25055,8 +25055,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 310408707}
   - {fileID: 1198515929}
+  - {fileID: 310408707}
   - {fileID: 1443660367}
   m_Father: {fileID: 1994800065}
   m_RootOrder: 0
@@ -34763,7 +34763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4123736594889599310, guid: 53f1136259afec9439f472570436101b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4123736594889599310, guid: 53f1136259afec9439f472570436101b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -65336,7 +65336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2057482765
 MonoBehaviour:
   m_ObjectHideFlags: 0
