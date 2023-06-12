@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject CameraHolder;
     [SerializeField] AudioSource a;
 
+    public bool Controller = false;
+    public float ControllerSensibilityRatio;
+
     public string message;
     public float role;
     float verticalLookRotation;
@@ -188,8 +191,21 @@ public class PlayerController : MonoBehaviour
 
     void Look()
     {
-        transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * mouseSensitivity);
-        verticalLookRotation += Input.GetAxisRaw("Mouse Y") * mouseSensitivity;
+        if ( Input.GetKey("joystick button 3") )
+        {
+            Controller = !Controller;
+        }
+        
+        if ( Controller )
+        {
+            ControllerSensibilityRatio = 0.2f;
+        }
+        else
+        {
+            ControllerSensibilityRatio = 1f;
+        }
+        transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * mouseSensitivity * ControllerSensibilityRatio);
+        verticalLookRotation += Input.GetAxisRaw("Mouse Y") * mouseSensitivity * ControllerSensibilityRatio;
         verticalLookRotation = Math.Clamp(verticalLookRotation, -70f, 70f);
         cameraHolder.transform.localEulerAngles = Vector3.left * verticalLookRotation;
     }

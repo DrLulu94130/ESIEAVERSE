@@ -36,14 +36,14 @@ public class PlayerInteraction : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) || (Input.GetKeyDown("joystick button 2")))
         {
             Debug.Log("F key was pressed.");
             Activated = true;
             go.GetComponent<Interaction>().Triggered = !go.GetComponent<Interaction>().Triggered;
         }
         
-        if ( Input.GetKeyUp(KeyCode.F) )
+        if ( Input.GetKeyUp(KeyCode.F) || (Input.GetKeyUp("joystick button 2")))
         {
             Debug.Log("F key was released.");
             Activated = false;
